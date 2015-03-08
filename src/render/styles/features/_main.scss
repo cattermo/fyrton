@@ -14,9 +14,13 @@
     background: rgba(255,255,255,0.4);
     max-width: 640px;
     margin: 0 auto;
-    padding: 0 0.7em;
+    padding: 0.7em;
 
     a {
         word-break: break-word;
+    }
+
+    h1:first-child {
+        margin-top: 0;
     }
 }

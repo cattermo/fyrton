@@ -1,0 +1,231 @@
+.ban_menu {
+    text-align: right;
+}
+
+.ban_menu__icon {
+    background-color: transparent;
+    border: none;
+    width: 34px;
+    height: 28px;
+    vertical-align: top;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 2px;
+    margin-top: 2px;
+    padding: 0 2px;
+
+    @include ban_mq-gte-small {
+        display: none;
+    }
+}
+
+//Form the lines
+.ban_menu__icon-helper,
+.ban_menu__icon-helper:before,
+.ban_menu__icon-helper:after {
+    content: '';
+    border-radius: 2px;
+    height: 4px;
+    width: 30px;
+    background: #000;
+    position: absolute;
+    display: block;
+}
+
+$_anim-duration: 0.25s;
+
+//Middle line
+.ban_menu__icon-helper {
+    .ban_is-expanded & {
+        @include animation(hamburger-middle-open $_anim-duration linear 0s 1 normal forwards);
+    }
+
+    .ban_is-collapsed & {
+        @include animation(hamburger-middle-close $_anim-duration linear 0s 1 normal forwards);
+    }
+}
+
+//Upper line
+.ban_menu__icon-helper:before {
+    top: -8px;
+
+    .ban_is-expanded & {
+        @include animation(hamburger-top-open $_anim-duration linear 0s 1 normal forwards);
+    }
+
+    .ban_is-collapsed & {
+        @include animation(hamburger-top-close $_anim-duration linear 0s 1 normal forwards);
+    }
+}
+
+//Bottom line
+.ban_menu__icon-helper:after  {
+  bottom: -8px; 
+
+    .ban_is-expanded & {
+        @include animation(hamburger-bottom-open $_anim-duration linear 0s 1 normal forwards);
+    }
+
+    .ban_is-collapsed & {
+        @include animation(hamburger-bottom-close $_anim-duration linear 0s 1 normal forwards);
+    }
+}
+
+$_translateY: 6px;
+
+@include keyframes(hamburger-top-open) {
+  30% {
+    @include transform(translateY($_translateY));
+  }
+  100% {
+    @include transform(translateY($_translateY) rotate(45deg));
+  }
+}
+
+@include keyframes(hamburger-top-close) {
+    0% {
+        @include transform(translateY($_translateY) rotate(45deg));
+    }
+    70% {
+        @include transform(translateY($_translateY) rotate(0));
+    }
+    100% {
+        @include transform(translateY(0));
+    }
+}
+
+@include keyframes(hamburger-middle-open) {
+    0% {
+        height: 4px;
+    }
+    50% {
+        height: 0;
+    }
+    100% {
+        height: 0;
+    }
+}
+
+@include keyframes(hamburger-middle-close) {
+    0% {
+        height: 0px;
+    }
+    50% {
+        height: 0;
+    }
+    100% {
+        height: 4px;
+    }
+}
+
+@include keyframes(hamburger-bottom-open) {
+    30% {
+        @include transform(translateY(-$_translateY));
+    }
+    100% {
+        @include transform(translateY(-$_translateY) rotate(-45deg));
+    }
+}
+
+@include keyframes(hamburger-bottom-close) {
+    0% {
+        @include transform(translateY(-$_translateY) rotate(-45deg));   
+    }
+    70% {
+        @include transform(translateY(-$_translateY) rotate(0));
+    }
+    100% {
+        @include transform(translateY(0));
+    }
+}
+
+@mixin _list-display {
+    @include ban_mq-small {
+        display: table;
+    }
+
+    @include ban_mq-gte-medium {
+        display: block;
+    }
+}
+
+.ban_menu__list {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+    @include transition(height 0.3s);
+
+    .ban_is-expanded & {
+        height: 350px;
+
+        @include ban_mq-gte-small {
+            height: auto;
+        }
+    }
+
+    &.ban_is-hidden {
+        display: none;
+        @include _list-display;
+    }
+
+    @include ban_mq-gte-small {
+        height: auto;
+    }
+
+    @include ban_mq-small {
+        width: 100%;
+    }
+
+    @include _list-display;
+}
+
+.ban_menu__item {
+    @include ban_mq-gte-small {
+        border-left: 1px solid #000;
+        border-bottom: 1px solid #000;
+    }
+
+    @include ban_mq-small {
+        display: table-cell;
+
+        &:first-child {
+            border-left: none;
+        }
+    }
+
+    @include ban_mq-gte-medium {
+        display: inline-block;
+    }
+}
+
+.ban_menu__item-link {
+    font-size: rem(16);
+    text-transform: uppercase;
+    display: block;
+    padding: 0.6em;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+    background-color: rgba(255,255,255, 0.8);
+
+    .ban_menu__item:first-child & {
+        border-top: 1px solid #000;
+
+        @include ban_mq-gte-small {
+            border: none;
+        }
+    }
+
+    @include ban_mq-gte-small {
+        border: none;
+    }
+
+    &.ban_is-active {
+        background-color: rgba(180,100,180, 0.8);
+    }
+}

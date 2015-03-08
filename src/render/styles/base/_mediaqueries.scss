@@ -1,0 +1,29 @@
+@mixin ban_mq-gte-small {
+    @media screen and (min-width: 600px) {
+        @content;
+    }
+}
+
+@mixin ban_mq-small {
+    @media screen and (min-width: 600px) and (max-width: 943px) {
+        @content;
+    }
+}
+
+@mixin ban_mq-gte-medium {
+    @media screen and (min-width: 944px) {
+        @content;
+    }
+}
+
+@mixin ban_mq-medium {
+    @media screen and (min-width: 944px) and (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin ban_mq-gte-large {
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}

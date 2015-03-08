@@ -1,0 +1,16 @@
+.ban_screenwidth {
+    display: none;
+    width: 4px;
+    
+    @include ban_mq-small {
+        width: 3px;
+    }
+
+    @include ban_mq-medium {
+        width: 2px;
+    }
+
+    @include ban_mq-gte-large {
+        width: 1px;
+    }
+}

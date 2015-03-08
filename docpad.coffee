@@ -1,6 +1,13 @@
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
+	documentPaths: [
+		'render'
+	]
+	plugins:
+		nodesass:
+			bourbon: true
+			outputStyle: 'compressed'
 
 	# =================================
 	# Template Data
@@ -8,51 +15,64 @@ docpadConfig = {
 	# To access one of these within our templates, refer to the FAQ: https://github.com/bevry/docpad/wiki/FAQ
 
 	templateData:
+		feeds:
+			facebook:
+				url: "https://graph.facebook.com/TheBandettesmusic/posts?limit=50&access_token="+process.env.FB_ACCESSTOKEN1 + '|' + process.env.FB_ACCESSTOKEN2
+				cache: false
+			bandsintown:
+					url: "http://api.bandsintown.com/artists/The%20Bandettes/events.json?api_version=2.0&app_id="+process.env.FB_APPID
 
 		# Specify some site properties
 		site:
 			# The production url of our website
 			# If not set, will default to the calculated site URL (e.g. http://localhost:9778)
-			url: "http://website.com"
+			url: "http://www.bandettes.com"
 
-			# Here are some old site urls that you would like to redirect from
-			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
-			]
+			analytics: process.env.GA
 
 			# The default title of our website
-			title: "Your Website"
+			title: "The Bandettes"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				The Bandettes är
+				Anna Linnéa – sång, gitarr
+				Hannah – elbas, sång
+				Kajsa – keyboard
+				Emeli – trummor, percussion
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				The Bandettes, band, girlband, music, country, trains, pop 
 				"""
 
-			# The website's styles
-			styles: [
-				'/vendor/normalize.css'
-				'/vendor/h5bp.css'
-				'/styles/style.css'
+			pages: [
+					url: '/'
+					title: 'Home'
+				,
+					url: '/about-us'
+					title: 'About'
+				,
+					url: '/live'
+					title: 'Live'
+				,
+					url: '/latest'
+					title: 'News'
+				,
+					url: '/photos'
+					title: 'Photos'
+				,
+					url: '/press'
+					title: 'Press'
+				,
+					url: '/contact',
+					title: 'Contact'
+				,
+					url: '/music'
+					title: 'Music'
 			]
 
-			# The website's scripts
-			scripts: [
-				"""
-				<!-- jQuery -->
-				<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-				<script>window.jQuery || document.write('<script src="/vendor/jquery.js"><\\/script>')</script>
-				"""
-
-				'/vendor/log.js'
-				'/vendor/modernizr.js'
-				'/scripts/script.js'
-			]
 
 
 		# -----------------------------
@@ -79,6 +99,9 @@ docpadConfig = {
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
+		getFacebookPhoto: (id) ->
+			return "https://graph.facebook.com/" + id + "?access_token=" + process.env.FB_ACCESSTOKEN1 + '|' + process.env.FB_ACCESSTOKEN2
+
 
 	# =================================
 	# Collections
@@ -95,7 +118,7 @@ docpadConfig = {
 		# Create a collection called posts
 		# That contains all the documents that will be going to the out path posts
 		posts: ->
-			@getCollection('documents').findAllLive({relativeOutDirPath: 'posts'})
+			@getCollection('documents').findAllLive({relativeOutDirPath:'posts'},[date:-1])
 
 
 	# =================================
@@ -110,6 +133,10 @@ docpadConfig = {
 
 	environments:
 		development:
+			plugins:
+				nodesass:
+					outputStyle: 'nested'
+
 			templateData:
 				site:
 					url: false
@@ -122,6 +149,67 @@ docpadConfig = {
 	# You can find a full listing of events on the DocPad Wiki
 
 	events:
+		renderBefore: ({templateData}, next) ->
+			maxIndex = 50 #Number of posts, same number as set in facebook.url above (limit=50)
+			maxBigWidth = 740
+			maxStandardWidth = 640
+			maxSmallWidth = 500
+			Task = require('taskgroup').Task
+
+			readFeedFixPhoto = (feeddata, index, newFeedData, complete) ->
+				post = feeddata[index]
+				index++
+				if index == maxIndex || index == feeddata.length
+					templateData.feeds.facebookFixed = newFeedData
+					return complete()
+					
+				if (post.message and post.message.indexOf('/The Bandettes') > 0)
+					if post.type == 'photo'
+						photo = {url: templateData.getFacebookPhoto(post.object_id)}
+						feedr.readFeeds photo, (err, res) ->
+							images = {}
+							photopost = res.url
+							for image in photopost.images
+								if !images.big and image.width < maxBigWidth and image.height < maxBigWidth
+									images.big = image
+								if !images.standard and image.width < maxStandardWidth and image.height < maxStandardWidth
+									images.standard = image
+								if !images.small and image.width < maxSmallWidth and image.height < maxSmallWidth
+									images.small = image
+
+							post.images = images
+							newFeedData.push post
+							readFeedFixPhoto(feeddata, index, newFeedData, complete)
+				
+					else 
+						newFeedData.push post
+						readFeedFixPhoto(feeddata, index, newFeedData, complete)
+				else 
+					readFeedFixPhoto(feeddata, index, newFeedData, complete)
+
+			# Prepare feedr
+			unless Feedr?
+				{Feedr} = require('feedr')
+			unless feedr?
+				feedr = new Feedr()
+
+			task = new Task (complete) ->
+				# Read the feeds and add them to the templateData
+				feedr.readFeeds templateData.feeds, (err,result) ->
+					return next(err)  if err
+					templateData.feeds = result
+					facebookFeed = templateData.feeds.facebook.data
+					if(facebookFeed)
+						readFeedFixPhoto(facebookFeed, 0, [], complete)				
+					else 
+						return complete()
+
+			task.done (err) ->
+				if err
+					return next(err) 
+				return next()
+
+			task.run()
 
 		# Server Extend
 		# Used to add our own custom routes to the server before the docpad routes are added
@@ -129,20 +217,19 @@ docpadConfig = {
 			# Extract the server from the options
 			{server} = opts
 			docpad = @docpad
+			express = opts.express
+			compression = require('compression')
+			serveStatic = require('serve-static')
+			server.use(compression())
+			server.use("/out", serveStatic(__dirname+'/out'));
 
-			# As we are now running in an event,
-			# ensure we are using the latest copy of the docpad configuraiton
-			# and fetch our urls from it
-			latestConfig = docpad.getConfig()
-			oldUrls = latestConfig.templateData.site.oldUrls or []
-			newUrl = latestConfig.templateData.site.url
-
-			# Redirect any requests accessing one of our sites oldUrls to the new site url
-			server.use (req,res,next) ->
-				if req.headers.host in oldUrls
-					res.redirect(newUrl+req.url, 301)
+			server.all '/regenerate', (req,res) ->
+				if req.query?.key is process.env.REGENERATE
+					docpad.log('info', 'Regenerating for documentation change')
+					docpad.action('generate')
+					res.send(200, 'regenerated')
 				else
-					next()
+					res.send(400, 'key is incorrect')
 }
 
 # Export our DocPad Configuration

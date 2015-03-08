@@ -1,0 +1,23 @@
+@mixin ban_h1 {
+    font-size: rem(24);
+
+    @include ban_mq-gte-small {
+        font-size: rem(26);
+    }
+}
+
+@mixin ban_h2 {
+    font-size: rem(20);
+
+    @include ban_mq-gte-small {
+        font-size: rem(22);
+    }
+}
+
+@mixin ban_h3 {
+    font-size: rem(18);
+
+    @include ban_mq-gte-small {
+        font-size: rem(20);
+    }
+}

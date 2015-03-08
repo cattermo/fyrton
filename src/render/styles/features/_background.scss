@@ -1,0 +1,16 @@
+.ban_background:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    background-color: #000;
+    background-image: url('/images/about.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    @include filter(blur(1px) invert(0.3) brightness(2) opacity(0.8));
+}

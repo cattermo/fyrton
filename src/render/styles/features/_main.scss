@@ -1,0 +1,22 @@
+.ban_main {
+    font-size: rem(16);
+    padding: 2em 0;
+    color: #000;
+    margin: 0 auto;
+    max-width: 800px;
+
+    @include ban_mq-gte-small {
+        font-size: rem(18);
+    }
+}
+
+.ban_main__text-content {
+    background: rgba(255,255,255,0.4);
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 0.7em;
+
+    a {
+        word-break: break-word;
+    }
+}

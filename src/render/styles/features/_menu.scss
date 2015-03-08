@@ -184,8 +184,8 @@ $_translateY: 6px;
 
 .ban_menu__item {
     @include ban_mq-gte-small {
-        border-left: 1px solid #000;
-        border-bottom: 1px solid #000;
+        border-left: 1px solid rgba(0, 0, 0, 0.5);
+        //border-bottom: 1px solid #000;
     }
 
     @include ban_mq-small {
@@ -223,6 +223,8 @@ $_translateY: 6px;
 
     @include ban_mq-gte-small {
         border: none;
+        padding: 0 0.6em;
+        background-color: transparent;
     }
 
     &.ban_is-active {

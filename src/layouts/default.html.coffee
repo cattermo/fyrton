@@ -38,8 +38,8 @@ html lang: 'en', ->
 
     body class:'ban_background', ->
         div class:'ban_screenwidth', id:'screen'
-        h1 ->
-            a class:'ir header',href:'/', ->                    
+        h1 class:'ban_header', ->
+            a class:'ir ban_header__link',href:'/', ->                    
                 text 'The Bandettes'     
         text @partial 'menu'
         div '.ban_main', ->

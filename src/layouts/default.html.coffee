@@ -46,9 +46,14 @@ html lang: 'en', ->
             @content
 
         if @document.name != 'index.html'
-            div '.footer', ->
+            div '.ban_footer', ->
                 a href:'mailto:info@thebandettes.com', ->
                     text 'info@thebandettes.com'
+                ul '.ban_footer__list', ->
+                    for page, index in @site.pages
+                        li '.ban_footer__list-item', ->
+                            a href:page.url, class:'ban_footer__list-item-link', ->
+                                text page.title
 
         # Scripts
         text @getBlock('scripts').add('scripts/script.js').toHTML()

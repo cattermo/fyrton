@@ -1,0 +1,33 @@
+.ban_footer {
+    text-align: center;
+    padding: 2em 1em 1em;;
+    font-size: rem(15)
+}
+
+.ban_footer__list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    margin-top: 1em;
+}
+
+$_color-footer: rgba(0, 0, 0, 0.5);
+
+.ban_footer__list-item {
+    display: inline-block;
+    border-left: 1px solid $_color-footer;
+
+    &:first-child {
+        border-left: none;
+    }
+}
+
+.ban_footer__list-item-link {
+    color: #bbb;
+    text-decoration: none;
+    padding: 0 1em;
+    display: block;
+    color: $_color-footer;
+    font-size: rem(14);
+    line-height: 0.8;
+}

@@ -209,7 +209,11 @@ docpadConfig = {
 					return next(err) 
 				return next()
 
+			if process.env.NODE_ENV == 'DEV'
+				return next()
+			
 			task.run()
+			
 
 		# Server Extend
 		# Used to add our own custom routes to the server before the docpad routes are added

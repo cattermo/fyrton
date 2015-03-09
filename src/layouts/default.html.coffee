@@ -43,7 +43,7 @@ html lang: 'en', ->
                 text 'The Bandettes'     
         text @partial 'menu'
         div '.ban_main', ->
-            @content                    
+            @content
 
         if @document.name != 'index.html'
             div '.footer', ->

@@ -17,8 +17,3 @@ Anna Linnéa – vocals, guitars
 Hannah – bass, vocals  
 Kajsa – keyboards, backing vocals  
 Emeli – drums, percussion, backing vocals  
-
-##Contact
-Contact and love letters: info@thebandettes.com  
-Booking: booking@thebandettes.com  
-Merch: buy@thebandettes.com  

@@ -4,15 +4,15 @@ url: '/contact'
 urls: ['/contact/', /contact.html', /contact/index.html]
 ---
 
-#Contact
+# Contact
 
-##Contact and love letters
+## Contact and love letters
 [info@thebandettes.com](mailto:info@thebandettes.com)  
 
 
-##Booking
+## Booking
 [booking@thebandettes.com](mailto:booking@thebandettes.com)
 
 
-##Merch
+## Merch
 [buy@thebandettes.com](mailto:buy@thebandettes.com)  

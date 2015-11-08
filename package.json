@@ -11,10 +11,10 @@
   "dependencies": {
     "bal-util": "^2.5.1",
     "compression": "^1.4.1",
-    "docpad": "~6.64.0",
+    "docpad": "^6.78.4",
     "docpad-plugin-coffeekup": "^2.2.0",
     "docpad-plugin-coffeescript": "^2.5.0",
-    "docpad-plugin-eco": "~2.0.3",
+    "docpad-plugin-eco": "^2.1.0",
     "docpad-plugin-feedr": "^2.11.0",
     "docpad-plugin-marked": "~2.2.0",
     "docpad-plugin-nodesass": "^2.5.0",

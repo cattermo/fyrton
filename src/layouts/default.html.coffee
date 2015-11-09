@@ -39,15 +39,15 @@ html lang: 'en', ->
     body class:'ban_background', ->
         div class:'ban_screenwidth', id:'screen'
         h1 class:'ban_header', ->
-            a class:'ir ban_header__link',href:'/', ->                    
-                text 'The Bandettes'     
+            a class:'ir ban_header__link',href:'/', ->
+                img src:'/images/bandettes_vit_logga.svg', class: 'ban_header__logo', alt: 'The Bandettes'
         text @partial 'menu'
         div '.ban_main', ->
             @content
 
         if @document.name != 'index.html'
             div '.ban_footer', ->
-                a href:'mailto:info@thebandettes.com', ->
+                a class:'ban_footer__contact', href:'mailto:info@thebandettes.com', ->
                     text 'info@thebandettes.com'
                 ul '.ban_footer__list', ->
                     for page, index in @site.pages

@@ -1,7 +1,7 @@
 .ban_main {
     font-size: rem(16);
     padding: 2em 0;
-    color: #000;
+    color: #fff;
     margin: 0 auto;
     max-width: 800px;
 
@@ -11,13 +11,18 @@
 }
 
 .ban_main__text-content {
-    background: rgba(255,255,255,0.4);
-    max-width: 640px;
+    background: rgba(0, 0, 0, 0.4);
     margin: 0 auto;
     padding: 0.7em;
-    font-size: rem(15);
+    font-size: rem(16);
+
+    @include ban_mq-gte-small {
+        padding: 2em;
+        max-width: 680px;
+    }
 
     a {
+        color: #ed1c24;
         text-decoration: none;
         word-break: break-word;
 

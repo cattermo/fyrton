@@ -1,3 +1,8 @@
+.ban_background {
+    //background-color: #ed1c24;s
+    background-color: #000;
+}
+
 .ban_background:before {
     content: '';
     display: block;
@@ -6,11 +11,12 @@
     position: fixed;
     z-index: -1;
     background-color: #000;
-    background-image: url('/images/about.jpg');
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    background-image: url('/images/live_bandettes_cinema.jpg');
+    background-position: top;
+    //background-attachment: fixed;
+    background-size: 100%;
     background-repeat: no-repeat;
+
     color: #fff;
-    @include filter(blur(1px) invert(0.3) brightness(2) opacity(0.8));
+    @include filter(blur(1px) invert(0) brightness(0.5) opacity(0.9));
 }

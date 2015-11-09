@@ -4,6 +4,15 @@
     font-size: rem(15)
 }
 
+.ban_footer__contact {
+    color: #ed1c24;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 .ban_footer__list {
     list-style: none;
     padding-left: 0;
@@ -11,7 +20,7 @@
     margin-top: 1em;
 }
 
-$_color-footer: rgba(0, 0, 0, 0.5);
+$_color-footer: rgba(255, 255, 255, 0.5);
 
 .ban_footer__list-item {
     display: inline-block;

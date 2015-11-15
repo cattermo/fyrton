@@ -37,7 +37,7 @@ ul class:'ban_feed', ->
                     
                 if post.type == 'photo' and post.picture and post.picture.length > 0 
                     a href:post.link, target:'_blank', ->
-                        img sizes:'(min-width: 944px) calc(680px - 2em), calc(100vw - 1.5em)', srcset: @getSrcset(post.images.small) + @getSrcset(post.images.standard) + @getSrcset(post.images.big, true), src:post.images.standard
+                        img sizes:'(min-width: 944px) calc(680px - 2em), calc(100vw - 1.5em)', srcset: @getSrcset(post.images.small) + @getSrcset(post.images.standard) + @getSrcset(post.images.big, true), src:post.images.standard.source
                         #img src:post.picture, data: {source1: post.images.big.source, source2: post.images.standard.source, source3: post.images.small.source}
 
 

@@ -2,6 +2,10 @@
     text-align: right;
     position: relative;
     top: -2em;
+
+    @include ban_mq-gte-small {
+        top: 0;
+    }
 }
 
 .ban_menu__icon {
@@ -174,6 +178,10 @@ $_translateY: 6px;
     position: relative;
     overflow: hidden;
     padding-bottom: $ban_mobile-menu-height;
+
+    @include ban_mq-gte-small {
+        overflow: visible;
+    }
 }
 
 .ban_menu__list {
@@ -189,6 +197,10 @@ $_translateY: 6px;
 
     .ban_is-expanded & {
         transform: translateY(0);
+
+        @include ban_mq-gte-small {
+            transform: translateY(-100%);
+        }
     }
 
     &.ban_is-hidden {
@@ -197,7 +209,7 @@ $_translateY: 6px;
     }
 
     @include ban_mq-gte-small {
-        height: auto;
+        position: inherit;
     }
 
     @include ban_mq-small {
@@ -231,11 +243,12 @@ $_border-color: rgba(255, 255, 255, 0.5);
     @include font-size(16);
     text-transform: uppercase;
     display: block;
-    padding: 0.3em;
+    padding: 0.6em;
     color: #fff;
     text-decoration: none;
     text-align: center;
     border-bottom: 1px solid $_border-color;
+    text-shadow: 0 0 5px rgba(0,0,0,0.8);
 
     .ban_menu__item:first-child & {
         border-top: 1px solid $_border-color;
@@ -247,11 +260,11 @@ $_border-color: rgba(255, 255, 255, 0.5);
 
     @include ban_mq-gte-small {
         border: none;
-        padding: 0 0.6em;
-        //background-color: transparent;
+        padding: 0 0.3em;
     }
 
     &.ban_is-active {
+        text-shadow: none;
         background-color: $ban_color-link;
     }
 }

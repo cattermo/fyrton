@@ -10,7 +10,7 @@ ul class:'ban_feed', ->
         li class:'ban_feed__item', ->
             article ->
                 h1 class:'ban_feed__item-header', ->
-                    post.from.name + ' ' + post.created_time.substring(0, 10)
+                    post.created_time.substring(0, 10)
                 exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig 
 
                 p ->

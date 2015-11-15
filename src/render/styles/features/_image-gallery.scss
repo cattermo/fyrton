@@ -1,7 +1,9 @@
 .ban_image-gallery {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
+    @include ban_mq-gte-small {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
 }
 
 .ban_image-gallery__image-wrapper {

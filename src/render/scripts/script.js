@@ -109,7 +109,7 @@
                 container.classList.add(COLLAPSED_CLASS);
                 setTimeout(function() {
                     list.classList.add(HIDE_CLASS);
-                }, 300); //Hack to wait for animation
+                }, 350); //Hack to wait for animation
             } else {
                 list.classList.remove(HIDE_CLASS);
 

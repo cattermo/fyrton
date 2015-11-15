@@ -1,5 +1,6 @@
 node_modules/
 out/
 .env
+.idea
 log.txt
 npm-debug.log

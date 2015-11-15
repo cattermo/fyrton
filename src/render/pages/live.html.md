@@ -6,6 +6,8 @@ urls: ['/live/','/live/index.html','/live.html']
 
 ## Previous live performances
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0tFu1wQriDs" frameborder="0" allowfullscreen></iframe>
+
 ### 2014
 
 12 December [With Seguwita and Stella Lugosi @ Kulturbolaget, Malmö](’https://www.facebook.com/events/1523722574534272/?fref=ts)

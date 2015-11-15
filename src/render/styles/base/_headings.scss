@@ -1,29 +1,29 @@
 @mixin ban_h1 {
     font-weight: normal;
     text-transform: uppercase;
-    font-size: rem(24);
+    @include font-size(24);
 
     @include ban_mq-gte-small {
-        font-size: rem(26);
+        @include font-size(26);
     }
 }
 
 @mixin ban_h2 {
     font-weight: normal;
     text-transform: uppercase;
-    font-size: rem(20);
+    @include font-size(20);
 
     @include ban_mq-gte-small {
-        font-size: rem(22);
+        @include font-size(22);
     }
 }
 
 @mixin ban_h3 {
     font-weight: normal;
     text-transform: uppercase;
-    font-size: rem(18);
+    @include font-size(18);
 
     @include ban_mq-gte-small {
-        font-size: rem(20);
+        @include font-size(20);
     }
 }

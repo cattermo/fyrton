@@ -1,0 +1,19 @@
+@mixin clearfix {
+    &::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+}
+
+@mixin hide-text {
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
+}
+
+
+@mixin font-size($pxval) {
+    font-size: #{$pxval}px; //Fallback
+    font-size: ($pxval / 16) * 1rem;
+}

@@ -18,5 +18,5 @@
     background-repeat: no-repeat;
 
     color: #fff;
-    @include filter(blur(1px) invert(0) brightness(0.5) opacity(0.9));
+    filter: blur(1px) invert(0) brightness(0.5) opacity(0.9);
 }

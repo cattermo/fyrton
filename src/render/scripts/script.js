@@ -72,39 +72,23 @@
 })();
 
 (function(){
-    //Responsive images
-    var initResponsiveImages = function(){
-        var screenelem = document.getElementById('screen'),
-            screen = window.getComputedStyle(screenelem).getPropertyValue('width'),
-            nodelist, i, elem;
-        if(screen === '4px')
-            return;
-        switch(screen){
-            case '1px':
-                nodelist = document.querySelectorAll('img[data-source1]');
-                for(i = 0; i<nodelist.length;i++) {
-                    elem = nodelist[i];
-                    elem.setAttribute('src', elem.getAttribute('data-source1'));
-                }
-                break;
-            case '2px':
-                nodelist = document.querySelectorAll('img[data-source2]'); 
-                for(i = 0; i<nodelist.length;i++) {
-                    elem = nodelist[i];
-                    elem.setAttribute('src', elem.getAttribute('data-source2'));
-                }
-                break;
-            case '3px':
-                nodelist = document.querySelectorAll('img[data-source3]'); 
-                for(i = 0; i<nodelist.length;i++) {
-                    elem = nodelist[i];
-                    elem.setAttribute('src', elem.getAttribute('data-source3'));
-                }
-                break;
+    var initGallery = function(){
+      var EXPANDED_CLASS = 'ban_is-expanded';
+      var galleryItems = document.querySelectorAll('.ban_js-gallery-item');
+      var clickListener = function() {
+        if (this.classList.contains(EXPANDED_CLASS)) {
+          this.classList.remove(EXPANDED_CLASS);
+        } else {
+          this.classList.add(EXPANDED_CLASS);
         }
+      };
+
+      Array.prototype.forEach.call(galleryItems, function(item) {
+        item.addEventListener('click', clickListener);
+      })
     };
 
-    initResponsiveImages();  
+    initGallery();
 })();
 
 (function() {

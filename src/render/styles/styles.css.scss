@@ -1,5 +1,9 @@
-@import "bourbon";
+---
+autoprefix: true
+---
 
+
+@import "base/_mixins";
 @import "base/_mediaqueries";
 @import "base/_normalize";
 @import "base/_headings";
@@ -11,3 +15,4 @@
 @import "features/_feed";
 @import "features/_menu";
 @import "features/_footer";
+@import "features/_image-gallery";

@@ -6,7 +6,6 @@ docpadConfig = {
 	]
 	plugins:
 		nodesass:
-			bourbon: true
 			outputStyle: 'compressed'
 
 	# =================================
@@ -51,26 +50,29 @@ docpadConfig = {
 					url: '/'
 					title: 'Home'
 				,
-					url: '/about-us'
-					title: 'About'
+					url: '/latest'
+					title: 'News'
+				,
+					url: '/music'
+					title: 'Music'
 				,
 					url: '/live'
 					title: 'Live'
 				,
-					url: '/latest'
-					title: 'News'
+					url: '/about-us'
+					title: 'About'
 				,
 					url: '/photos'
 					title: 'Photos'
+				,
+					url: '/merch'
+					title: 'Merch'
 				,
 					url: '/press'
 					title: 'Press'
 				,
 					url: '/contact',
 					title: 'Contact'
-				,
-					url: '/music'
-					title: 'Music'
 			]
 
 
@@ -102,6 +104,9 @@ docpadConfig = {
 		getFacebookPhoto: (id) ->
 			return "https://graph.facebook.com/" + id + "?access_token=" + process.env.FB_ACCESSTOKEN1 + '|' + process.env.FB_ACCESSTOKEN2
 
+		getSrcset: (image, isLast) ->
+			return "#{image.source} #{image.width}w #{if isLast then '' else ', '}"
+
 
 	# =================================
 	# Collections
@@ -119,6 +124,7 @@ docpadConfig = {
 		# That contains all the documents that will be going to the out path posts
 		posts: ->
 			@getCollection('documents').findAllLive({relativeOutDirPath:'posts'},[date:-1])
+
 
 
 	# =================================

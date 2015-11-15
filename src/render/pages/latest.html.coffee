@@ -27,9 +27,9 @@ ul class:'ban_feed', ->
                 if post.type == 'video'
                     # p ->
                     #   text post.description.replace('\r\n', '</br>').replace(exp, "<a href='$1'>$1</a>")
-                    if post.link.indexOf('http://www.youtube.com/watch?v=') != -1
-                        videoid = post.link.replace 'http://www.youtube.com/watch?v=', ''
-                        srcUrl = 'http://www.youtube.com/embed/'+ videoid + '?wmode=transparent'
+                    if post.link.indexOf('https//www.youtube.com/watch?v=') != -1
+                        videoid = post.link.replace 'https//www.youtube.com/watch?v=', ''
+                        srcUrl = 'https://www.youtube.com/embed/'+ videoid + '?wmode=transparent'
                         iframe src:srcUrl, width:'auto', height:'auto', allowfullscreen:'allowfullscreen', frameborder:'0'
                     else
                         a href:post.link, target:'_blank', ->
@@ -37,7 +37,8 @@ ul class:'ban_feed', ->
                     
                 if post.type == 'photo' and post.picture and post.picture.length > 0 
                     a href:post.link, target:'_blank', ->
-                        img src:post.picture, data: {source1: post.images.big.source, source2: post.images.standard.source, source3: post.images.small.source}
+                        img sizes:'(min-width: 944px) calc(680px - 2em), calc(100vw - 1.5em)', srcset: @getSrcset(post.images.small) + @getSrcset(post.images.standard) + @getSrcset(post.images.big, true), src:post.images.standard
+                        #img src:post.picture, data: {source1: post.images.big.source, source2: post.images.standard.source, source3: post.images.small.source}
 
 
 

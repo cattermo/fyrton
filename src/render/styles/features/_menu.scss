@@ -39,11 +39,17 @@ $_anim-duration: 0.25s;
 //Middle line
 .ban_menu__icon-helper {
     .ban_is-expanded & {
-        @include animation(hamburger-middle-open $_anim-duration linear 0s 1 normal forwards);
+        animation-name: hamburger-middle-open;
+        animation-duration: $_anim-duration;
+        animation-fill-mode: forwards;
+        //@include animation(hamburger-middle-open $_anim-duration linear 0s 1 normal forwards);
     }
 
     .ban_is-collapsed & {
-        @include animation(hamburger-middle-close $_anim-duration linear 0s 1 normal forwards);
+        animation-name: hamburger-middle-close;
+        animation-duration: $_anim-duration;
+        animation-fill-mode: forwards;
+        //@include animation(hamburger-middle-close $_anim-duration linear 0s 1 normal forwards);
     }
 }
 
@@ -52,11 +58,17 @@ $_anim-duration: 0.25s;
     top: -8px;
 
     .ban_is-expanded & {
-        @include animation(hamburger-top-open $_anim-duration linear 0s 1 normal forwards);
+        animation-name: hamburger-top-open;
+        animation-duration: $_anim-duration;
+        animation-fill-mode: forwards;
+        //@include animation(hamburger-top-open $_anim-duration linear 0s 1 normal forwards);
     }
 
     .ban_is-collapsed & {
-        @include animation(hamburger-top-close $_anim-duration linear 0s 1 normal forwards);
+        animation-name: hamburger-top-close;
+        animation-duration: $_anim-duration;
+        animation-fill-mode: forwards;
+        //@include animation(hamburger-top-close $_anim-duration linear 0s 1 normal forwards);
     }
 }
 
@@ -65,38 +77,44 @@ $_anim-duration: 0.25s;
   bottom: -8px; 
 
     .ban_is-expanded & {
-        @include animation(hamburger-bottom-open $_anim-duration linear 0s 1 normal forwards);
+        animation-name: hamburger-bottom-open;
+        animation-duration: $_anim-duration;
+        animation-fill-mode: forwards;
+        //@include animation(hamburger-bottom-open $_anim-duration linear 0s 1 normal forwards);
     }
 
     .ban_is-collapsed & {
-        @include animation(hamburger-bottom-close $_anim-duration linear 0s 1 normal forwards);
+        animation-name: hamburger-bottom-close;
+        animation-duration: $_anim-duration;
+        animation-fill-mode: forwards;
+        //@include animation(hamburger-bottom-close $_anim-duration linear 0s 1 normal forwards);
     }
 }
 
 $_translateY: 6px;
 
-@include keyframes(hamburger-top-open) {
+ @keyframes hamburger-top-open {
   30% {
-    @include transform(translateY($_translateY));
+    transform: translateY($_translateY);
   }
   100% {
-    @include transform(translateY($_translateY) rotate(45deg));
+    transform: translateY($_translateY) rotate(45deg);
   }
 }
 
-@include keyframes(hamburger-top-close) {
+@keyframes hamburger-top-close {
     0% {
-        @include transform(translateY($_translateY) rotate(45deg));
+        transform: translateY($_translateY) rotate(45deg);
     }
     70% {
-        @include transform(translateY($_translateY) rotate(0));
+        transform: translateY($_translateY) rotate(0);
     }
     100% {
-        @include transform(translateY(0));
+        transform: translateY(0);
     }
 }
 
-@include keyframes(hamburger-middle-open) {
+@keyframes hamburger-middle-open {
     0% {
         height: 4px;
     }
@@ -108,7 +126,7 @@ $_translateY: 6px;
     }
 }
 
-@include keyframes(hamburger-middle-close) {
+@keyframes hamburger-middle-close {
     0% {
         height: 0px;
     }
@@ -120,24 +138,24 @@ $_translateY: 6px;
     }
 }
 
-@include keyframes(hamburger-bottom-open) {
+@keyframes hamburger-bottom-open {
     30% {
-        @include transform(translateY(-$_translateY));
+        transform: translateY(-$_translateY);
     }
     100% {
-        @include transform(translateY(-$_translateY) rotate(-45deg));
+        transform: translateY(-$_translateY) rotate(-45deg);
     }
 }
 
-@include keyframes(hamburger-bottom-close) {
+@keyframes hamburger-bottom-close {
     0% {
-        @include transform(translateY(-$_translateY) rotate(-45deg));   
+        transform: translateY(-$_translateY) rotate(-45deg);
     }
     70% {
-        @include transform(translateY(-$_translateY) rotate(0));
+        transform: translateY(-$_translateY) rotate(0);
     }
     100% {
-        @include transform(translateY(0));
+        transform: translateY(0);
     }
 }
 
@@ -158,7 +176,7 @@ $_translateY: 6px;
     height: 0;
     overflow: hidden;
     font-size: 0;
-    @include transition(height 0.3s);
+    transition: height 0.3s;
 
     .ban_is-expanded & {
         height: 350px;
@@ -204,10 +222,10 @@ $_translateY: 6px;
 }
 
 .ban_menu__item-link {
-    font-size: rem(16);
+    @include font-size(16);
     text-transform: uppercase;
     display: block;
-    padding: 0.6em;
+    padding: 0.3em;
     color: #fff;
     text-decoration: none;
     text-align: center;

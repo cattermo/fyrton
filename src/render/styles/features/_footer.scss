@@ -1,7 +1,7 @@
 .ban_footer {
     text-align: center;
     padding: 2em 1em 1em;;
-    font-size: rem(15)
+    @include font-size(15)
 }
 
 .ban_footer__contact {
@@ -32,11 +32,11 @@ $_color-footer: rgba(255, 255, 255, 0.5);
 }
 
 .ban_footer__list-item-link {
-    color: #bbb;
+    color: #bbb; //fallback
+    color: $_color-footer;
     text-decoration: none;
     padding: 0 1em;
     display: block;
-    color: $_color-footer;
-    font-size: rem(14);
+    @include font-size(14);
     line-height: 0.8;
 }

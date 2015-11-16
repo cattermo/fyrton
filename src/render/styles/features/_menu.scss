@@ -2,10 +2,6 @@
     text-align: right;
     position: relative;
     top: -2em;
-
-    @include ban_mq-gte-small {
-        top: 0;
-    }
 }
 
 .ban_menu__icon {
@@ -112,7 +108,7 @@ $_translateY: 6px;
         transform: translateY($_translateY) rotate(45deg);
     }
     70% {
-        transform: translateY($_translateY) rotate(0);
+        transform: translateY($_translateY) rotate(0deg);
     }
     100% {
         transform: translateY(0);
@@ -133,7 +129,7 @@ $_translateY: 6px;
 
 @keyframes hamburger-middle-close {
     0% {
-        height: 0px;
+        height: 0;
     }
     50% {
         height: 0;
@@ -157,7 +153,7 @@ $_translateY: 6px;
         transform: translateY(-$_translateY) rotate(-45deg);
     }
     70% {
-        transform: translateY(-$_translateY) rotate(0);
+        transform: translateY(-$_translateY) rotate(0deg);
     }
     100% {
         transform: translateY(0);
@@ -175,12 +171,10 @@ $_translateY: 6px;
 }
 
 .ban_menu__list-wrapper {
-    position: relative;
-    overflow: hidden;
-    padding-bottom: $ban_mobile-menu-height;
-
-    @include ban_mq-gte-small {
-        overflow: visible;
+    @include ban_mq-xsmall {
+        position: relative;
+        overflow: hidden;
+        padding-bottom: $ban_mobile-menu-height;
     }
 }
 
@@ -190,26 +184,20 @@ $_translateY: 6px;
     padding-left: 0;
     overflow: hidden;
     font-size: 0;
-    position: absolute;
-    width: 100%;
-    transition: transform $ban_mobile-menu-animation-duration;
-    transform: translateY(-100%);
 
-    .ban_is-expanded & {
-        transform: translateY(0);
+    @include ban_mq-xsmall {
+        position: absolute;
+        width: 100%;
+        transition: transform $ban_mobile-menu-animation-duration;
+        transform: translateY(-100%);
 
-        @include ban_mq-gte-small {
-            transform: translateY(-100%);
+        .ban_is-expanded & {
+            transform: translateY(0);
         }
-    }
 
-    &.ban_is-hidden {
-        display: none;
-        @include _list-display;
-    }
-
-    @include ban_mq-gte-small {
-        position: inherit;
+        &.ban_is-hidden {
+            display: none;
+        }
     }
 
     @include ban_mq-small {

@@ -22,7 +22,7 @@
     }
 
     &.ban_is-expanded {
-        width: 100%;
+        width: auto;
     }
 
     &:hover:before {
@@ -41,8 +41,8 @@
     position: absolute;
     width: 1em;
     height: 1em;
-    fill: #fff;
-    @include font-size(30);
+    fill: #ffffff;
+    @include font-size(34);
 }
 
 .ban_image-gallery__enlarge-icon {

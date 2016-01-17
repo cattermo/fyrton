@@ -38,6 +38,10 @@ $_background-color: rgba($ban_color-bg, 0.4);
     @include _padding;
 }
 
+.ban_main__center-content {
+    text-align: center;
+}
+
 .ban_main__text-content {
     @include _padding;
     background-color: $_background-color;
@@ -60,6 +64,10 @@ $_background-color: rgba($ban_color-bg, 0.4);
     h2, h3 {
         margin-top: 1.5em;
         margin-bottom: 0;
+    }
+
+    h1 {
+        @include ban_h1;
     }
 
     h2 {

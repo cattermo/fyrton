@@ -1,4 +1,5 @@
 @mixin ban_h1 {
+    font-family: $ban_font-heading;
     font-weight: normal;
     text-transform: uppercase;
     @include font-size(24);
@@ -9,6 +10,7 @@
 }
 
 @mixin ban_h2 {
+    font-family: $ban_font-heading;
     font-weight: normal;
     text-transform: uppercase;
     @include font-size(20);
@@ -19,6 +21,7 @@
 }
 
 @mixin ban_h3 {
+    font-family: $ban_font-heading;
     font-weight: normal;
     text-transform: uppercase;
     @include font-size(18);

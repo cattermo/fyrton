@@ -1,20 +1,19 @@
 .ban_main {
     @include font-size(16);
-    padding: 1em 0;
-    color: #fff;
+    padding: 2em 0;
+    color: $ban_color-text;
     margin: 0 auto;
 
-    @include ban_mq-xsmall {
-        transition: transform $ban_mobile-menu-animation-duration;
-        transform: translateY(-$ban_mobile-menu-height);
-
-        .ban_menu.ban_is-expanded + & {
-            transform: translateY(0);
-        }
-    }
+    //@include ban_mq-xsmall {
+    //    transition: transform $ban_mobile-menu-animation-duration;
+    //    transform: translateY(-$ban_mobile-menu-height);
+    //
+    //    .ban_menu.ban_is-expanded + & {
+    //        transform: translateY(0);
+    //    }
+    //}
 
     @include ban_mq-gte-small {
-        padding: 2em 0;
         @include font-size(18);
     }
 
@@ -24,7 +23,7 @@
     }
 }
 
-$_background-color: rgba(0, 0, 0, 0.4);
+$_background-color: rgba($ban_color-bg, 0.4);
 
 @mixin _padding {
     padding: 0.7em;

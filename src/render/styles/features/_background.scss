@@ -1,5 +1,5 @@
 .ban_background {
-    background-color: #000;
+    background-color: $ban_color-bg;
 }
 
 .ban_background:before {
@@ -7,14 +7,42 @@
     display: block;
     width: 100%;
     height: 100%;
-    position: fixed;
-    z-index: -1;
-    background-color: #000;
-    background-image: url('/images/live_bandettes_cinema.jpg');
+    position: absolute;
+    z-index: -2;
+    background-image: url('/images/bandettes_background_20_13_xs.jpg');
     background-position: top;
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-top: 13%;
 
-    color: #fff;
-    filter: blur(1px) invert(0) brightness(0.5) opacity(0.9);
+    color: $ban_color-text;
+    filter: blur(0) invert(0) brightness(1.2) opacity(0.9);
+
+    @include ban_mq-gte-small {
+        background-image: url('/images/bandettes_background_16_9_sm.jpg');
+    }
+
+    @include ban_mq-gte-small {
+        background-image: url('/images/bandettes_background_16_9_md.jpg');
+    }
+
+    @include ban_mq-gte-small {
+        background-image: url('/images/bandettes_background_16_9_lg.jpg');
+    }
+}
+
+.ban_background:after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    background: linear-gradient(to bottom, $ban_color-bg 0%, rgba($ban_color-bg, 0) 30%);
+    width: 100%;
+    padding-top: 65%;
+    display: block;
+    top: 0;
+    margin-top: 13%;
+
+    @include ban_mq-gte-small {
+        padding-top: 56.25%;
+    }
 }

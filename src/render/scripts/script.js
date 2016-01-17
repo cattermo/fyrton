@@ -91,35 +91,3 @@
     initGallery();
 })();
 
-(function() {
-    //Menu
-    var initMenu = function() {
-        var button = document.querySelector('.ban_js-menu'),
-            list = document.querySelector('.ban_js-menu-items'),
-            HIDE_CLASS = 'ban_is-hidden',
-            EXPANDED_CLASS = 'ban_is-expanded',
-            COLLAPSED_CLASS = 'ban_is-collapsed';
-
-
-        button.addEventListener('click', function() {
-            var container = this.parentNode;
-
-            if (container.classList.contains(EXPANDED_CLASS)) {
-                container.classList.remove(EXPANDED_CLASS);
-                container.classList.add(COLLAPSED_CLASS);
-                setTimeout(function() {
-                    list.classList.add(HIDE_CLASS);
-                }, 350); //Hack to wait for animation
-            } else {
-                list.classList.remove(HIDE_CLASS);
-
-                setTimeout(function() {
-                    container.classList.remove(COLLAPSED_CLASS);
-                    container.classList.add(EXPANDED_CLASS);
-                }, 50); //Hack to make items visible before sliding down list
-            }
-        }, false)
-    }
-
-    initMenu();
-})();

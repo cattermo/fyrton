@@ -37,11 +37,9 @@ html lang: 'en', ->
                 })();"
 
     body class:'ban_background', ->
+        text @partial 'icons'
         div class:'ban_screenwidth', id:'screen'
-        h1 class:'ban_header', ->
-            a class:'ir ban_header__link',href:'/', ->
-                img src:'/images/bandettes_vit_logga.svg', class: 'ban_header__logo', alt: 'The Bandettes'
-        text @partial 'menu'
+        text @partial 'header'
         div '.ban_main', ->
             @content
 

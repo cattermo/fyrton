@@ -1,166 +1,13 @@
 .ban_menu {
     text-align: right;
-    position: relative;
-    top: -2em;
-}
-
-.ban_menu__icon {
-    background-color: transparent;
-    border: none;
-    width: 34px;
-    height: 28px;
-    vertical-align: top;
-    cursor: pointer;
-    display: inline-block;
-    margin-right: 2px;
-    margin-top: 2px;
-    margin-bottom: 5px;
-    padding: 0 2px;
-
-    @include ban_mq-gte-small {
-        display: none;
-    }
-}
-
-//Form the lines
-.ban_menu__icon-helper,
-.ban_menu__icon-helper:before,
-.ban_menu__icon-helper:after {
-    content: '';
-    border-radius: 2px;
-    height: 4px;
-    width: 30px;
-    background: #fff;
     position: absolute;
-    display: block;
-}
-
-$_anim-duration: 0.25s;
-
-//Middle line
-.ban_menu__icon-helper {
-    .ban_is-expanded & {
-        animation-name: hamburger-middle-open;
-        animation-duration: $_anim-duration;
-        animation-fill-mode: forwards;
-        //@include animation(hamburger-middle-open $_anim-duration linear 0s 1 normal forwards);
-    }
-
-    .ban_is-collapsed & {
-        animation-name: hamburger-middle-close;
-        animation-duration: $_anim-duration;
-        animation-fill-mode: forwards;
-        //@include animation(hamburger-middle-close $_anim-duration linear 0s 1 normal forwards);
-    }
-}
-
-//Upper line
-.ban_menu__icon-helper:before {
-    top: -8px;
-
-    .ban_is-expanded & {
-        animation-name: hamburger-top-open;
-        animation-duration: $_anim-duration;
-        animation-fill-mode: forwards;
-        //@include animation(hamburger-top-open $_anim-duration linear 0s 1 normal forwards);
-    }
-
-    .ban_is-collapsed & {
-        animation-name: hamburger-top-close;
-        animation-duration: $_anim-duration;
-        animation-fill-mode: forwards;
-        //@include animation(hamburger-top-close $_anim-duration linear 0s 1 normal forwards);
-    }
-}
-
-//Bottom line
-.ban_menu__icon-helper:after  {
-  bottom: -8px; 
-
-    .ban_is-expanded & {
-        animation-name: hamburger-bottom-open;
-        animation-duration: $_anim-duration;
-        animation-fill-mode: forwards;
-        //@include animation(hamburger-bottom-open $_anim-duration linear 0s 1 normal forwards);
-    }
-
-    .ban_is-collapsed & {
-        animation-name: hamburger-bottom-close;
-        animation-duration: $_anim-duration;
-        animation-fill-mode: forwards;
-        //@include animation(hamburger-bottom-close $_anim-duration linear 0s 1 normal forwards);
-    }
-}
-
-$_translateY: 6px;
-
- @keyframes hamburger-top-open {
-  30% {
-    transform: translateY($_translateY);
-  }
-  100% {
-    transform: translateY($_translateY) rotate(45deg);
-  }
-}
-
-@keyframes hamburger-top-close {
-    0% {
-        transform: translateY($_translateY) rotate(45deg);
-    }
-    70% {
-        transform: translateY($_translateY) rotate(0deg);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
-@keyframes hamburger-middle-open {
-    0% {
-        height: 4px;
-    }
-    50% {
-        height: 0;
-    }
-    100% {
-        height: 0;
-    }
-}
-
-@keyframes hamburger-middle-close {
-    0% {
-        height: 0;
-    }
-    50% {
-        height: 0;
-    }
-    100% {
-        height: 4px;
-    }
-}
-
-@keyframes hamburger-bottom-open {
-    30% {
-        transform: translateY(-$_translateY);
-    }
-    100% {
-        transform: translateY(-$_translateY) rotate(-45deg);
-    }
-}
-
-@keyframes hamburger-bottom-close {
-    0% {
-        transform: translateY(-$_translateY) rotate(-45deg);
-    }
-    70% {
-        transform: translateY(-$_translateY) rotate(0deg);
-    }
-    100% {
-        transform: translateY(0);
-    }
+    bottom: 0.2em;
+    width: 100%;
 }
 
 @mixin _list-display {
+    display: block;
+
     @include ban_mq-small {
         display: table;
     }
@@ -170,35 +17,33 @@ $_translateY: 6px;
     }
 }
 
-.ban_menu__list-wrapper {
-    @include ban_mq-xsmall {
-        position: relative;
-        overflow: hidden;
-        padding-bottom: $ban_mobile-menu-height;
-    }
-}
-
 .ban_menu__list {
     list-style: none;
     margin: 0;
     padding-left: 0;
     overflow: hidden;
     font-size: 0;
-
+    
     @include ban_mq-xsmall {
-        position: absolute;
-        width: 100%;
-        transition: transform $ban_mobile-menu-animation-duration;
-        transform: translateY(-100%);
-
-        .ban_is-expanded & {
-            transform: translateY(0);
-        }
-
-        &.ban_is-hidden {
-            display: none;
-        }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
+
+    //@include ban_mq-xsmall {
+    //    position: absolute;
+    //    width: 100%;
+    //    transition: transform $ban_mobile-menu-animation-duration;
+    //    transform: translateY(-100%);
+    //
+    //    .ban_is-expanded & {
+    //        transform: translateY(0);
+    //    }
+    //
+    //    &.ban_is-hidden {
+    //        display: none;
+    //    }
+    //}
 
     @include ban_mq-small {
         width: 100%;
@@ -207,11 +52,13 @@ $_translateY: 6px;
     @include _list-display;
 }
 
-$_border-color: rgba(255, 255, 255, 0.5);
+$_border-color: rgba($ban_color-text, 0.5);
 
 .ban_menu__item {
+    display: inline-block;
+
     @include ban_mq-gte-small {
-        border-left: 1px solid $_border-color;
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
     }
 
     @include ban_mq-small {
@@ -228,15 +75,20 @@ $_border-color: rgba(255, 255, 255, 0.5);
 }
 
 .ban_menu__item-link {
-    @include font-size(16);
+    @include font-size(18);
     text-transform: uppercase;
     display: block;
-    padding: 0.6em;
-    color: #fff;
+    padding: 0.3em;
     text-decoration: none;
     text-align: center;
-    border-bottom: 1px solid $_border-color;
-    text-shadow: 0 0 5px rgba(0,0,0,0.8);
+    color: #ffffff;
+
+    @include ban_mq-xsmall {
+        background-color: rgba(0, 0, 0, 0.6);
+        border-bottom: 4px solid rgba(0,0,0,0.6);
+        margin-top: 0.2em;
+        margin-left: 0.2em;
+    }
 
     .ban_menu__item:first-child & {
         border-top: 1px solid $_border-color;
@@ -247,8 +99,18 @@ $_border-color: rgba(255, 255, 255, 0.5);
     }
 
     @include ban_mq-gte-small {
+        @include font-size(17);
         border: none;
         padding: 0 0.3em;
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+
+    @include ban_mq-gte-medium {
+        @include font-size(22);
+    }
+
+    @include ban_mq-gte-large {
+        @include font-size(26);
     }
 
     &.ban_is-active {

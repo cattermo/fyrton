@@ -75,6 +75,23 @@ docpadConfig = {
 					title: 'Contact'
 			]
 
+			links: [
+					title: 'youtube'
+					url: 'https://www.youtube.com/channel/UC7plUzsE30uGKpFjz3dWACQ'
+				,
+					title: 'facebook'
+					url: 'https://www.facebook.com/TheBandettesmusic'
+				,
+					title: 'twitter'
+					url: 'https://twitter.com/thebandettes'
+				,
+					title: 'spotify'
+					url: 'https://play.spotify.com/artist/208qxflE4I6uB0jC0gKMYB'
+				,
+					title: 'soundcloud'
+					url: 'https://soundcloud.com/thebandettesmusic'
+			]
+
 
 
 		# -----------------------------

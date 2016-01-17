@@ -3,13 +3,13 @@
     padding: 2em 1em 1em;
     @include font-size(15);
 
-    @include ban_mq-xsmall {
-        transform: translateY(-$ban_mobile-menu-height);
-
-        .ban_menu.ban_is-expanded ~ & {
-            transform: translateY(0);
-        }
-    }
+    //@include ban_mq-xsmall {
+    //    transform: translateY(-$ban_mobile-menu-height);
+    //
+    //    .ban_menu.ban_is-expanded ~ & {
+    //        transform: translateY(0);
+    //    }
+    //}
 }
 
 .ban_footer__contact {
@@ -28,11 +28,9 @@
     margin-top: 1em;
 }
 
-$_color-footer: rgba(255, 255, 255, 0.5);
-
 .ban_footer__list-item {
     display: inline-block;
-    border-left: 1px solid $_color-footer;
+    border-left: 1px solid $ban_color-text;
 
     &:first-child {
         border-left: none;
@@ -40,8 +38,7 @@ $_color-footer: rgba(255, 255, 255, 0.5);
 }
 
 .ban_footer__list-item-link {
-    color: #bbb; //fallback
-    color: $_color-footer;
+    color: $ban_color-text;
     text-decoration: none;
     padding: 0 1em;
     display: block;

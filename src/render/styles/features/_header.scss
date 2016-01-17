@@ -1,12 +1,66 @@
 .ban_header {
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 32.56%;
+    padding-top: 78.25%;
+    position: relative;
+
+    @include ban_mq-gte-small {
+        padding-top: 69.25%;
+    }
+}
+
+.ban_header__heading {
+    margin: 0;
+}
+
+.ban_header__link {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    //background-color: rgba($ban_color-bg, 0.5);
+    padding: 2%;
 }
 
 .ban_header__logo {
+    width: 60%;
+
+    @include ban_mq-gte-small {
+        width: 50%;
+    }
+}
+
+.ban_header__icons {
+    list-style: none;
     position: absolute;
-    width: 50%;
-    left: 5%;
-    top: 5%;
+    right: 0;
+    text-align: right;
+    padding: 2%;
+    margin: 0;
+    @include font-size(20);
+
+    @include ban_mq-gte-small {
+        top: 0;
+        width: 40%;
+    }
+}
+
+.ban_header__icon-item {
+    display: inline-block;
+    padding: 0.1em;
+}
+
+.ban_header__icon {
+    width: 1em;
+    height: 1em;
+    display: block;
+    fill: $ban_color-link;
+
+    &.ban_header__icon--youtube {
+        width: 2.5087890625em;
+    }
+
+    &.ban_header__icon--spotify {
+        width: 0.857421875em;
+    }
 }

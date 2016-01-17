@@ -26,6 +26,7 @@ html {
 html, body {
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 /*
@@ -85,4 +86,8 @@ fieldset {
 
 textarea {
     resize: vertical;
+}
+
+* {
+    box-sizing: border-box;
 }

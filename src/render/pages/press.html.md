@@ -1,8 +1,13 @@
 ---
-layout: 'text-content'
-url: '/press'
-urls: ['/press/','/press/index.html','/press.html']
+layout: "text-content"
+url: /press
+urls: 
+  - /press/
+  - /press/index.html
+  - /press.html
+published: true
 ---
+
 
 # Press
 

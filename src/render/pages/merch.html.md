@@ -9,4 +9,10 @@ published: true
 ---
 
 
+
 # Merch
+
+### Example merch
+
+
+![The Bandettes](/images/about.jpg)

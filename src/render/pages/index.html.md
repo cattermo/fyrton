@@ -1,7 +1,6 @@
 ---
 layout: "center-content"
-url: 
-  - /
+url: "/"
 published: true
 ---
 

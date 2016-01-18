@@ -1,8 +1,13 @@
 ---
-layout: 'text-content'
-url: '/contact'
-urls: ['/contact/', /contact.html', /contact/index.html]
+layout: "text-content"
+url: /contact
+urls: 
+  - /contact/
+  - "/contact.html'"
+  - /contact/index.html
+published: true
 ---
+
 
 # Contact
 
@@ -15,4 +20,4 @@ urls: ['/contact/', /contact.html', /contact/index.html]
 
 
 ## Merch
-[buy@thebandettes.com](mailto:buy@thebandettes.com)  
+[buy@thebandettes.com](mailto:buy@thebandettes.com)

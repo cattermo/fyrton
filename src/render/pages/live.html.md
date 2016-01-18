@@ -1,8 +1,13 @@
 ---
-layout: 'live'
-url: '/live'
-urls: ['/live/','/live/index.html','/live.html']
+layout: live
+url: /live
+urls: 
+  - /live/
+  - /live/index.html
+  - /live.html
+published: true
 ---
+
 
 ## Previous live performances
 

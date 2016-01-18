@@ -1,8 +1,13 @@
 ---
-layout: 'text-content'
-url: '/about-us'
-urls: ['/about-us/','/about-us/index.html','/about-us.html']
+layout: "text-content"
+url: "/about-us"
+urls: 
+  - "/about-us/"
+  - "/about-us/index.html"
+  - "/about-us.html"
+published: true
 ---
+
 
 # About us
 
@@ -16,4 +21,4 @@ The Bandettes has been called one of Swedens most promising new bands, and when 
 Anna Linnéa – vocals, guitars  
 Hannah – bass, vocals  
 Kajsa – keyboards, backing vocals  
-Emeli – drums, percussion, backing vocals  
+Emeli – drums, percussion, backing vocals

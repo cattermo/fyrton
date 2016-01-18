@@ -14,5 +14,4 @@ published: true
 
 ### Example merch
 
-
 ![The Bandettes](/images/about.jpg)

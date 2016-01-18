@@ -1,5 +1,5 @@
 .ban_main {
-    @include font-size(16);
+    @include font-size(18);
     padding: 2em 0;
     color: $ban_color-text;
     margin: 0 auto;
@@ -14,41 +14,12 @@
     //}
 
     @include ban_mq-gte-small {
-        @include font-size(18);
+        @include font-size(20);
     }
 
     h1:first-child {
         @include ban_h1;
         margin-top: 0;
-    }
-}
-
-$_background-color: rgba($ban_color-bg, 0.4);
-
-@mixin _padding {
-    padding: 0.7em;
-
-    @include ban_mq-gte-small {
-        padding: 2em;
-    }
-}
-
-.ban_main__wide-content {
-    background-color: $_background-color;
-    @include _padding;
-}
-
-.ban_main__center-content {
-    text-align: center;
-}
-
-.ban_main__text-content {
-    @include _padding;
-    background-color: $_background-color;
-    margin: 0 auto;
-
-    @include ban_mq-gte-small {
-        max-width: 680px;
     }
 
     a {
@@ -87,5 +58,34 @@ $_background-color: rgba($ban_color-bg, 0.4);
     img {
         max-width: 100%;
         max-height: 90vh;
+    }
+}
+
+$_background-color: rgba($ban_color-bg, 0.4);
+
+@mixin _padding {
+    padding: 0.7em;
+
+    @include ban_mq-gte-small {
+        padding: 2em;
+    }
+}
+
+.ban_main__wide-content {
+    background-color: $_background-color;
+    @include _padding;
+}
+
+.ban_main__center-content {
+    text-align: center;
+}
+
+.ban_main__text-content {
+    @include _padding;
+    background-color: $_background-color;
+    margin: 0 auto;
+
+    @include ban_mq-gte-small {
+        max-width: 680px;
     }
 }

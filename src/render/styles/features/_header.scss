@@ -37,17 +37,25 @@
     text-align: right;
     padding: 2%;
     margin: 0;
-    @include font-size(20);
+    @include font-size(22);
 
     @include ban_mq-gte-small {
         top: 0;
         width: 40%;
     }
+
+    @include ban_mq-gte-medium {
+        @include font-size(26)
+    }
+
+    @include ban_mq-gte-large {
+        @include font-size(30)
+    }
 }
 
 .ban_header__icon-item {
     display: inline-block;
-    padding: 0.1em;
+    padding: 0.2em;
 }
 
 .ban_header__icon {

@@ -75,7 +75,7 @@ $_border-color: rgba($ban_color-text, 0.5);
 }
 
 .ban_menu__item-link {
-    @include font-size(18);
+    @include font-size(20);
     text-transform: uppercase;
     display: block;
     padding: 0.3em;
@@ -88,6 +88,7 @@ $_border-color: rgba($ban_color-text, 0.5);
         border-bottom: 4px solid rgba(0,0,0,0.6);
         margin-top: 0.2em;
         margin-left: 0.2em;
+        padding: 0.1em 0.3em;
     }
 
     .ban_menu__item:first-child & {
@@ -99,18 +100,17 @@ $_border-color: rgba($ban_color-text, 0.5);
     }
 
     @include ban_mq-gte-small {
-        @include font-size(17);
         border: none;
         padding: 0 0.3em;
         text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     }
 
     @include ban_mq-gte-medium {
-        @include font-size(22);
+        @include font-size(26);
     }
 
     @include ban_mq-gte-large {
-        @include font-size(26);
+        @include font-size(30);
     }
 
     &.ban_is-active {

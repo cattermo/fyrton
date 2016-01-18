@@ -2,10 +2,14 @@
     font-family: $ban_font-heading;
     font-weight: normal;
     text-transform: uppercase;
-    @include font-size(24);
+    @include font-size(28);
 
     @include ban_mq-gte-small {
-        @include font-size(26);
+        @include font-size(32);
+    }
+
+    @include ban_mq-gte-large {
+        @include font-size(36);
     }
 }
 
@@ -13,10 +17,14 @@
     font-family: $ban_font-heading;
     font-weight: normal;
     text-transform: uppercase;
-    @include font-size(20);
+    @include font-size(24);
 
     @include ban_mq-gte-small {
-        @include font-size(22);
+        @include font-size(28);
+    }
+
+    @include ban_mq-gte-large {
+        @include font-size(32);
     }
 }
 
@@ -24,9 +32,13 @@
     font-family: $ban_font-heading;
     font-weight: normal;
     text-transform: uppercase;
-    @include font-size(18);
+    @include font-size(20);
 
     @include ban_mq-gte-small {
-        @include font-size(20);
+        @include font-size(24);
+    }
+
+    @include ban_mq-gte-large {
+        @include font-size(28);
     }
 }

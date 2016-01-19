@@ -9,6 +9,7 @@ published: true
 ---
 
 
+
 # About us
 
 Formed in 2011, The Bandettes is a Swedish band consisting of Anna Linnéa, Hannah, Kajsa and Emeli. They have agreed to never split up, as making music together has turned them into a solid body. This will all be clear to anyone who has the great pleasure to experience them live.
@@ -29,6 +30,7 @@ Their second release The Joker saw the light of day on May the 1st 2015. It was 
 Over the past years, they have performed in multiple Swedish cities as well as in northern Germany.
 
 ## The Bandettes are
+
 Anna Linnéa – vocals, guitars
 
 Hannah – bass, vocals

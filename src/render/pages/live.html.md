@@ -13,39 +13,61 @@ published: true
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cpfAL6uzA14" frameborder="0" allowfullscreen></iframe>
 
+### 2015
+
+29 August [IRIS-festivalen, Öland] (http://irisfestivalen.se/)
+
+28 August [Bandstationen, Ryd] (https://www.facebook.com/bandstationen/)
+
+22 August [Far i Hatten, Malmö] (http://www.farihatten.se/kalender/)
+
+1 May [Sajvva, Malmö] (http://www.sajvva.se/)
+
+1 May Malmö, Stadsparken
+
+30 April [RELEASEPARTY for The Joker EP @ Grand Öl & Mat, Malmö] (http://www.grandolomat.se/kalender/)
+
+25 April [Lunds Rocknrollklubb] (http://www.rocknrollklubben.com/)
+
+24 April [12:an, Torna Hällestad] (http://www.12an.se/)
+
+10 April [Support for Ellen Sundberg @ Moroten & Piskan, Lund] (http://morotenopiskan.se/)
+
+7 March Underverket, Malmö
+
 ### 2014
 
-12 December [With Seguwita and Stella Lugosi @ Kulturbolaget, Malmö](’https://www.facebook.com/events/1523722574534272/?fref=ts)
+12 December [With Seguwita and Stella Lugosi @ Kulturbolaget, Malmö](https://www.facebook.com/events/1523722574534272/?fref=ts)
 
-25 October [En karl med skägg, Victoriateatern, Malmö](’http://www.enkarlmedskagg.se/)
+25 October [En karl med skägg, Victoriateatern, Malmö](http://www.enkarlmedskagg.se/)
 
-30 August [Kävlinge Live, Kävlinge](’http://kavlingemusik.se/live/index.html)
+30 August [Kävlinge Live, Kävlinge](http://kavlingemusik.se/live/index.html)
 
-24 August [Kafe de Luxe, Växjö](’http://www.kafedeluxe.se/)
+24 August [Kafe de Luxe, Växjö](http://www.kafedeluxe.se/)
 
-23 August [Växjö Visfestival, Växjö](’http://vaxjovisfestival.se/)
+23 August [Växjö Visfestival, Växjö](http://vaxjovisfestival.se/)
 
-21 August Support for State of Salazar, Babel, Malmö
+21 August [Support for State of Salazar @ Babel, Malmö] (http://babelmalmo.se/)
 
 14 August Kungsgatan, Malmö
 
-11 August [Stadsparken, Trelleborg](’http://soderslattscountryfestival.se/nyhet/sommarkonsert-i-stadsparken-i-trelleborg/)
+11 August [Stadsparken, Trelleborg](http://soderslattscountryfestival.se/nyhet/sommarkonsert-i-stadsparken-i-trelleborg/)
 
-25 July [Snuss-Stockfestivalen, Råön](’http://www.snuss-stock.com/)
+25 July [Snuss-Stockfestivalen, Råön](http://www.snuss-stock.com/)
 
-13 July [Live on a train @ Skånska  Järnvägar, Brösarp](’http://www.skanskajarnvagar.se/)
+13 July [Live on a train @ Skånska  Järnvägar, Brösarp](http://www.skanskajarnvagar.se/)
 
 12 July @ Home, Malmö
 
-11 July [Backafestivalen, Simrishamn](’http://www.backafestivalen.se/)
+11 July [Backafestivalen, Simrishamn](http://www.backafestivalen.se/)
 
-10 July [Kafé Marmelad, Göteborg](’http://www.goteborgnonstop.se/tag/sommarmelad/)
+10 July [Kafé Marmelad, Göteborg](http://www.goteborgnonstop.se/tag/sommarmelad/)
 
 17 May Gatufest @ Södra Förstadsgatan, Malmö
 
-10 May [Nordischer Klang, S:t Spiritus, Greifswald (GER)](’http://nordischerklang.de/?p=2548)
+10 May [Nordischer Klang, S:t Spiritus, Greifswald (GER)](http://nordischerklang.de/?p=2548)
 
-4 May [Visstuga @ Kafé Agnez, Malmö](’https://www.facebook.com/ekokafeagnez)
+4 May [Visstuga @ Kafé Agnez, Malmö](https://www.facebook.com/ekokafeagnez)
 
 1 May Vasaparken, Norrköping
 

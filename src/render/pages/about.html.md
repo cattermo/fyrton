@@ -30,6 +30,9 @@ Over the past years, they have performed in multiple Swedish cities as well as i
 
 ## The Bandettes are
 Anna Linnéa – vocals, guitars
+
 Hannah – bass, vocals
+
 Kajsa – keyboards, backing vocals
+
 Emeli – drums, percussion, backing vocals

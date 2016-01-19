@@ -9,29 +9,30 @@ published: true
 ---
 
 
+
 ## Previous live performances
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cpfAL6uzA14" frameborder="0" allowfullscreen></iframe>
 
 ### 2015
 
-29 August [IRIS-festivalen, Öland] (http://irisfestivalen.se/)
+29 August [IRIS-festivalen, Öland](http://irisfestivalen.se/)
 
-28 August [Bandstationen, Ryd] (https://www.facebook.com/bandstationen/)
+28 August [Bandstationen, Ryd](https://www.facebook.com/bandstationen/)
 
-22 August [Far i Hatten, Malmö] (http://www.farihatten.se/kalender/)
+22 August [Far i Hatten, Malmö](http://www.farihatten.se/kalender/)
 
-1 May [Sajvva, Malmö] (http://www.sajvva.se/)
+1 May [Sajvva, Malmö](http://www.sajvva.se/)
 
 1 May Malmö, Stadsparken
 
-30 April [RELEASEPARTY for The Joker EP @ Grand Öl & Mat, Malmö] (http://www.grandolomat.se/kalender/)
+30 April [RELEASEPARTY for The Joker EP @ Grand Öl & Mat, Malmö](http://www.grandolomat.se/kalender/)
 
-25 April [Lunds Rocknrollklubb] (http://www.rocknrollklubben.com/)
+25 April [Lunds Rocknrollklubb](http://www.rocknrollklubben.com/)
 
-24 April [12:an, Torna Hällestad] (http://www.12an.se/)
+24 April [12:an, Torna Hällestad](http://www.12an.se/)
 
-10 April [Support for Ellen Sundberg @ Moroten & Piskan, Lund] (http://morotenopiskan.se/)
+10 April [Support for Ellen Sundberg @ Moroten & Piskan, Lund](http://morotenopiskan.se/)
 
 7 March Underverket, Malmö
 
@@ -47,7 +48,7 @@ published: true
 
 23 August [Växjö Visfestival, Växjö](http://vaxjovisfestival.se/)
 
-21 August [Support for State of Salazar @ Babel, Malmö] (http://babelmalmo.se/)
+21 August [Support for State of Salazar @ Babel, Malmö](http://babelmalmo.se/)
 
 14 August Kungsgatan, Malmö
 

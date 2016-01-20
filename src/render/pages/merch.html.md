@@ -35,5 +35,7 @@ If you're interested to purchase, send an email to: buy@thebandettes.com
 - Sticker "The Bandettes" - 5 SEK
 - Digital download code + gift card "The Beard Song" - 25 SEK
 
+**_Freight charge is not included_**
+
 
 

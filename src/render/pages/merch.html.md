@@ -11,13 +11,13 @@ published: true
 
 
 
+
 # Merch
 
-Take a look at our awesome merch!
-
+Take a look at our awesome merch!  
 If you want to purchase something, send an email to: **buy@thebandettes.com**
 
-![Merch](/src/files/images/Merch1.jpg)
+![Merch](/images/Merch1.jpg)
 
 ### Totebags
 - Totebag (eco) "The Joker EP" - 150 SEK
@@ -37,5 +37,3 @@ If you want to purchase something, send an email to: **buy@thebandettes.com**
 
 
 **_Freight charge will be added to the price above_**
-
-

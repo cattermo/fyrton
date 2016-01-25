@@ -13,6 +13,7 @@ published: true
 
 
 
+
 # Merch
 
 Take a look at our awesome merch!  
@@ -33,8 +34,7 @@ If you want to purchase something, send an email to: **buy@thebandettes.com**
 - "Take me home" (Releasen 2012) - 100 SEK
 
 ### Other stuff
-- Sticker "The Bandettes" - 5 SEK
-- Digital download code + gift card "The Beard Song" - 25 SEK
-
-
+- Digital download code + gift card "The Beard Song" - 25 SEK  
+  
+    
 **_Freight charge will be added to the price above_**

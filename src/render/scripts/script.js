@@ -1,3 +1,7 @@
+/***
+uglify: true
+***/
+
 'use strict';
 
 (function () {

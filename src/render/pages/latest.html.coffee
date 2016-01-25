@@ -1,5 +1,6 @@
 ---
-layout: 'text-content'
+layout: 'default'
+title: "News"
 url: '/latest'
 urls: ['/latest/','/latest/index.html','/latest.html']
 ---

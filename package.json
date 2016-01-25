@@ -9,10 +9,12 @@
     "npm": "1.3"
   },
   "dependencies": {
-    "bal-util": "^2.5.1",
-    "compression": "^1.4.1",
+    "bal-util": "2.5.1",
+    "compression": "1.4.1",
     "docpad": "6.78.4",
+    "docpad-plugin-assets": "~2.1.2",
     "docpad-plugin-autoprefix": "2.0.0",
+    "docpad-plugin-cleancss": "2.1.0",
     "docpad-plugin-coffeekup": "2.2.0",
     "docpad-plugin-coffeescript": "2.5.0",
     "docpad-plugin-eco": "2.1.0",
@@ -22,10 +24,10 @@
     "docpad-plugin-partials": "2.9.0",
     "docpad-plugin-sitemap": "2.2.0",
     "docpad-plugin-text": "2.3.3",
-    "feedr": "^2.11.0",
-    "grunt": "^0.4.5",
-    "serve-static": "^1.9.1",
-    "taskgroup": "^4.2.1"
+    "docpad-plugin-uglify": "^2.4.0",
+    "feedr": "2.11.0",
+    "serve-static": "1.9.1",
+    "taskgroup": "4.2.1"
   },
   "devDependencies": {},
   "main": "node_modules/docpad/bin/docpad-server"

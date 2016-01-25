@@ -1,5 +1,6 @@
 ---
 layout: "text-content"
+title: "Press"
 url: /press
 urls: 
   - /press/

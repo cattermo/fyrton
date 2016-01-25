@@ -34,11 +34,7 @@ docpadConfig = {
 
 			# The website description (for SEO)
 			description: """
-				The Bandettes är
-				Anna Linnéa – sång, gitarr
-				Hannah – elbas, sång
-				Kajsa – keyboard
-				Emeli – trummor, percussion
+				Official webpage for the Swedish Pop/Americana-band The Bandettes.
 				"""
 
 			# The website keywords (for SEO) separated by commas
@@ -81,6 +77,9 @@ docpadConfig = {
 				,
 					title: 'facebook'
 					url: 'https://www.facebook.com/TheBandettesmusic'
+				,
+					title: 'instagram'
+					url: 'https://instagram.com/thebandettes'
 				,
 					title: 'twitter'
 					url: 'https://twitter.com/thebandettes'

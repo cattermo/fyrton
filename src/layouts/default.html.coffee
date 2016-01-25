@@ -11,11 +11,19 @@ html lang: 'en', ->
         meta name: 'viewport', content: 'width=device-width, initial-scale=1'
         title ->
             text @getPreparedTitle()
-        meta name:'description', content:@document.metaTranslateKey
+        meta name:'description', content: @site.description
+        meta property:'og:title', content: @document.title
+        meta property:'og:description', content:@site.description
+        meta property:'og:image', content:'http://bandettes-cattermo.rhcloud.com/images/bandettes_background_16_9_md.jpg'
+        meta property:'twitter:card', content: 'summary'
+        meta property:'twitter:site', content: '@thebandettes'
+        meta property:'twitter:title', content: @document.title
+        meta property:'twitter:description', content:@site.description
+        meta property:'twitter:image', content:'http://bandettes-cattermo.rhcloud.com/images/bandettes_background_16_9_md.jpg'
         link rel:'shortcut icon', href:'/images/favicon.ico', type:'image/x-icon'
 
         # Styles
-        text  @getBlock('styles').add(['styles/styles.css']).toHTML()
+        link rel:'stylesheet', media:'all', href:@asset('styles/styles.css')
 
         text '''
         <!--[if lt IE 9]>
@@ -24,17 +32,6 @@ html lang: 'en', ->
             </script>
         <![endif]-->
         '''
-        
-        script type:"text/javascript", ->
-            text "var _prum = [['id', '52167612abe53dd91d000000'],
-             ['mark', 'firstbyte', (new Date()).getTime()]];
-                (function() {
-                    var s = document.getElementsByTagName('script')[0]
-                      , p = document.createElement('script');
-                    p.async = 'async';
-                    p.src = '//rum-static.pingdom.net/prum.min.js';
-                    s.parentNode.insertBefore(p, s);
-                })();"
 
     body class:'ban_background', ->
         text @partial 'icons'
@@ -43,18 +40,17 @@ html lang: 'en', ->
         div '.ban_main', ->
             @content
 
-        if @document.name != 'index.html'
-            div '.ban_footer', ->
-                a class:'ban_footer__contact', href:'mailto:info@thebandettes.com', ->
-                    text 'info@thebandettes.com'
-                ul '.ban_footer__list', ->
-                    for page, index in @site.pages
-                        li '.ban_footer__list-item', ->
-                            a href:page.url, class:'ban_footer__list-item-link', ->
-                                text page.title
+        div '.ban_footer', ->
+            a class:'ban_footer__contact', href:'mailto:info@thebandettes.com', ->
+                text 'info@thebandettes.com'
+            ul '.ban_footer__list', ->
+                for page, index in @site.pages
+                    li '.ban_footer__list-item', ->
+                        a href:page.url, class:'ban_footer__list-item-link', ->
+                            text page.title
 
         # Scripts
-        text @getBlock('scripts').add('scripts/script.js').toHTML()
+        script type:'text/javascript', defer:'defer', src: @asset('scripts/script.js')
 
         script type:"text/javascript", ->
             text "var _gaq = _gaq || [];

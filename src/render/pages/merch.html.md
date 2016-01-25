@@ -1,5 +1,6 @@
 ---
 layout: "text-content"
+title: "Merch"
 url: /merch
 urls: 
   - /merch/

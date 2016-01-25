@@ -1,5 +1,6 @@
 ---
 layout: live
+title: "Live"
 url: /live
 urls: 
   - /live/

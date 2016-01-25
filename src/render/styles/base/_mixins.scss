@@ -17,3 +17,20 @@
     font-size: #{$pxval}px; //Fallback
     font-size: ($pxval / 16) * 1rem;
 }
+
+@mixin ban_container-padding {
+    padding: 0.7em;
+
+    @include ban_mq-gte-small {
+        padding: 2em;
+    }
+}
+
+@mixin ban_container {
+    @include ban_container-padding;
+    margin: 0 auto;
+
+    @include ban_mq-gte-small {
+        max-width: 680px;
+    }
+}

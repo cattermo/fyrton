@@ -10,28 +10,31 @@ published: true
 
 
 
+
 # About us
 
-Formed in 2011, The Bandettes is a Swedish band consisting of Anna Linnéa, Hannah, Kajsa and Emeli. They have agreed to never split up, as making music together has turned them into a solid body. This will all be clear to anyone who has the great pleasure to experience them live.
+The Bandettes
 
-It all started in Nashville, where Anna Linnéa travelled around in search for inspiration. She recorded The Beard Song as a demo, and later discovered that the producer had formerly worked with Johnny Cash. When she got home and reunited with her childhood friend Hannah (with whom she had been busking with back in their teens), the pieces of the puzzle started to come together. The final pieces were Kajsa and Emeli, who brought jazz influences to the Folk/Country-Pop-sound. It was love at first rehearsal and the band was complete.
+Formed in 2011, The Bandettes is a Swedish band consisting of: Anna (guitar/vocals), Hannah (bass/vocals), Kajsa (keys/backup vocals), and Emeli (drums/backup vocals). Although best known for “The Beard Song”, their Folk/Country Pop with a nordic shimmer attracts many more than people with good-looking gathering of hair on their chins.
 
-The Bandettes has been called one of Swedens’ most promising new bands, and when the video to The Beard Song was released, it quickly went viral and was spread all over the world.
+Childhood friends Anna and Hannah wrote their first song together in 8th grade. When the two were busking, “Shit happens” (best translation), could be heard all over the streets of Gothenburg. 
+Ten years later, Anna and Hannah reunited in Malmö and decided to start a band. The final pieces of the puzzle were added via Kajsa and Emeli. These members brought Jazz influences to Anna and Hannah’s Folk/Country Pop -  the distinct mix of genres that makes up their unique sound. It was love at first band practice and The Bandettes were complete.
 
-The song was featured in ”Beard Bowl” by Thursday Night Football on CBS in fall 2014.
-In early 2015, a video about beards was released by BBC, where ”The Beard Song” is theme song. The beardelicious tune has also been used by festivals and other events with a focus on beards.
+Their debut album, Take Me Home, was recorded in the southern Swedish countryside in Old Barn Drum Studio. Recording in the winter in Sweden has its difficulties. The band was literally snowed-in, while recording their summery songs. In order to keep creative control, the band members co-produced the album and released it in 2013 on their own label Take Me Home Productions.  
 
-Their first journey together resulted in the debut album Take me home. The album was recorded in the southern Swedish countryside in the winter of 2012, and while recording the summer sounding songs, the band was literally snowed in. In order to keep the creative control, the band members were co-producers on the album, which was released in 2013 on their own label Take me home Productions. Take me home is inspired by the steady rhythm of an old train and the landscape passing by outside the window. Influenced by the fight between the feeling of freedom while travelling and the feeling of homesickness. It is playful, yet serious.
+Bearded magazine wrote:
+“A delight of an album, Take Me Home, is rammed full of sunny shimmery tunes that could only have come out of Sweden. You feel like you are sharing a carriage with four feisty Swedish girls, their instruments and their soaring interwoven vocals as the tracks slide beneath you and the landscape zips past your window offering glimpses of the world outside. Each new song on the album bounds in with a flurry of irresistible hooks, contagious melodies and arrangements that reel you in and hold you.” 
 
-The Bandettes appeared with ”Wanted (unplugged)” on a compilation CD associated to the feminist political party in Sweden in 2014, along with artists like Robyn and The Knife.
 
-Their second release The Joker saw the light of day on May the 1st 2015. It was recorded at the prestigious Studio Möllan, in the heart of Malmö. The Joker was also released on their own label, with elegant illustrations made by Sofia Chanfreau. The Joker is inspired by the game of life, winning and losing, love and hate, partners and opponents. It is about rulers whose moves make the frustration bubble. About human kind who gambles with its resourses and build the world like an unstable house of cards. About putting on a poker face to not show your emotions. About not following the rules of the game. About that not all jokers carry bells. The music takes a more serious way, all without losing the characteristic glimpse in the eye that The Bandettes have made to their ace up their sleeve.
+When the video to their first single, The Beard Song, was released, it quickly went viral all over the world. The song was later featured in Thursday Night Football on CBS, and on BBC World Service. The Bandettes also appeared with the song ”Wanted (unplugged)” on a compilation album associated with the Swedish political party F! along with Robyn and The Knife. 
 
-Over the past years, they have performed in multiple Swedish cities as well as in northern Germany.
-
+Their second release, The Joker, dropped on May 1, 2015. It was recorded in lovely Studio Möllan in the heart of Malmö, with the engineer Emil Isaksson and his assistant, Rasmus the dog. The Joker, also released on Take Me Home Productions, is inspired by a game of cards; winning and losing, love and hate, friends and enemies. It’s about putting on a poker face, and not always following the rules. The music takes a more serious path, but without losing the characteristic glimmer in the eye that says, We are The Bandettes!  
+  
+  
+  
 ## The Bandettes are
 
-Anna Linnéa – vocals, guitars  
+Anna – guitars, vocals   
 Hannah – bass, vocals  
 Kajsa – keyboards, backing vocals  
-Emeli – drums, percussion, backing vocals  
+Emeli – drums, percussion, backing vocals

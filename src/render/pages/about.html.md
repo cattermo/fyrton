@@ -11,9 +11,9 @@ published: true
 
 
 
+
 # About us
 
-The Bandettes
 
 Formed in 2011, The Bandettes is a Swedish band consisting of: Anna (guitar/vocals), Hannah (bass/vocals), Kajsa (keys/backup vocals), and Emeli (drums/backup vocals). Although best known for “The Beard Song”, their Folk/Country Pop with a nordic shimmer attracts many more than people with good-looking gathering of hair on their chins.
 

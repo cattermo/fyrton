@@ -13,6 +13,7 @@ published: true
 
 
 
+
 # About us
 
 
@@ -31,7 +32,7 @@ When the video to their first single, The Beard Song, was released, it quickly w
 
 Their second release, The Joker, dropped on May 1, 2015. It was recorded in lovely Studio Möllan in the heart of Malmö, with the engineer Emil Isaksson and his assistant, Rasmus the dog. The Joker, also released on _Take Me Home Productions_, is inspired by a game of cards; winning and losing, love and hate, friends and enemies. It’s about putting on a poker face, and not always following the rules. The music takes a more serious path, but without losing the characteristic glimmer in the eye that says, _We are The Bandettes_!  
   
-[The Joker release party 2015](<iframe width="560" height="315" src="https://www.youtube.com/embed/a_tUBFoXRic" frameborder="0" allowfullscreen></iframe>)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a_tUBFoXRic" frameborder="0" allowfullscreen></iframe>
   
 ## The Bandettes are
 

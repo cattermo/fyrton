@@ -1,6 +1,6 @@
 ---
 layout: "text-content"
-title: "Press"
+title: Press
 url: /press
 urls: 
   - /press/
@@ -10,6 +10,16 @@ published: true
 ---
 
 
+
 # Press
 
-[Find material here](https://www.dropbox.com/sh/s3262f0d3neuqoi/AAAQIgVtJKvDF3TP-YpRNKrua?dl=0)
+[Find material here](https://www.dropbox.com/sh/s3262f0d3neuqoi/AAAQIgVtJKvDF3TP-YpRNKrua?dl=0)   
+
+   
+**Featured in**   
+[Skånska Dagbladet](http://www.skd.se/2015/05/09/solskensamericana-fran-malmo/)   
+[Sydsvenskan/CITY](http://www.sydsvenskan.se/kultur--nojen/med-the-joker-drar-de-ordleken-till-sin-spets/)   
+[Sydsvenskan Blogg](http://blogg.sydsvenskan.se/dygnetrunt/2015/08/22/musikprofiler-flyttar-fran-malmo/)   
+[Bearded Magazine](http://www.beardedmagazine.com/index.php/albums/article/the-bandettes-take-me-home-self-released)   
+[Sydsvenskan](http://www.sydsvenskan.se/kultur--nojen/vaxande-succe-for-vitsig-grupp/)   
+[Totally Örebro](http://totallyorebro.se/kultur-noje/musik/the-bandettes-raddade-pagrotskys-sommarskagg/)

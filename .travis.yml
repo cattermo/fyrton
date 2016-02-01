@@ -1,5 +1,5 @@
-language: iojs
-iojs: 3.3.0
+language: node_js
+node_js: 0.1
 script: true
 deploy:
   provider: openshift

@@ -27,10 +27,10 @@ published: true
 [Sydsvenskan](http://www.sydsvenskan.se/kultur--nojen/vaxande-succe-for-vitsig-grupp/)   
 [Totally Örebro](http://totallyorebro.se/kultur-noje/musik/the-bandettes-raddade-pagrotskys-sommarskagg/)
 
-![GP_1]({{site.baseurl}}/src/render/pages/20.jpg)
-![City_heluppslag]({{site.baseurl}}/src/render/pages/21.jpg)!
-![City_framsida]({{site.baseurl}}/src/render/pages/22.jpg)
-![Sydis_framsida]({{site.baseurl}}/src/render/pages/P1.jpg)
+![GP_1](/images/20.jpg)
+![City_heluppslag](/images/21.jpg)!
+![City_framsida](/images/22.jpg)
+![Sydis_framsida](/images/P1.jpg)
 
 
 

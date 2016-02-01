@@ -13,12 +13,13 @@ published: true
 
 
 
+
 # Press
 
 [Find material here](https://www.dropbox.com/sh/s3262f0d3neuqoi/AAAQIgVtJKvDF3TP-YpRNKrua?dl=0)   
 
    
-**Featured in**   
+## Featured in   
 [Skånska Dagbladet](http://www.skd.se/2015/05/09/solskensamericana-fran-malmo/)   
 [Sydsvenskan/CITY](http://www.sydsvenskan.se/kultur--nojen/med-the-joker-drar-de-ordleken-till-sin-spets/)   
 [Sydsvenskan Blogg](http://blogg.sydsvenskan.se/dygnetrunt/2015/08/22/musikprofiler-flyttar-fran-malmo/)   
@@ -31,6 +32,3 @@ published: true
 ![City_heluppslag](/images/21.jpg)!
 ![City_framsida](/images/22.jpg)
 ![Sydis_framsida](/images/P1.jpg)
-
-
-

@@ -218,10 +218,12 @@ docpadConfig = {
 			task = new Task (complete) ->
 				# Read the feeds and add them to the templateData
 				feedr.readFeeds templateData.feeds, (err,result) ->
+					console.log('ERR READING FEEDS', err) if err
 					return next(err)  if err
 					templateData.feeds = result
 					facebookFeed = templateData.feeds.facebook.data
 					if(facebookFeed)
+						console.log('GOT FEED', facebookFeed)
 						readFeedFixPhoto(facebookFeed, 0, [], complete)				
 					else 
 						return complete()

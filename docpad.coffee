@@ -222,10 +222,11 @@ docpadConfig = {
 				docpad.log('info', 'STARTED TASK')
 				# Read the feeds and add them to the templateData
 				feedr.readFeeds templateData.feeds, (err,result) ->
-					docpad.log('ERR READING FEEDS', err) if err
+					docpad.log('ERR READING FEEDS', err)
 					return next(err)  if err
 					templateData.feeds = result
 					facebookFeed = templateData.feeds.facebook.data
+					docpad.log('FEED HAS DATA?', facebookFeed)
 					if(facebookFeed)
 						docpad.log('GOT FEED', facebookFeed.length)
 						readFeedFixPhoto(facebookFeed, 0, [], complete)				

@@ -179,6 +179,8 @@ docpadConfig = {
 			maxSmallWidth = 500
 			Task = require('taskgroup').Task
 
+			docpad.log('info', 'RENDER BEFORE')
+
 			readFeedFixPhoto = (feeddata, index, newFeedData, complete) ->
 				post = feeddata[index]
 				index++

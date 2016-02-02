@@ -226,7 +226,7 @@ docpadConfig = {
 					return next(err)  if err
 					templateData.feeds = result
 					facebookFeed = templateData.feeds.facebook.data
-					docpad.log('FEED HAS DATA?', facebookFeed)
+					docpad.log('FEED HAS DATA?', result)
 					if(facebookFeed)
 						docpad.log('GOT FEED', facebookFeed.length)
 						readFeedFixPhoto(facebookFeed, 0, [], complete)				

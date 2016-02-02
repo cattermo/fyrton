@@ -217,8 +217,9 @@ docpadConfig = {
 				{Feedr} = require('feedr')
 			unless feedr?
 				feedr = new Feedr()
-
+			docpad.log('info', 'LOADED FEEDR')
 			task = new Task (complete) ->
+				docpad.log('info', 'STARTED TASK')
 				# Read the feeds and add them to the templateData
 				feedr.readFeeds templateData.feeds, (err,result) ->
 					docpad.log('ERR READING FEEDS', err) if err
@@ -226,7 +227,7 @@ docpadConfig = {
 					templateData.feeds = result
 					facebookFeed = templateData.feeds.facebook.data
 					if(facebookFeed)
-						docpad.log('GOT FEED', facebookFeed)
+						docpad.log('GOT FEED', facebookFeed.length)
 						readFeedFixPhoto(facebookFeed, 0, [], complete)				
 					else 
 						return complete()
@@ -236,9 +237,10 @@ docpadConfig = {
 					return next(err) 
 				return next()
 
-			if process.env.NODE_ENV == 'DEV'
-				return next()
-			
+#			if process.env.NODE_ENV == 'DEV'
+#				return next()
+
+			docpad.log('info', 'RUNNING TASK')
 			task.run()
 			
 

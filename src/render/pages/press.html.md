@@ -15,6 +15,7 @@ published: true
 
 
 
+
 # Press
 
 [Find material here](https://www.dropbox.com/sh/s3262f0d3neuqoi/AAAQIgVtJKvDF3TP-YpRNKrua?dl=0)   
@@ -29,7 +30,7 @@ published: true
 [Sydsvenskan](http://www.sydsvenskan.se/kultur--nojen/vaxande-succe-for-vitsig-grupp/)   
 [Totally Örebro](http://totallyorebro.se/kultur-noje/musik/the-bandettes-raddade-pagrotskys-sommarskagg/)
 
-![GP_1](/images/20.jpg)
-![City_heluppslag](/images/21.jpg)
-![City_framsida](/images/22.jpg)
-![Sydis_framsida](/images/P1.jpg)
+![]({{site.baseurl}}/src/files/images/1_Joker.jpg)
+![]({{site.baseurl}}/src/files/images/2_GP.jpg)
+![]({{site.baseurl}}/src/files/images/3_Sydis.jpg)
+![]({{site.baseurl}}/src/files/images/4_City.jpg)

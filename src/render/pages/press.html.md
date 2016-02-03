@@ -14,6 +14,7 @@ published: true
 
 
 
+
 # Press
 
 [Find material here](https://www.dropbox.com/sh/s3262f0d3neuqoi/AAAQIgVtJKvDF3TP-YpRNKrua?dl=0)   
@@ -29,6 +30,6 @@ published: true
 [Totally Örebro](http://totallyorebro.se/kultur-noje/musik/the-bandettes-raddade-pagrotskys-sommarskagg/)
 
 ![GP_1](/images/20.jpg)
-![City_heluppslag](/images/21.jpg)!
+![City_heluppslag](/images/21.jpg)
 ![City_framsida](/images/22.jpg)
 ![Sydis_framsida](/images/P1.jpg)

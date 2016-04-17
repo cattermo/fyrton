@@ -8,6 +8,8 @@ docpadConfig = {
 		nodesass:
 			outputStyle: 'compressed'
 
+	regenerateEvery: 1000 * 60 * 60
+
 	# =================================
 	# Template Data
 	# These are variables that will be accessible via our templates

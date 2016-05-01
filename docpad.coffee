@@ -21,7 +21,7 @@ docpadConfig = {
 				url: "https://graph.facebook.com/TheBandettesmusic/posts?limit=50&access_token="+process.env.FB_ACCESSTOKEN1 + '|' + process.env.FB_ACCESSTOKEN2
 				cache: false
 			bandsintown:
-					url: "http://api.bandsintown.com/artists/The%20Bandettes/events.json?api_version=2.0&app_id="+process.env.FB_APPID
+				url: "http://api.bandsintown.com/artists/The%20Bandettes/events.json?api_version=2.0&app_id="+process.env.FB_APPID
 
 		# Specify some site properties
 		site:
@@ -191,21 +191,25 @@ docpadConfig = {
 				if (post.message and post.message.indexOf('/The Bandettes') > 0)
 					if post.type == 'photo'
 						photo = {url: templateData.getFacebookPhoto(post.object_id)}
-						feedr.readFeeds photo, (err, res) ->
-							images = {}
-							photopost = res.url
-							for image in photopost.images
-								if !images.big and image.width < maxBigWidth and image.height < maxBigWidth
-									images.big = image
-								if !images.standard and image.width < maxStandardWidth and image.height < maxStandardWidth
-									images.standard = image
-								if !images.small and image.width < maxSmallWidth and image.height < maxSmallWidth
-									images.small = image
+						if photo
+							feedr.readFeeds photo, (err, res) ->
+								images = {}
+								photopost = res.url
+								for image in photopost.images
+									if !images.big and image.width < maxBigWidth and image.height < maxBigWidth
+										images.big = image
+									if !images.standard and image.width < maxStandardWidth and image.height < maxStandardWidth
+										images.standard = image
+									if !images.small and image.width < maxSmallWidth and image.height < maxSmallWidth
+										images.small = image
 
-							post.images = images
+								post.images = images
+								newFeedData.push post
+								readFeedFixPhoto(feeddata, index, newFeedData, complete)
+						else
 							newFeedData.push post
 							readFeedFixPhoto(feeddata, index, newFeedData, complete)
-				
+
 					else 
 						newFeedData.push post
 						readFeedFixPhoto(feeddata, index, newFeedData, complete)

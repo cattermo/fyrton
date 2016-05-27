@@ -4,7 +4,7 @@ title: "News"
 url: '/latest'
 urls: ['/latest/','/latest/index.html','/latest.html']
 ---
-feed = @feeds.facebookFixed || []
+feed = @feedData.facebook || []
 ul class:'ban_feed', ->
     index = 0
     for post in feed #when post.type is 'photo' or post.type is 'video'

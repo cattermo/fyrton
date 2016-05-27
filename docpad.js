@@ -16,6 +16,7 @@ var docpadConfig = {
         url: 'http://api.bandsintown.com/artists/The%20Bandettes/events.json?api_version=2.0&app_id=' + process.env.FB_APPID
       }
     },
+    feedData: [],
     site: {
       url: 'http://www.bandettes.com',
       analytics: process.env.GA,
@@ -137,7 +138,7 @@ var docpadConfig = {
         index++;
 
         if (index === maxIndex || index === feeddata.length) {
-          templateData.feeds.facebookFixed = newFeedData;
+          templateData.feedData.facebook = newFeedData;
           return complete();
         }
 
@@ -186,10 +187,9 @@ var docpadConfig = {
         if (err) {
           return next(err);
         }
-        templateData.feeds = result;
-        facebookFeed = templateData.feeds.facebook && templateData.feeds.facebook.data;
+        templateData.feedData = result;
+        facebookFeed = result.facebook && result.facebook.data;
         if (facebookFeed) {
-          console.log('READ FEED FIX PHOTO');
           return readFeedFixPhoto(facebookFeed, 0, [], complete);
         } else {
           return complete();
@@ -197,7 +197,6 @@ var docpadConfig = {
       }
 
       var task = new Task(function (complete) {
-        console.log('READ FEEDS', templateData.feeds);
         return feedr.readFeeds(templateData.feeds, readFeedCallback.bind(null, complete));
       });
       task.done(function (err) {

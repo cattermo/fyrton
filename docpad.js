@@ -3,6 +3,20 @@ var docpadConfig = {
   plugins: {
     nodesass: {
       outputStyle: 'compressed'
+    },
+    marked: {
+      markedRenderer: {
+        image: function(href, title, text) {
+          var urlParts = href.split('/');
+          href = urlParts.length > 1 ? '/' + urlParts[urlParts.length - 2] + '/' + urlParts[urlParts.length - 1] : href;
+          var out = '<img class="testar_lite" src="' + href + '" alt="' + text + '"';
+          if (title) {
+            out += ' title="' + title + '"';
+          }
+          out += this.options.xhtml ? '/>' : '>';
+          return out;
+        }
+      }
     }
   },
   regenerateEvery: 1000 * 60 * 60,

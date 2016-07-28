@@ -35,10 +35,10 @@
         <header class="fyr_container__left">
             <div class="fyr_header">
                 <figure class="fyr_profile-picture">
-                    <img class="fyr_profile-picture__img" src="/anna.jpg"/>
+                    <img class="fyr_profile-picture__img" src="/images/anna.jpg"/>
                     <span class="fyr_profile-picture__blur"></span>
                 </figure>
-                <h1 class="fyr_header__name"><a href="<%= @site.baseurl %>/">Anna <br/>Cederberg-Orreteg</a></h1>
+                <h1 class="fyr_header__name"><a class="fyr_header__link" href="<%= @site.baseurl %>/">Anna <br/>Cederberg-Orreteg</a></h1>
                 <p class="fyr_header__desc"><%= @site.description %></p>
             </div>
             <%= @partial('menu') %>
@@ -56,5 +56,5 @@
                     -->
 </footer>
 <div class="fyr_cover"></div>
-<script type="text/javascript" defer="defer" src="<%= @asset('scripts/script.js') %>"/>
+<script type="text/javascript" defer="defer" src="<%= @asset('scripts/script.js') %>"></script>
 </body>

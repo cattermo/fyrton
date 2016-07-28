@@ -3,7 +3,7 @@ html {
 }
 
 html, body {
-    height: 100%;
+    min-height: 100%;
 }
 
 html {
@@ -37,7 +37,10 @@ body {
     @include fyr_text-body;
     //background: rgb(196, 219, 147);
     color: $fyr_color-text;
-    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 h1 {

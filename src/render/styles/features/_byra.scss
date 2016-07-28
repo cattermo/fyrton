@@ -1,0 +1,15 @@
+.fyr_byra {
+    font-size: 0.8rem;
+    background-image: url('/images/byra.svg');
+    width: 20em;
+    height: 20em;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    &:hover {
+        background-image: url('/images/byra_open.svg');
+        width: 15.2em;
+        margin-left: -0.1em;
+        margin-top: 1.2em;
+    }
+}

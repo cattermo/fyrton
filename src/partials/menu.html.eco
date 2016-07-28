@@ -4,4 +4,6 @@
 <a class="fyr_menu__link" href="<%= item.url %>}}"><%= item.title %></a>
 	</li><% end %>
 </ul>
+    <div class="fyr_byra">
+    </div>
 </nav>

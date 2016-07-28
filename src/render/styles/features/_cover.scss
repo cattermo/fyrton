@@ -1,0 +1,21 @@
+.fyr_cover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #c4db93;
+	top: -100%;
+    //@include animation-name(fyr_slide-up);
+    //@include animation-duration(1s);
+    //@include animation-fill-mode(forwards);
+    //@include animation-timing-function(linear);
+}
+
+@include keyframes(fyr_slide-up) {
+    from {
+        @include translate(0, 100%);
+    } 
+    to {
+        @include translate(0, 0);
+    }
+  }

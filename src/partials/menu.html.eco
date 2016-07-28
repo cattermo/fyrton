@@ -1,0 +1,7 @@
+<nav class="fyr_menu">
+<ul class="fyr_menu__list">
+        <% for item in @site.pages: %><li class="fyr_menu__list-item">
+<a class="fyr_menu__link" href="<%= item.url %>}}"><%= item.title %></a>
+	</li><% end %>
+</ul>
+</nav>

@@ -1,0 +1,28 @@
+@mixin fyr_text-body {
+    font-family: "Optima", "Calibri","Candara", sans-serif;
+	//font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	@include font-size(12);
+	line-height: 1.4;
+}
+
+@mixin fyr_text-h1 {
+    font-family: "Georgia", serif;
+    @include font-size(17);
+    line-height: 1.2;
+    font-style: italic;
+
+    @include fyr_mq-gte-small {
+        @include font-size(18);
+    }
+}
+
+@mixin fyr_text-h2 {
+    font-family: "Georgia", serif;
+    font-style: italic;
+    @include font-size(15);
+    line-height: 1.2;
+
+    @include fyr_mq-gte-small {
+        @include font-size(16);
+    }
+}

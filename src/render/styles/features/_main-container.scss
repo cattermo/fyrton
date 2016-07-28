@@ -1,0 +1,6 @@
+.fyr_main-container {
+    @include clearfix;
+	padding-bottom: $fyr_footer-height;
+	min-height: 100%;
+	width: 100%;
+}

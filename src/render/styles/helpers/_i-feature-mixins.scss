@@ -1,0 +1,14 @@
+@mixin left-column-width {
+	
+	@include fyr_mq-small {
+		width: $fyr_left-column-xsmall;
+	}
+	
+	@include fyr_mq-medium {
+		width: $fyr_left-column-small;
+	}
+	
+	@include fyr_mq-gte-large {
+		width: $fyr_left-column-medium;
+	}
+} 

@@ -1,0 +1,29 @@
+.fyr_profile-picture {
+    @include clearfix;
+    float: left;
+    max-width: 40%;
+    margin-right: 4%;
+    position: relative;
+
+    @include fyr_mq-gte-small {
+        max-width: none;
+        width: 200px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.fyr_profile-picture__img {
+    @include fyr_image-border;
+    display: block;
+}
+
+.fyr_profile-picture__blur {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: -webkit-radial-gradient(circle, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.5));
+}

@@ -1,9 +1,9 @@
 {
-  "name": "Bandettes",
+  "name": "Fyrton",
   "version": "0.1.0",
   "private": true,
-  "description": "The Bandettes official website",
-  "homepage": "http://thebandettes.com",
+  "description": "Anna Cederberg-Orreteg official website",
+  "homepage": "",
   "engines": {
     "node": "0.10",
     "npm": "1.3"

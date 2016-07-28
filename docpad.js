@@ -2,6 +2,9 @@ var docpadConfig = {
   documentPaths: ['render'],
   plugins: {
     nodesass: {
+      options: {
+        includePaths: ['node_modules']
+      },
       outputStyle: 'compressed'
     },
     marked: {
@@ -21,21 +24,11 @@ var docpadConfig = {
   },
   regenerateEvery: 1000 * 60 * 60,
   templateData: {
-    feeds: {
-      facebook: {
-        url: 'https://graph.facebook.com/TheBandettesmusic/posts?limit=50&access_token=' + process.env.FB_ACCESSTOKEN1 + '|' + process.env.FB_ACCESSTOKEN2,
-        cache: false
-      },
-      bandsintown: {
-        url: 'http://api.bandsintown.com/artists/The%20Bandettes/events.json?api_version=2.0&app_id=' + process.env.FB_APPID
-      }
-    },
-    feedData: [],
     site: {
       url: 'http://www.bandettes.com',
       analytics: process.env.GA,
-      title: 'The Bandettes',
-      description: 'Official webpage for the Swedish Pop/Americana-band The Bandettes.',
+      title: 'Anna Cederberg-Orreteg',
+      description: 'Tonsättare, musiklärare, körledare',
       keywords: 'The Bandettes, band, girlband, music, country, trains, pop ',
       pages: [
         {
@@ -101,12 +94,6 @@ var docpadConfig = {
     },
     getPreparedKeywords: function () {
       return this.site.keywords.concat(this.document.keywords || []).join(', ');
-    },
-    getFacebookPhoto: function (id) {
-      return 'https://graph.facebook.com/' + id + '?access_token=' + process.env.FB_ACCESSTOKEN1 + '|' + process.env.FB_ACCESSTOKEN2;
-    },
-    getSrcset: function (image, isLast) {
-      return image.source + ' ' + image.width + 'w ' + (isLast ? '' : ', ');
     }
   },
   collections: {
@@ -135,93 +122,6 @@ var docpadConfig = {
     }
   },
   events: {
-    renderBefore: function (arg, next) {
-      var Feedr = require('feedr').Feedr;
-      var templateData = arg.templateData;
-      var Task = require('taskgroup').Task;
-      var feedr = new Feedr();
-
-      function readFeedFixPhoto(feeddata, index, newFeedData, complete) {
-        var maxIndex = 50;
-        var maxBigWidth = 740;
-        var maxStandardWidth = 640;
-        var maxSmallWidth = 500;
-        var post = feeddata[index];
-        var photo;
-
-        index++;
-
-        if (index === maxIndex || index === feeddata.length) {
-          templateData.feedData.facebook = newFeedData;
-          return complete();
-        }
-
-        if (post.message && post.message.indexOf('/The Bandettes') > 0) {
-          if (post.type === 'photo') {
-            photo = {
-              url: templateData.getFacebookPhoto(post.object_id)
-            };
-            if (photo) {
-              return feedr.readFeeds(photo, function (err, res) {
-                var i, image, images, len, photopost, ref;
-                images = {};
-                photopost = res.url;
-                ref = photopost.images;
-                for (i = 0, len = ref.length; i < len; i++) {
-                  image = ref[i];
-                  if (!images.big && image.width < maxBigWidth && image.height < maxBigWidth) {
-                    images.big = image;
-                  }
-                  if (!images.standard && image.width < maxStandardWidth && image.height < maxStandardWidth) {
-                    images.standard = image;
-                  }
-                  if (!images.small && image.width < maxSmallWidth && image.height < maxSmallWidth) {
-                    images.small = image;
-                  }
-                }
-                post.images = images;
-                newFeedData.push(post);
-                return readFeedFixPhoto(feeddata, index, newFeedData, complete);
-              });
-            } else {
-              newFeedData.push(post);
-              return readFeedFixPhoto(feeddata, index, newFeedData, complete);
-            }
-          } else {
-            newFeedData.push(post);
-            return readFeedFixPhoto(feeddata, index, newFeedData, complete);
-          }
-        } else {
-          return readFeedFixPhoto(feeddata, index, newFeedData, complete);
-        }
-      }
-
-      function readFeedCallback(complete, err, result) {
-        var facebookFeed;
-        if (err) {
-          return next(err);
-        }
-        templateData.feedData = result;
-        facebookFeed = result.facebook && result.facebook.data;
-        if (facebookFeed) {
-          return readFeedFixPhoto(facebookFeed, 0, [], complete);
-        } else {
-          return complete();
-        }
-      }
-
-      var task = new Task(function (complete) {
-        return feedr.readFeeds(templateData.feeds, readFeedCallback.bind(null, complete));
-      });
-      task.done(function (err) {
-        if (err) {
-          return next(err);
-        }
-        return next();
-      });
-
-      return task.run();
-    },
     serverExtend: function (opts) {
       var server = opts.server;
       var docpad = this.docpad;

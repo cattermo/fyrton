@@ -1,21 +1,19 @@
-/***
-autoprefix: true
-cleancss: true
-***/
+@import "helpers/i-mixins";
+@import "base/i-variables";
+@import "base/i-breakpoints";
+@import "helpers/i-mediaqueries";
+@import "helpers/i-feature-mixins";
+@import "base/i-typography";
 
-@import "base/_variables";
-@import "base/_mixins";
-@import "base/_mediaqueries";
-@import "base/_font";
-@import "base/_normalize";
-@import "base/_headings";
-@import "base/_visually-hidden";
+@import "normalize.css/normalize";
+@import "base/base";
 
-@import "features/_screenwidth";
-@import "features/_header";
-@import "features/_background";
-@import "features/_main";
-@import "features/_feed";
-@import "features/_menu";
-@import "features/_footer";
-@import "features/_image-gallery";
+@import "features/main-container";
+@import "features/container";
+@import "features/header";
+@import "features/profile-picture";
+@import "features/menu";
+@import "features/footer";
+@import "features/cover";
+@import "features/keys";
+@import "features/snowflake";

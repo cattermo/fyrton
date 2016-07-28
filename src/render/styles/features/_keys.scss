@@ -1,0 +1,72 @@
+.fyr_keys {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    perspective: 600px;
+    @include left-column-width;
+    
+    @include font-size(13);
+
+    @include fyr_mq-small {
+        @include font-size(16);
+    }
+
+    @include fyr_mq-gte-medium {
+        @include font-size(20);
+    }
+}
+
+$_key-width: 0.5em;
+$_key-height: 3em;
+$_animation-delay-base: 0.2s;
+
+.fyr_keys__key {
+    display: inline-block;
+    position: relative;
+    width: $_key-width;
+    height: $_key-height;
+    margin-left: 0.5em;
+    background-color: #000000;
+    
+    &.fyr_keys__key--3 {
+        margin-left: 1.5em;
+    }
+    
+    .fyr_keys--animate & {
+        transform: translateX(300px) rotate(90deg) ;
+        transform-origin: bottom left;
+        
+        @include animation-name(fyr_fade-in);
+        @include animation-duration(0.7s);
+        @include animation-fill-mode(forwards);
+        //@include animation-timing-function(linear);
+        
+        &.fyr_keys__key--2 {
+            @include animation-delay($_animation-delay-base * 1);
+        }
+        
+        &.fyr_keys__key--3 {
+            @include animation-delay($_animation-delay-base * 2);
+        }
+        
+        &.fyr_keys__key--4 {
+            @include animation-delay($_animation-delay-base * 3);
+        }
+        
+        &.fyr_keys__key--5 {
+            @include animation-delay($_animation-delay-base * 4);
+        }
+    }
+}
+
+@include keyframes(fyr_fade-in) {
+    0% {
+        transform: translateX(300px) rotate(90deg);
+    } 
+    80% {
+        transform: translateX(0) rotate(90deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+  }

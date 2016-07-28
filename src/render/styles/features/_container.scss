@@ -1,0 +1,38 @@
+.fyr_container {
+    @include clearfix;
+    padding: 0 10px;
+    width: 100%;
+
+    @include fyr_mq-gte-xlarge {
+        max-width: 65em;
+        margin-left: 2em;
+    }
+}
+
+$_left-column-width: 14em;
+$_left-column-width-medium: 17em;
+
+.fyr_container__left {
+    border-radius: 1em;
+
+    @include fyr_mq-gte-medium {
+        width: $_left-column-width-medium;
+        padding-right: 1em;
+        float: left;
+    }
+}
+
+.fyr_container__right {
+    margin-top: 2em;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0.5em;
+
+    @include fyr_mq-gte-medium {
+        margin-top: 0;
+        background-color: transparent;
+        float: left;
+        width: 23em;
+        width: calc(100% - #{$_left-column-width-medium});
+        padding: 0 0 0 1em;
+    }
+}

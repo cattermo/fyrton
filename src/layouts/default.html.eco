@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>
+        <%= @getPreparedTitle() %>
+    </title>
+    <meta name="description" content="<%= @site.description %>"/>
+    <meta property="og:title" content="<%= @document.title %>"/>
+    <meta property="og:description" content="<%= @site.description %>"/>
+    <meta property="og:image" content=""/>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" media="all" href="<%= @asset('styles/styles.css') %>"/>
+    <!--[if lt IE 9]>
+    <script type="text/javascript"
+            src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+    </script>
+    <![endif]-->
+</head>
+<body>
+<div class="fyr_main-container">
+    <div class="fyr_keys<% if @document.url == '/': %> fyr_keys--animate<% end %>">
+<span class="fyr_keys__key fyr_keys__key--1">
+</span><span class="fyr_keys__key fyr_keys__key--2">
+          </span><span class="fyr_keys__key fyr_keys__key--3">
+</span><span class="fyr_keys__key fyr_keys__key--4">
+          </span><span class="fyr_keys__key fyr_keys__key--5"></span>
+    </div>
+    <!-- <img class="fyr_masterhead__img" src="/images/anna.jpg" /> -->
+
+    <div id="main" role="main" class="fyr_container">
+        <header class="fyr_container__left">
+            <div class="fyr_header">
+                <figure class="fyr_profile-picture">
+                    <img class="fyr_profile-picture__img" src="/anna.jpg"/>
+                    <span class="fyr_profile-picture__blur"></span>
+                </figure>
+                <h1 class="fyr_header__name"><a href="<%= @site.baseurl %>/">Anna <br/>Cederberg-Orreteg</a></h1>
+                <p class="fyr_header__desc"><%= @site.description %></p>
+            </div>
+            <%= @partial('menu') %>
+        </header>
+        <div class="fyr_container__right">
+            <%= @content %>
+        </div>
+    </div>
+</div>
+<footer class="fyr_footer">
+    <!--
+    <div>
+        Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
+          </div>
+                    -->
+</footer>
+<div class="fyr_cover"></div>
+<script type="text/javascript" defer="defer" src="<%= @asset('scripts/script.js') %>"/>
+</body>

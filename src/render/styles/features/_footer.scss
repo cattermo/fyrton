@@ -1,47 +1,5 @@
-.ban_footer {
-    text-align: center;
-    padding: 2em 1em 1em;
-    @include font-size(17);
-
-    //@include ban_mq-xsmall {
-    //    transform: translateY(-$ban_mobile-menu-height);
-    //
-    //    .ban_menu.ban_is-expanded ~ & {
-    //        transform: translateY(0);
-    //    }
-    //}
-}
-
-.ban_footer__contact {
-    color: $ban_color-link;
-    text-decoration: none;
-
-    &:hover {
-        text-decoration: underline;
-    }
-}
-
-.ban_footer__list {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-    margin-top: 1em;
-}
-
-.ban_footer__list-item {
-    display: inline-block;
-    border-left: 1px solid $ban_color-text;
-
-    &:first-child {
-        border-left: none;
-    }
-}
-
-.ban_footer__list-item-link {
-    color: $ban_color-text;
-    text-decoration: none;
-    padding: 0 1em;
-    display: block;
-    @include font-size(14);
-    line-height: 0.8;
+.fyr_footer {
+	height: $fyr_footer-height;
+	margin-top: -$fyr_footer-height;
+	padding-top: 2em;
 }

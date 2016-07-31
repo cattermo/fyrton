@@ -17,7 +17,7 @@
   "dependencies": {
     "bal-util": "2.5.1",
     "compression": "1.4.1",
-    "docpad": "6.78.4",
+    "docpad": "6.78.6",
     "docpad-plugin-assets": "2.1.2",
     "docpad-plugin-autoprefix": "2.0.0",
     "docpad-plugin-cleancss": "2.1.0",
@@ -26,8 +26,8 @@
     "docpad-plugin-eco": "2.1.0",
     "docpad-plugin-feedr": "2.11.0",
     "docpad-plugin-marked": "2.3.0",
-    "docpad-plugin-nodesass": "2.8.1",
-    "docpad-plugin-partials": "2.9.0",
+    "docpad-plugin-nodesass": "2.8.2",
+    "docpad-plugin-partials": "2.9.2",~
     "docpad-plugin-sitemap": "2.2.0",
     "docpad-plugin-text": "2.3.3",
     "docpad-plugin-uglify": "2.4.0",

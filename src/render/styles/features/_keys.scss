@@ -1,15 +1,12 @@
 .fyr_keys {
+    position: absolute;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     text-align: center;
     perspective: 600px;
+    width: 100%;
     @include left-column-width;
-    
-    @include font-size(13);
-
-    @include fyr_mq-small {
-        @include font-size(16);
-    }
+    @include font-size(16);
 
     @include fyr_mq-gte-medium {
         @include font-size(20);
@@ -33,40 +30,76 @@ $_animation-delay-base: 0.2s;
     }
     
     .fyr_keys--animate & {
-        transform: translateX(300px) rotate(90deg) ;
+        transform: translateX(100vw) rotate(90deg);
         transform-origin: bottom left;
-        
-        @include animation-name(fyr_fade-in);
-        @include animation-duration(0.7s);
-        @include animation-fill-mode(forwards);
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-timing-function: linear;
         //@include animation-timing-function(linear);
+
+        @include fyr_mq-gte-small {
+            animation-duration: 1.5s;
+        }
+
+        &.fyr_keys__key--1 {
+            animation-name: fyr_fade-in-1;
+        }
         
         &.fyr_keys__key--2 {
-            @include animation-delay($_animation-delay-base * 1);
+            animation-name: fyr_fade-in-2;
+            animation-delay: $_animation-delay-base * 1;
         }
         
         &.fyr_keys__key--3 {
-            @include animation-delay($_animation-delay-base * 2);
+            animation-name: fyr_fade-in-3;
+            animation-delay: $_animation-delay-base * 2;
         }
         
         &.fyr_keys__key--4 {
-            @include animation-delay($_animation-delay-base * 3);
+            animation-name: fyr_fade-in-4;
+            animation-delay: $_animation-delay-base * 3;
         }
         
         &.fyr_keys__key--5 {
-            @include animation-delay($_animation-delay-base * 4);
+            animation-name: fyr_fade-in-5;
+            animation-delay: $_animation-delay-base * 4;
         }
     }
 }
 
-@include keyframes(fyr_fade-in) {
-    0% {
-        transform: translateX(300px) rotate(90deg);
-    } 
-    80% {
-        transform: translateX(0) rotate(90deg);
+$_random-y-max: 30;
+
+@for $i from 1 to 6 {
+    @keyframes fyr_fade-in-#{$i} {
+        0% {
+            transform: translateX(100vw) rotate(90deg);
+        }
+
+        20% {
+            transform: translate(75vw, #{random($_random-y-max)}px) rotate(90deg);
+        }
+
+        40% {
+            transform: translate(50vw, -#{random($_random-y-max)}px) rotate(90deg);
+        }
+
+        45% {
+            transform: translate(43.75vw, #{random($_random-y-max)}px) rotate(90deg);
+        }
+
+        55% {
+            transform: translate(31.25vw, -#{random($_random-y-max)}px) rotate(90deg);
+        }
+
+        75% {
+            transform: translate(6.25vw, #{random($_random-y-max)}px) rotate(90deg);
+        }
+
+        80% {
+            transform: translate(0, 0) rotate(90deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
     }
-    100% {
-        transform: rotate(0);
-    }
-  }
+}

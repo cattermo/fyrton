@@ -44,17 +44,12 @@
             <%= @partial('menu') %>
         </header>
         <div class="fyr_container__right">
-            <%= @content %>
+            <h1 class="fyr_container__header"><%= @document.title %></h1>
+            <%- @content %>
         </div>
     </div>
 </div>
-<footer class="fyr_footer">
-    <!--
-    <div>
-        Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
-          </div>
-                    -->
-</footer>
+
 <div class="fyr_cover"></div>
 <script type="text/javascript" defer="defer" src="<%= @asset('scripts/script.js') %>"></script>
 </body>

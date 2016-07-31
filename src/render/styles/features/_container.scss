@@ -1,38 +1,64 @@
 .fyr_container {
     @include clearfix;
-    padding: 0 10px;
     width: 100%;
+
+    @include fyr_mq-gte-small {
+        display: flex;
+    }
 
     @include fyr_mq-gte-xlarge {
         max-width: 65em;
-        margin-left: 2em;
     }
 }
 
-$_left-column-width: 14em;
-$_left-column-width-medium: 17em;
-
 .fyr_container__left {
-    border-radius: 1em;
+    @include clearfix;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 4em;
+    @include left-column-width;
+    background-color: $fyr_color-green-bg;
 
-    @include fyr_mq-gte-medium {
-        width: $_left-column-width-medium;
-        padding-right: 1em;
+    @include fyr_mq-gte-small {
         float: left;
+        padding-top: 5em;
     }
 }
 
 .fyr_container__right {
+    @include clearfix;
     margin-top: 2em;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    @include fyr_mq-gte-small {
+        margin-top: 0;
+        float: left;
+        width: calc(100% - #{$fyr_left-column-xsmall});
+    }
 
     @include fyr_mq-gte-medium {
-        margin-top: 0;
-        background-color: transparent;
-        float: left;
-        width: 23em;
-        width: calc(100% - #{$_left-column-width-medium});
-        padding: 0 0 0 1em;
+        width: calc(100% - #{$fyr_left-column-small});
+    }
+
+    @include fyr_mq-gte-xlarge {
+        width: calc(100% - #{$fyr_left-column-medium});
+    }
+
+    img {
+        max-height: 50vh;
+
+        @include fyr_mq-gte-medium {
+            float: left;
+            margin-right: 1em;
+        }
+    }
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }

@@ -1,6 +1,6 @@
 @mixin font-size($size) {
 	font-size: #{$size}px; //fallback
-	font-size: #{$size/10}rem;
+	font-size: #{$size/16}rem;
 }
 
 @mixin clearfix() {
@@ -138,6 +138,6 @@
 }
 
 @mixin fyr_image-border {
-	border: 8px solid #fff;
+	border: 8px solid $fyr_color-white;
 	@include box-shadow(0, 0, 10px, rgba(0,0,0,0.3));
 }

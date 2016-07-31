@@ -33,31 +33,22 @@ var docpadConfig = {
       pages: [
         {
           url: '/',
-          title: 'Home'
+          title: 'Hem'
         }, {
-          url: '/latest',
-          title: 'News'
+          url: '/blogg',
+          title: 'Blogg'
         }, {
-          url: '/music',
-          title: 'Music'
+          url: '/om-mig',
+          title: 'Om mig'
         }, {
-          url: '/live',
-          title: 'Live'
+          url: '/musik',
+          title: 'Musik'
         }, {
-          url: '/about-us',
-          title: 'About'
+          url: '/noter',
+          title: 'Noter'
         }, {
-          url: '/photos',
-          title: 'Photos'
-        }, {
-          url: '/merch',
-          title: 'Merch'
-        }, {
-          url: '/press',
-          title: 'Press'
-        }, {
-          url: '/contact',
-          title: 'Contact'
+          url: '/pressbilder',
+          title: 'Pressbilder'
         }
       ],
       links: [

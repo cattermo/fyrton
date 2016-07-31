@@ -1,28 +1,22 @@
 .fyr_profile-picture {
     @include clearfix;
-    float: left;
-    margin-right: 4%;
+    display: inline-block;
     position: relative;
-
-    @include fyr_mq-gte-small {
-        max-width: none;
-        width: 200px;
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
+$_border-size: 4px;
+
 .fyr_profile-picture__img {
-    @include fyr_image-border;
+    border: $_border-size solid $fyr_color-purple;
     display: block;
 }
 
+
 .fyr_profile-picture__blur {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-image: -webkit-radial-gradient(circle, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.5));
+    top: $_border-size;
+    bottom: $_border-size;
+    left: $_border-size;
+    right: $_border-size;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.5));
 }

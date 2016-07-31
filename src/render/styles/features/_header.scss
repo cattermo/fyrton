@@ -1,18 +1,13 @@
 .fyr_header {
     @include clearfix;
+    text-align: center;
 }
 
 .fyr_header__name {
-    @include font-size(17);
+    @include font-size(24);
+    margin-top: 0.3em;
+    display: block;
     //font-family Optima
-    float: left;
-    width: 54%;
-
-    @include fyr_mq-gte-medium {
-        margin-top: 0.3em;
-        float: none;
-        width: 100%;
-    }
 }
 
 .fyr_header__link {
@@ -21,17 +16,6 @@
 
 .fyr_header__desc {
     display: block;
-    float: left;
-    width: 54%;
     margin-top: 0.5em;
     margin-bottom: 0;
-
-    @include fyr_mq-extra-extra-small {
-        clear: both;
-        width: 100%;
-    }
-
-    @include fyr_mq-gte-small {
-        width: 100%;
-    }
 }

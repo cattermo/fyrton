@@ -1,15 +1,48 @@
 .fyr_byra {
-    font-size: 0.8rem;
-    background-image: url('/images/byra.svg');
-    width: 20em;
+    display: inline-block;
+    font-size: 0.5rem;
+    //background-image: url('/images/byra.svg');
+    width: 15em;
     height: 20em;
-    background-size: contain;
-    background-repeat: no-repeat;
+    position: relative;
+    //background-size: contain;
+    //background-repeat: no-repeat;
 
     &:hover {
-        background-image: url('/images/byra_open.svg');
-        width: 15.2em;
-        margin-left: -0.1em;
-        margin-top: 1.2em;
+        //background-image: url('/images/byra_open.svg');
+        //width: 15.2em;
+        //margin-left: -0.1em;
+        //margin-top: 0.2em;
     }
+
+    &> img {
+        transition: opacity 0.2s ease-in-out;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    &> img:first-child {
+        opacity: 1;
+        width: 98%;
+    }
+
+    &:hover > img:first-child {
+        opacity: 0;
+    }
+
+    &> img:last-child {
+        opacity: 0;
+        top: 0.15em;
+        margin-left: -0.1em;
+    }
+
+    &:hover > img:last-child {
+        opacity: 1;
+    }
+
+
 }
+

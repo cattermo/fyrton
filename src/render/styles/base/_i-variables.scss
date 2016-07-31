@@ -4,33 +4,18 @@
 //
 $fyr_font-base-size: 16 !default;
 $fyr_footer-height: 150px;
-$fyr_left-column-xsmall: 270px;
-$fyr_left-column-small: 330px;
-$fyr_left-column-medium: 370px;
+$fyr_left-column-xsmall: 16.875rem;
+$fyr_left-column-small: 20.625rem;
+$fyr_left-column-medium: 23.125rem;
 
 // Colors
-$fyr_color-blue: #b3c5e8;
-$fyr_color-darker-blue: darken($fyr_color-blue, 20%);
-$fyr_color-lighter-blue: lighten($fyr_color-blue, 10%);
-$fyr_color-darker-green: rgba(196, 219, 147, 0.5);
-$fyr_color-green: #C4DB93;
+$fyr_color-green: #7CB200;
+$fyr_color-purple: #765283;
+$fyr_color-green-bg: #E2EDC9;
+//$fyr_color-green: #C4DB93;
 $fyr_color-sheet: #000000;
 $fyr_color-sheet-note: #000000;
 $fyr_color-text: #222222;
 $fyr_color-black: #000000;
-$fyr_color-white: #ffffff;
-$fyr_color-light-brown: #f5f2ec;
-$fyr_color-green: #C4DB93;
+$fyr_color-white: #FBFFF2;
 
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;    
-$lightGray: #eee;
-$white: #fff;
-
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;

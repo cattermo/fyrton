@@ -4,11 +4,11 @@
 		width: $fyr_left-column-xsmall;
 	}
 	
-	@include fyr_mq-medium {
+	@include fyr_mq-gte-medium {
 		width: $fyr_left-column-small;
 	}
 	
-	@include fyr_mq-gte-large {
+	@include fyr_mq-gte-xlarge {
 		width: $fyr_left-column-medium;
 	}
 } 

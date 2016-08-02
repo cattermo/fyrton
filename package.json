@@ -32,6 +32,7 @@
     "docpad-plugin-text": "2.3.3",
     "docpad-plugin-uglify": "2.4.0",
     "feedr": "2.11.0",
+    "normalize.css": "^4.2.0",
     "serve-static": "1.9.1",
     "taskgroup": "4.3.0"
   },

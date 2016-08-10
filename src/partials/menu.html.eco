@@ -1,10 +1,10 @@
 <nav class="fyr_menu">
 <ul class="fyr_menu__list">
         <% for item in @site.pages: %><li class="fyr_menu__list-item">
-<a class="fyr_menu__link <% if item.url == @document.url: %>fyr_is-active<% end %>" href="<%= item.url %>"><%= item.title %></a>
+<a class="fyr_menu__link <% if item.url == @document.url: %>fyr_is-active<% end %>" href="<%= item.url %>#anna"><%= item.title %></a>
 	</li><% end %>
 </ul>
-    <a class="fyr_byra" href="/byraladan">
+    <a class="fyr_byra" href="/byraladan#anna">
         <img src="/images/byra.svg"></img>
         <img src="/images/byra_open.svg"></img>
     </a>

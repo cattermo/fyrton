@@ -1,0 +1,18 @@
+.fyr_image-gallery {
+
+}
+
+.fyr_image-gallery__image-wrapper {
+    display: block;
+    padding-top: 1em;
+
+    @include fyr_mq-gte-small {
+        display: inline-block;
+    }
+}
+
+.fyr_image-gallery__image {
+    @include fyr_mq-gte-small {
+        margin-right: 1em;
+    }
+}

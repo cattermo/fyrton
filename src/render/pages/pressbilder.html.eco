@@ -1,0 +1,15 @@
+---
+layout: default
+url: /pressbilder
+title: 'Pressbilder'
+published: true
+---
+
+<p>Klicka på bilden för högre upplösning.</p>
+<div class="fyr_image-gallery">
+    <% for image in @getCollection('files').findAll({relativeOutDirPath: 'images/press'}).toJSON(): %>
+    <a href="<%= image.relativePath %>" class="fyr_image-gallery__image-wrapper">
+        <img id="<%=image.name %>" class="fyr_image-gallery__image" src="<%= @getThumbnail(image.relativePath) %>" />
+    </a>
+    <% end %>
+</div>

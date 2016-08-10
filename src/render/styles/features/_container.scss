@@ -47,15 +47,16 @@
 
     img {
         max-height: 50vh;
-
-        @include fyr_mq-gte-medium {
-            float: left;
-            margin-right: 1em;
-        }
     }
 
     a {
+        word-wrap: break-word;
         text-decoration: none;
+        color: $fyr_color-purple;
+
+        &:visited {
+            color: darken($fyr_color-purple, 10%)
+        }
 
         &:hover {
             text-decoration: underline;

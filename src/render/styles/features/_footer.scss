@@ -1,5 +1,10 @@
 .fyr_footer {
-	height: $fyr_footer-height;
-	margin-top: -$fyr_footer-height;
+	border-top: 1px solid $fyr_color-green-bg;
 	padding-top: 2em;
+	padding-bottom: 2em;
+	margin-top: 2em;
+}
+
+.fyr_footer__to-top {
+
 }

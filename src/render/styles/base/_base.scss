@@ -33,11 +33,28 @@ body {
     box-sizing: border-box;
 }
 
+p {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
 h1 {
     @include fyr_text-h1;
     a {
         color: inherit;
     }
+}
+
+h2 {
+    @include fyr_text-h2;
+    margin-top: 0.7em;
+    margin-bottom: 0.3em;
+}
+
+h3 {
+    @include fyr_text-h3;
+    margin-top: 0.7em;
+    margin-bottom: 0.3em;
 }
 
 img {

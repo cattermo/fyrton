@@ -7,6 +7,16 @@ var docpadConfig = {
       },
       outputStyle: 'compressed'
     },
+    thumbnails: {
+      imageMagick: true,
+      presets: {
+        'default': {
+          w: 300,
+          h: 300,
+          q: 90
+        }
+      }
+    },
     marked: {
       markedRenderer: {
         image: function(href, title, text) {
@@ -44,11 +54,20 @@ var docpadConfig = {
           url: '/musik',
           title: 'Musik'
         }, {
+          url: '/salvia',
+          title: 'SALVIA'
+        }, {
+          url: '/cantores-amici',
+          title: 'Cantores Amici'
+        }, {
           url: '/noter',
           title: 'Noter'
         }, {
           url: '/pressbilder',
           title: 'Pressbilder'
+        }, {
+          url: '/in-english',
+          title: '🇬🇧 In English'
         }
       ],
       links: [

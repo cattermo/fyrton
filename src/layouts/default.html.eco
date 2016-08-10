@@ -43,13 +43,15 @@
             </div>
             <%= @partial('menu') %>
         </header>
-        <div class="fyr_container__right">
+        <div class="fyr_container__right" id="anna">
             <h1 class="fyr_container__header"><%= @document.title %></h1>
             <%- @content %>
+            <footer class="fyr_footer">
+                <a class="fyr_footer__to-top" href="#main">Till toppen ↑</a>
+            </footer>
         </div>
     </div>
 </div>
 
-<div class="fyr_cover"></div>
 <script type="text/javascript" defer="defer" src="<%= @asset('scripts/script.js') %>"></script>
 </body>

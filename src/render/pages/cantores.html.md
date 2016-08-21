@@ -25,3 +25,5 @@ Bertil Ahnborg, Jonas Ekström, Fredrik Lardén, Per Olsson
 
 **Kontakt:** [cantoresamici@fyrton.se](mailto:cantoresamici@fyrton.se) 
 
+![cantores_2.jpg]({{site.baseurl}}/src/render/pages/cantores_2.jpg)
+

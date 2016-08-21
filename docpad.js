@@ -51,17 +51,17 @@ var docpadConfig = {
           url: '/om-mig',
           title: 'Om mig'
         }, {
-          url: '/musik',
-          title: 'Musik'
+          url: '/priser',
+          title: 'Priser'
+        }, {
+          url: '/musik-i-urval',
+          title: 'Musik i urval'
         }, {
           url: '/salvia',
           title: 'SALVIA'
         }, {
           url: '/cantores-amici',
           title: 'Cantores Amici'
-        }, {
-          url: '/noter',
-          title: 'Noter'
         }, {
           url: '/pressbilder',
           title: 'Pressbilder'

@@ -45,6 +45,12 @@
         width: calc(100% - #{$fyr_left-column-medium});
     }
 
+    &.fyr_container__right--padding-top {
+        @include fyr_mq-gte-small {
+            padding-top: 4em;
+        }
+    }
+
     img {
         max-height: 50vh;
     }

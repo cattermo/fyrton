@@ -12,7 +12,12 @@
     <meta property="og:title" content="<%= @document.title %>"/>
     <meta property="og:description" content="<%= @site.description %>"/>
     <meta property="og:image" content=""/>
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" media="all" href="<%= @asset('styles/styles.css') %>"/>
     <!--[if lt IE 9]>
     <script type="text/javascript"
@@ -29,7 +34,6 @@
 </span><span class="fyr_keys__key fyr_keys__key--4">
           </span><span class="fyr_keys__key fyr_keys__key--5"></span>
     </div>
-    <!-- <img class="fyr_masterhead__img" src="/images/anna.jpg" /> -->
 
     <div id="main" role="main" class="fyr_container">
         <header class="fyr_container__left">
@@ -43,11 +47,13 @@
             </div>
             <%= @partial('menu') %>
         </header>
-        <div class="fyr_container__right" id="anna">
+        <div class="fyr_container__right <%= 'fyr_container__right--padding-top' if @document.url == '/'%>" id="anna">
             <h1 class="fyr_container__header"><%= @document.title %></h1>
             <%- @content %>
             <footer class="fyr_footer">
+                <% if @document.url != '/': %>
                 <a class="fyr_footer__to-top" href="#main">Till toppen ↑</a>
+                <% end %>
             </footer>
         </div>
     </div>

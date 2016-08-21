@@ -27,7 +27,7 @@
 
 .fyr_container__right {
     @include clearfix;
-    margin-top: 2em;
+    padding-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
     background-color: $fyr_color-white;

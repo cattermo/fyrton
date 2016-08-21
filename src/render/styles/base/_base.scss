@@ -6,6 +6,7 @@ html {
 body {
     @include fyr_text-body;
     color: $fyr_color-text;
+    overflow-x: hidden;
 }
 
 * {

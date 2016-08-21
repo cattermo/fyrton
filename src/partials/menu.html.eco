@@ -4,7 +4,7 @@
 <a class="fyr_menu__link <% if item.url == @document.url: %>fyr_is-active<% end %>" href="<%= item.url %>#anna"><%= item.title %></a>
 	</li><% end %>
 </ul>
-    <a class="fyr_byra" href="/byraladan#anna">
+    <a class="fyr_byra" href="/i-byraladan#anna">
         <span class="fyr_byra__svg-container" >
             <img src="/images/byra.svg"></img>
             <img src="/images/byra_open.svg"></img>

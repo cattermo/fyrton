@@ -1,31 +1,10 @@
 html {
     font-size: 100%;
-}
-
-html, body {
-    min-height: 100%;
-}
-
-html {
-    background-color: $fyr_color-white;
-
-
-  //@include fyr_mq-gte-small {
-  //    background-image: linear-gradient(to right, $fyr_color-green-bg $fyr_left-column-xsmall, $fyr_color-white $fyr_left-column-xsmall);
-  //  }
-  //
-  //  @include fyr_mq-gte-medium {
-  //      background-image: linear-gradient(to right, $fyr_color-green-bg $fyr_left-column-small, $fyr_color-white $fyr_left-column-small);
-  //  }
-  //
-  //  @include fyr_mq-gte-xlarge {
-  //      background-image: linear-gradient(to right, $fyr_color-green-bg $fyr_left-column-medium, $fyr_color-white $fyr_left-column-medium);
-  //  }
+    background-color: $fyr_color-purple;
 }
 
 body {
     @include fyr_text-body;
-    //background: rgb(196, 219, 147);
     color: $fyr_color-text;
 }
 

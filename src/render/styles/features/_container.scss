@@ -30,6 +30,7 @@
     margin-top: 2em;
     padding-left: 1em;
     padding-right: 1em;
+    background-color: $fyr_color-white;
 
     @include fyr_mq-gte-small {
         margin-top: 0;

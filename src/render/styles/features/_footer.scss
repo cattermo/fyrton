@@ -3,8 +3,14 @@
 	padding-top: 2em;
 	padding-bottom: 2em;
 	margin-top: 2em;
+    @include font-size(15);
+    font-style: normal;
+
+    @include fyr_mq-gte-medium {
+        @include font-size(17);
+    }
 }
 
 .fyr_footer__to-top {
-
+    float: right;
 }

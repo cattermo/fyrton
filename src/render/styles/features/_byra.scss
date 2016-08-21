@@ -1,5 +1,15 @@
 .fyr_byra {
     display: inline-block;
+    @include fyr_link;
+}
+
+.fyr_byra__text {
+    display: block;
+    padding-bottom: 1em;
+}
+
+.fyr_byra__svg-container {
+    display: inline-block;
     font-size: 0.5rem;
     //background-image: url('/images/byra.svg');
     width: 15em;

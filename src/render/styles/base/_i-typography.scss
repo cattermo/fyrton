@@ -5,8 +5,12 @@ $fyr_font: "Georgia", serif;
 	//font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-family: $fyr_font;
     font-style: italic;
-	@include font-size(18);
+	@include font-size(16);
 	line-height: 1.4;
+
+    @include fyr_mq-gte-medium {
+        @include font-size(18);
+    }
 }
 
 @mixin fyr_text-h1 {

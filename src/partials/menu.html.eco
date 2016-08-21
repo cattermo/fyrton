@@ -5,7 +5,10 @@
 	</li><% end %>
 </ul>
     <a class="fyr_byra" href="/byraladan#anna">
-        <img src="/images/byra.svg"></img>
-        <img src="/images/byra_open.svg"></img>
+        <span class="fyr_byra__svg-container" >
+            <img src="/images/byra.svg"></img>
+            <img src="/images/byra_open.svg"></img>
+        </span>
+        <span class="fyr_byra__text">I byrålådan...</span>
     </a>
 </nav>

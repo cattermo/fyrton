@@ -17,5 +17,5 @@ Parallellt med mitt komponerande för skolan har jag skrivit för de ensembler j
 
 Viktigt för mig är att, vid sidan om mitt arbete som musiklärare, själv få utöva musik i någon form. Mina år i Storkyrkans kör tillsammans med Gustaf Sjökvist var otroligt lärorika och musikaliskt givande som jag ser tillbaka på med stor tacksamhet. För närvarande sjunger jag i Damkören Salvia som jag också leder tillsammans med min f d musikärarkollega, Lena Uggla. Jobbar även med två körer i projektform: Cantores Amici och LaVendela.
 
-Har du frågor om min musik eller övrig verksamhet är du välkommen att ta kontakt med mig på [kontakt@fyrton.se](kontakt@fyrton.se)
+Har du frågor om min musik eller övrig verksamhet är du välkommen att ta kontakt med mig på [annaco@fyrton.se](annaco@fyrton.se)
 

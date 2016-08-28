@@ -1,26 +1,9 @@
 ---
 layout: default
-url: /musik-i-urval
-title: 'Musik i urval'
+url: /mina-verk
+title: 'Mina verk - ett urval'
 published: true
 ---
-
-## Lyssna
-
-Lyssna på delar av min musik på Spotify
-
-https://open.spotify.com/user/fyrton/playlist/0NwSk7OzKizbx00qiTe2XB
-
-## Noter
-Här kan du köpa noter till mina verk
-
-http://www.gehrmans.se/  
-http://ejeby.se/  
-http://www.notfabriken.se/  
-https://www.notpoolen.com/  
-http://www.wessmans.com/
-  
-## Mina verk
 
 **Vakna nu**  
 2011  
@@ -118,9 +101,19 @@ Barn-/ungdomskör och piano
 Text: Maria Cederberg-Rydén  
 Noter: http://www.gehrmans.se
 
-**Höst bitar (Tre sånger för blandad kör och piano)**  
+**Höstbitar (Tre sånger för blandad kör och piano)**  
 1997  
 6´  
 SATB , piano  
 Text: Tonsättaren  
-Noter: http://www.gehrmans.se  
+Noter: http://www.gehrmans.se
+
+  
+## Noter
+Här kan du köpa noter till mina verk
+
+http://www.gehrmans.se/  
+http://ejeby.se/  
+http://www.notfabriken.se/  
+https://www.notpoolen.com/  
+http://www.wessmans.com/

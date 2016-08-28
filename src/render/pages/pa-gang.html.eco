@@ -1,0 +1,18 @@
+---
+layout: default
+url: /pa-gang
+title: 'På gång'
+published: true
+---
+
+<ul class="fyr_blog">
+    <% for post in @getCollection('posts').toJSON().slice(0, 10): %>
+    <li class="fyr_blog__item">
+        <article>
+            <span class="fyr_blog__date"><%= post.datum %></span>
+            <h1 class="fyr_blog__heading"><%= post.title %> </h1>
+            <%- post.contentRendered %>
+        </article>
+    </li>
+    <% end %>
+</ul>

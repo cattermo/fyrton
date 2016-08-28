@@ -45,17 +45,17 @@ var docpadConfig = {
           url: '/',
           title: 'Hem'
         }, {
-          url: '/blogg',
-          title: 'Blogg'
-        }, {
           url: '/om-mig',
           title: 'Om mig'
         }, {
-          url: '/priser',
-          title: 'Priser'
+          url: '/utmarkelser',
+          title: 'Utmärkelser'
         }, {
-          url: '/musik-i-urval',
-          title: 'Musik i urval'
+          url: '/mina-verk',
+          title: 'Mina verk'
+        }, {
+          url: '/lyssna',
+          title: 'Lyssna'
         }, {
           url: '/salvia',
           title: 'SALVIA'
@@ -68,6 +68,9 @@ var docpadConfig = {
         }, {
           url: '/in-english',
           title: '🇬🇧 In English'
+        }, {
+          url: '/pa-gang',
+          title: 'På gång'
         }
       ],
       links: [
@@ -108,13 +111,7 @@ var docpadConfig = {
   },
   collections: {
     posts: function () {
-      return this.getCollection('documents').findAllLive({
-        relativeOutDirPath: 'posts'
-      }, [
-        {
-          date: -1
-        }
-      ]);
+      return this.getCollection('html').findAllLive({relativeOutDirPath: 'pages/pa-gang'}, [{name: -1}]);
     }
   },
   environments: {
@@ -132,24 +129,6 @@ var docpadConfig = {
     }
   },
   events: {
-    serverExtend: function (opts) {
-      var server = opts.server;
-      var docpad = this.docpad;
-      var compression = require('compression');
-      var serveStatic = require('serve-static');
-      server.use(compression());
-      server.use('/out', serveStatic(__dirname + '/out'));
-      return server.all('/regenerate', function (req, res) {
-        var ref;
-        if (((ref = req.query) != null ? ref.key : void 0) === process.env.REGENERATE) {
-          docpad.log('info', 'Regenerating for documentation change');
-          docpad.action('generate');
-          return res.send(200, 'regenerated');
-        } else {
-          return res.send(400, 'key is incorrect');
-        }
-      });
-    }
   }
 };
 

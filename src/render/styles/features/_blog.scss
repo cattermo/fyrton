@@ -1,0 +1,23 @@
+.fyr_blog {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.fyr_blog__item {
+    padding-bottom: 2em;
+}
+
+.fyr_blog__heading {
+    @include fyr_text-h2;
+    margin-top: 0;
+}
+
+.fyr_blog__date {
+    @include font-size(15);
+    color: $fyr_color-grey;
+
+    @include fyr_mq-gte-small {
+        @include font-size(16);
+    }
+}

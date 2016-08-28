@@ -9,7 +9,8 @@ $fyr_font: "Georgia", serif;
 	line-height: 1.4;
 
     @include fyr_mq-gte-medium {
-        @include font-size(18);
+        @include font-size(17);
+        line-height: 1.5;
     }
 }
 

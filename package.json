@@ -17,7 +17,7 @@
   "dependencies": {
     "bal-util": "2.5.1",
     "compression": "1.4.1",
-    "docpad": "6.78.6",
+    "docpad": "^6.78.6",
     "docpad-plugin-assets": "2.1.2",
     "docpad-plugin-autoprefix": "2.0.0",
     "docpad-plugin-cleancss": "2.1.0",
@@ -34,7 +34,7 @@
     "docpad-plugin-uglify": "2.4.0",
     "feedr": "2.11.0",
     "normalize.css": "^4.2.0",
-    "serve-static": "1.9.1",
+    "serve-static": "^1.11.1",
     "taskgroup": "4.3.0"
   },
   "devDependencies": {}

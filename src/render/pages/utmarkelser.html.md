@@ -1,6 +1,6 @@
 ---
 layout: default
-url: /priser
+url: /utmarkelser
 title: 'Priser, utmärkelser och stipendier'
 published: true
 ---

@@ -5,7 +5,8 @@ title: 'Pressbilder'
 published: true
 ---
 
-<p>Klicka på bilden för högre upplösning.</p>
+<p>Alla bilder är fria att använda. Klicka på bilden för högre upplösning.</p>
+<p>Fotograf: Lars Uggla, sista bilden Jörgen Orreteg.</p>
 <div class="fyr_image-gallery">
     <% for image in @getCollection('files').findAll({relativeOutDirPath: 'images/press'}).toJSON(): %>
     <a href="<%= image.relativePath %>" class="fyr_image-gallery__image-wrapper">

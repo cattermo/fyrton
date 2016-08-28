@@ -1,2 +1,5 @@
 ignore: ['src/layouts/*', 'src/partials/*']
 media: 'src/files/images'
+metadata:
+  'src/render/pages/pa-gang':
+    datum: ''

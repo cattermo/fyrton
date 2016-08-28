@@ -2,4 +2,5 @@ ignore: ['src/layouts/*', 'src/partials/*']
 media: 'src/files/images'
 metadata:
   'src/render/pages/pa-gang':
-    - datum: ''
+    - datum: 'Skriv dagens daturm här'
+    - title: 'Skriv titel här'

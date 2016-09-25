@@ -1,9 +1,2 @@
 ignore: ['src/layouts/*', 'src/partials/*']
 media: 'src/files/images'
-metadata:
-  'src/render/pages/pa-gang':
-    - name: 'datum'
-      field:
-        element: 'text'
-        label: 'Dagens datum'
-        value: 'X mån YYYY'

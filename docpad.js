@@ -111,7 +111,9 @@ var docpadConfig = {
   },
   collections: {
     posts: function () {
-      return this.getCollection('html').findAllLive({relativeOutDirPath: 'pages/pa-gang'}, [{name: -1}]);
+      return this
+        .getCollection('html')
+        .findAllLive({relativeOutDirPath: 'pages/pa-gang'}, [{name: -1}])
     }
   },
   environments: {

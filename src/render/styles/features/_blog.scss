@@ -6,11 +6,11 @@
 
 .fyr_blog__item {
     padding-bottom: 2em;
-}
 
-.fyr_blog__heading {
-    @include fyr_text-h2;
-    margin-top: 0;
+    h1 {
+        @include fyr_text-h2;
+        margin-top: 0;
+    }
 }
 
 .fyr_blog__date {

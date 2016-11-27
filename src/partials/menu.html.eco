@@ -6,8 +6,8 @@
 </ul>
     <a class="fyr_byra" href="/i-byraladan#anna">
         <span class="fyr_byra__svg-container" >
-            <img src="/images/byra.svg"></img>
-            <img src="/images/byra_open.svg"></img>
+            <img src="/images/byra.svg"/>
+            <img src="/images/byra_open.svg"/>
         </span>
         <span class="fyr_byra__text">I byrålådan...</span>
     </a>

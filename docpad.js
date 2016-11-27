@@ -63,6 +63,9 @@ var docpadConfig = {
           url: '/cantores-amici',
           title: 'Cantores Amici'
         }, {
+          url: '/lavendela',
+          title: 'LaVendela'
+        }, {
           url: '/pressbilder',
           title: 'Pressbilder'
         }, {
@@ -73,27 +76,6 @@ var docpadConfig = {
           title: 'På gång'
         }
       ],
-      links: [
-        {
-          title: 'youtube',
-          url: 'https://www.youtube.com/channel/UC7plUzsE30uGKpFjz3dWACQ'
-        }, {
-          title: 'facebook',
-          url: 'https://www.facebook.com/TheBandettesmusic'
-        }, {
-          title: 'instagram',
-          url: 'https://instagram.com/thebandettes'
-        }, {
-          title: 'twitter',
-          url: 'https://twitter.com/thebandettes'
-        }, {
-          title: 'spotify',
-          url: 'https://play.spotify.com/artist/208qxflE4I6uB0jC0gKMYB'
-        }, {
-          title: 'soundcloud',
-          url: 'https://soundcloud.com/thebandettesmusic'
-        }
-      ]
     },
     getPreparedTitle: function () {
       if (this.document.title) {

@@ -18,6 +18,7 @@ Stipendium
 Stipendium 
 
 **Årets barn- och ungdomskörledare 2005**
+Stipendium UNGiKÖR 
 
 **Projekt ”Psalmer i 2000-talet”**   
 Verk. Två psalmer representerade (Verbum förlag)

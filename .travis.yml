@@ -1,9 +1,6 @@
 language: node_js
 node_js: 4.1.1
-script: true
-after_success:
-  - "cd out"
-  - "find * -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://188.95.227.17/fyrton.se/public_html/{}"
+script: ./build.sh
 env:
   global:
   - secure: hUyTMYL/d/1+EMlM4DjIRi8TW2penEz7q5QLsiwB4P9ZLOP3Xd2PDQdIJx+xZKypC2RCm/3tKw9Sa09jyHTUD7gWCDBs8X2qo2+8NZnaviSJv/B59IgJkt58RILb1HJ7zVAT/WxmjwxkbLUSBhxqUC2t3IAgM//9IWkg40ItvZbr6ADPUIL0rVSF5hnYZnRkEkJCcBTBBI7b2WER4NttVkI4olmpD8EVD66ReLN5mgz/4Z8kxRiS6yhaLg5I3nf7s1k4RGqCT+6ABxol7nN/iRuVjHMddCtfvz4UUIIwSFlP7Ej9iW4kdIqdE6uXaNXkjVv7pWqjS0HeeDjinccXl4Xu39pSDbMMJOjdbdog1otBtRqA7t0dWod2cja1dJLszIqdJUW7MEGwFrBNGuHIMW5IsLH0o/7AciYP3kYotWO0Bhf2pg17cQeB4F8FBc+En3BGgjdTS+qRxDBIy+6NdfoMc7WFiS3ZWbQHoSJci23G50OTzQd5kHw86mu+mTa1OVm3bmXcykmX0fIS4ZoQ6uQtD+Mb3n70376ZCCQR9mTHumaDreJ2jW0tZVifFIAtEOoKjhG6XDaKFXxfpEqqZTWPJTJQ0l61DJ8Zu9ISmBbmRVtlybhmwJoo/FnWwYw1yprmLZOLpUjtzOH8FcX8FEB1FapF1tfdlpTleFbyqPw=

@@ -10,9 +10,9 @@
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
-    "start": "node_modules/docpad/bin/docpad-server",
-    "test": "node_modules//docpad/bin/docpad generate --debug --silent",
-    "info": "node_modules/docpad/bin/docpad info --silent"
+    "start": "docpad-server",
+    "test": "docpad generate --debug --silent",
+    "info": "docpad info --silent"
   },
   "dependencies": {
     "bal-util": "2.6.0",

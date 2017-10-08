@@ -1,4 +1,5 @@
 #!/bin/bash
+npm run test
 cd out
 echo $FTP_USER
 echo ${FTP_USER}

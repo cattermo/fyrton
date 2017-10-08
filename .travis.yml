@@ -1,5 +1,5 @@
 language: node_js
-node_js: 0.1
+node_js: 4.1.1
 script: true
 after_success: cd out && find * -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs
   -T {} ftp://188.95.227.17/fyrton.se/public_html/{}

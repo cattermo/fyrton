@@ -1,6 +1,6 @@
 ---
 layout: default
-url: /in-english
+url: /in-english.html
 title: 'Welcome'
 published: true
 ---

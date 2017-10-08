@@ -1,6 +1,6 @@
 ---
 layout: default
-url: /cantores-amici
+url: /cantores.html
 title: 'Cantores Amici'
 published: true
 ---

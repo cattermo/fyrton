@@ -1,6 +1,6 @@
 ---
 layout: default
-url: /i-byraladan
+url: /i-byraladan.html
 title: 'I byrålådan'
 published: true
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-url: /lyssna
+url: /lyssna.html
 title: 'Lyssna'
 published: true
 ---

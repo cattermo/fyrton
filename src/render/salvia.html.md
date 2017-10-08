@@ -1,6 +1,6 @@
 ---
 layout: default
-url: /salvia
+url: /salvia.html
 title: 'SALVIA'
 published: true
 ---

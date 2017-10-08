@@ -60,7 +60,7 @@ var docpadConfig = {
           url: '/salvia.html',
           title: 'SALVIA'
         }, {
-          url: '/cantores-amici.html',
+          url: '/cantores.html',
           title: 'Cantores Amici'
         }, {
           url: '/lavendela.html',

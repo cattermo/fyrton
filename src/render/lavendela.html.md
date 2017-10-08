@@ -1,6 +1,6 @@
 ---
 layout: default
-url: /lavendela
+url: /lavendela.html
 title: 'LaVendela'
 published: true
 ---

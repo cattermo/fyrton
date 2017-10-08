@@ -11,7 +11,7 @@
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
     "start": "docpad-server",
-    "generate": "docpad generate --silent",
+    "generate": "docpad generate --silent --env static",
     "info": "docpad info --silent"
   },
   "dependencies": {

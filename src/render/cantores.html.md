@@ -5,7 +5,7 @@ title: 'Cantores Amici'
 published: true
 ---
 
-![cantores.jpg]({{site.baseurl}}/src/render/pages/cantores.jpg)
+![cantores.jpg]({{site.baseurl}}/src/render/cantores.jpg)
 
 Cantores Amici består av en grupp sångare som har lärt känna varandra genom körsången och därtill blivit mycket goda vänner. Så kom också ensemblens namn till som betyder just ”Sångarvänner”. Vi har sjungit tillsammans i bl a Storkyrkans kör i Stockholm, Kammarkören Musikaliska och Gustaf Sjökvists Kammarkör.
  
@@ -25,5 +25,5 @@ Bertil Ahnborg, Jonas Ekström, Fredrik Lardén, Per Olsson
 
 **Kontakt:** [cantoresamici@fyrton.se](mailto:cantoresamici@fyrton.se) 
 
-![cantores_2.jpg]({{site.baseurl}}/src/render/pages/cantores_2.jpg)
+![cantores_2.jpg]({{site.baseurl}}/src/render/cantores_2.jpg)
 

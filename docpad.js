@@ -45,34 +45,34 @@ var docpadConfig = {
           url: '/',
           title: 'Hem'
         }, {
-          url: '/om-mig',
+          url: '/om-mig.html',
           title: 'Om mig'
         }, {
-          url: '/utmarkelser',
+          url: '/utmarkelser.html',
           title: 'Utmärkelser'
         }, {
-          url: '/mina-verk',
+          url: '/mina-verk.html',
           title: 'Mina verk'
         }, {
-          url: '/lyssna',
+          url: '/lyssna.html',
           title: 'Lyssna'
         }, {
-          url: '/salvia',
+          url: '/salvia.html',
           title: 'SALVIA'
         }, {
-          url: '/cantores-amici',
+          url: '/cantores-amici.html',
           title: 'Cantores Amici'
         }, {
-          url: '/lavendela',
+          url: '/lavendela.html',
           title: 'LaVendela'
         }, {
-          url: '/pressbilder',
+          url: '/pressbilder.html',
           title: 'Pressbilder'
         }, {
-          url: '/in-english',
+          url: '/in-english.html',
           title: '🇬🇧 In English'
         }, {
-          url: '/pa-gang',
+          url: '/pa-gang.html',
           title: 'På gång'
         }
       ],

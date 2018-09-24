@@ -32,7 +32,6 @@ var docpadConfig = {
       }
     }
   },
-  regenerateEvery: 1000 * 60 * 60,
   templateData: {
     site: {
       url: 'http://www.fyrton.se',

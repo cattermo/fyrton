@@ -1,10 +1,8 @@
-$fyr_font: "Georgia", serif;
-
 @mixin fyr_text-body {
     //font-family: "Optima", "Calibri","Candara", sans-serif;
 	//font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-family: $fyr_font;
-    font-style: italic;
+    //font-style: italic;
 	@include font-size(16);
 	line-height: 1.4;
 
@@ -15,7 +13,7 @@ $fyr_font: "Georgia", serif;
 }
 
 @mixin fyr_text-h1 {
-    font-family: $fyr_font;
+    font-family: $fyr_font-special;
     @include font-size(36);
     line-height: 1.2;
     font-style: italic;

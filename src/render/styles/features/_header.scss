@@ -1,10 +1,13 @@
 .fyr_header {
     @include clearfix;
     text-align: center;
+    font-family: $fyr_font-special;
+    font-style: italic;
 }
 
 .fyr_header__name {
     @include font-size(24);
+    font-family: $fyr_font-special;
     margin-top: 0.3em;
     display: block;
     //font-family Optima

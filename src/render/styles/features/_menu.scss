@@ -1,5 +1,7 @@
 .fyr_menu {
     @include fyr_text-body;
+    font-family: $fyr_font-special;
+    font-style: italic;
     margin-top: 1em;
 }
 

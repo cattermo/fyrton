@@ -11,7 +11,7 @@ Nu sjunger vi tillsammans, jag och mina f d elever som dessutom har lockat med s
 
 Vi jobbar projektvis där jag utefter körens idéer och önskemål gör en planering som anpassas efter antalet sångare i pågående projekt.
 
-Vi har i bagaget två konserter tillsammans med symfoniorkester samt ett flertal mindre konserter i olika genrer varav den senaste i jazzton med förstärkning på kontrabas. Vi sjunger också i gudstjänster och första bröllopssjungningen gjordes i somras där en av våra sångare stod brud.
+Vi har i bagaget ett par konserter tillsammans med symfoniorkester samt ett flertal mindre konserter i olika genrer. Vi delar gärna med oss av vår sång i gudstjänsten och när en av våra körmedlemmar stod brud var det fantastiskt att vi i LaVendela fick bidra med lite körsång.  
 
 Är du intresserad av att sjunga med i den här typen av projektkör? Välkommen att höra av dig. 
 

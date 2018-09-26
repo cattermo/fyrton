@@ -15,7 +15,7 @@ Ensemblen startade 2015. Vår repertoar är bred med musik från olika genrer oc
 Anna Cederberg-Orreteg, Johanna Bergtoft , Maria Böhm
 
 ### Altar 
-Anna-Karin Zetterberg, Annika Lind , Ulrika Öhrner
+Anna-Karin Zetterberg, Annika Lind , Lena Sköld, Marie-Hélène Ahnborg  
 
 ### Tenorer 
 Robert Svensson, Svante Renberg

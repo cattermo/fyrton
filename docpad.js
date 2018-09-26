@@ -70,9 +70,6 @@ var docpadConfig = {
         }, {
           url: '/in-english.html',
           title: '🇬🇧 In English'
-        }, {
-          url: '/pa-gang.html',
-          title: 'På gång'
         }
       ],
     },
@@ -91,11 +88,6 @@ var docpadConfig = {
     }
   },
   collections: {
-    posts: function () {
-      return this
-        .getCollection('html')
-        .findAllLive({relativeOutDirPath: 'pa-gang'}, [{name: -1}])
-    }
   },
   environments: {
     development: {

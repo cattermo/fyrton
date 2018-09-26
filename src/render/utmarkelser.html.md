@@ -17,7 +17,7 @@ Stipendium
 **Musikföreningen i Stockholm 2010**  
 Stipendium 
 
-**Årets barn- och ungdomskörledare 2005**
+**Årets barn- och ungdomskörledare 2005**  
 Stipendium UNGiKÖR 
 
 **Projekt ”Psalmer i 2000-talet”**   

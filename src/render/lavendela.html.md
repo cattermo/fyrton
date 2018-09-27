@@ -5,6 +5,8 @@ title: 'LaVendela'
 published: true
 ---
 
+![LaVendela.jpg]({{site.baseurl}}/src/render/LaVendela.jpg)
+
 LaVendela är sprungen ur en av skolkörerna från min tid på Höglandsskolan.
 Efter avslutade utbildningar på olika håll i landet och åter samlade i storstan kom tanken att tillsammans förenas i körsången varpå de då tog kontakt med mig. 
 Nu sjunger vi tillsammans, jag och mina f d elever som dessutom har lockat med sig ytterligare vänner och arbetskamrater.

@@ -1,0 +1,9 @@
+.fyr_smaller-body {
+  & > p {
+    @include fyr_text-body-small;
+
+    strong {
+      @include fyr_text-body;
+    }
+  }
+}

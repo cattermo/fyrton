@@ -19,7 +19,7 @@ var docpadConfig = {
     },
     marked: {
       markedRenderer: {
-        image: function(href, title, text) {
+        image: function (href, title, text) {
           var urlParts = href.split('/');
           href = urlParts.length > 1 ? '/' + urlParts[urlParts.length - 1] : href;
           var out = '<img class="testar_lite" src="' + href + '" alt="' + text + '"';
@@ -47,6 +47,9 @@ var docpadConfig = {
           url: '/om-mig.html',
           title: 'Om mig'
         }, {
+          url: '/funderingar.html',
+          title: 'Funderingar'
+        }, {
           url: '/utmarkelser.html',
           title: 'Utmärkelser'
         }, {
@@ -55,6 +58,9 @@ var docpadConfig = {
         }, {
           url: '/lyssna.html',
           title: 'Lyssna'
+        }, {
+          url: '/i-backspegeln.html',
+          title: 'I backspegeln'
         }, {
           url: '/salvia.html',
           title: 'SALVIA'
@@ -87,8 +93,7 @@ var docpadConfig = {
       return this.site.keywords.concat(this.document.keywords || []).join(', ');
     }
   },
-  collections: {
-  },
+  collections: {},
   environments: {
     development: {
       plugins: {
@@ -103,8 +108,7 @@ var docpadConfig = {
       }
     }
   },
-  events: {
-  }
+  events: {}
 };
 
 

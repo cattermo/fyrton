@@ -12,19 +12,29 @@
     }
 }
 
+@mixin fyr_text-body-small {
+    @include font-size(14);
+    line-height: 1.3;
+
+    @include fyr_mq-gte-medium {
+        @include font-size(15);
+        line-height: 1.4;
+    }
+}
+
 @mixin fyr_text-h1 {
     font-family: $fyr_font-special;
-    @include font-size(36);
+    @include font-size(32);
     line-height: 1.2;
     font-style: italic;
 
     @include fyr_mq-gte-small {
-        @include font-size(42);
+        @include font-size(38);
     }
 }
 
 @mixin fyr_text-h2 {
-    font-family: $fyr_font;
+    font-family: $fyr_font-special;
     font-style: italic;
     @include font-size(24);
     line-height: 1.2;

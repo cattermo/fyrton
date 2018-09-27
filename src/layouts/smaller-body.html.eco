@@ -1,0 +1,7 @@
+---
+layout: default
+---
+
+<div class="fyr_smaller-body">
+    <%- @content %>
+</div>

@@ -5,6 +5,8 @@ title: 'I backspegeln'
 published: true
 ---
 
+<p>Roligt att blicka bakåt och minnas härligt musicerande tillsammans med både stora och små sångare. Här affischer till några av de konserter/produktioner som genomförts under åren baköver.</p>
+
 <div class="fyr_image-gallery">
     <h2>2018</h2>
     <% for image in @getCollection('files').findAll({relativeOutDirPath: 'images/affischer/2018'}).toJSON(): %>
@@ -14,9 +16,23 @@ published: true
     <% end %>
 
     <h2>2017</h2>
-        <% for image in @getCollection('files').findAll({relativeOutDirPath: 'images/affischer/2017'}).toJSON(): %>
-        <a href="<%= image.relativePath %>" class="fyr_image-gallery__image-wrapper">
-            <img id="<%=image.name %>" class="fyr_image-gallery__image" src="<%= @getThumbnail(image.relativePath) %>" />
-        </a>
-        <% end %>
+    <% for image in @getCollection('files').findAll({relativeOutDirPath: 'images/affischer/2017'}).toJSON(): %>
+    <a href="<%= image.relativePath %>" class="fyr_image-gallery__image-wrapper">
+        <img id="<%=image.name %>" class="fyr_image-gallery__image" src="<%= @getThumbnail(image.relativePath) %>" />
+    </a>
+    <% end %>
+
+    <h2>2015</h2>
+    <% for image in @getCollection('files').findAll({relativeOutDirPath: 'images/affischer/2015'}).toJSON(): %>
+    <a href="<%= image.relativePath %>" class="fyr_image-gallery__image-wrapper">
+        <img id="<%=image.name %>" class="fyr_image-gallery__image" src="<%= @getThumbnail(image.relativePath) %>" />
+    </a>
+    <% end %>
+
+    <h2>2011</h2>
+    <% for image in @getCollection('files').findAll({relativeOutDirPath: 'images/affischer/2011'}).toJSON(): %>
+    <a href="<%= image.relativePath %>" class="fyr_image-gallery__image-wrapper">
+        <img id="<%=image.name %>" class="fyr_image-gallery__image" src="<%= @getThumbnail(image.relativePath) %>" />
+    </a>
+    <% end %>
 </div>

@@ -47,35 +47,35 @@ var docpadConfig = {
           url: '/om-mig.html',
           title: 'Om mig'
         }, {
-          url: '/funderingar.html',
-          title: 'Funderingar'
-        }, {
           url: '/utmarkelser.html',
           title: 'Utmärkelser'
-        }, {
-          url: '/mina-verk.html',
-          title: 'Mina verk'
-        }, {
-          url: '/lyssna.html',
-          title: 'Lyssna'
-        }, {
-          url: '/i-backspegeln.html',
-          title: 'I backspegeln'
         }, {
           url: '/salvia.html',
           title: 'SALVIA'
         }, {
+          url: '/mina-verk.html',
+          title: 'Mina verk'
+        }, {
           url: '/cantores.html',
           title: 'Cantores Amici'
+        }, {
+          url: '/lyssna.html',
+          title: 'Lyssna'
         }, {
           url: '/lavendela.html',
           title: 'LaVendela'
         }, {
+          url: '/in-english.html',
+          title: '🇬🇧 In English'
+        },{
+          url: '/i-backspegeln.html',
+          title: 'I backspegeln'
+        }, {
           url: '/pressbilder.html',
           title: 'Pressbilder'
         }, {
-          url: '/in-english.html',
-          title: '🇬🇧 In English'
+          url: '/funderingar.html',
+          title: 'Funderingar'
         }
       ],
     },

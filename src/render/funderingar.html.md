@@ -5,7 +5,8 @@ title: 'Funderingar'
 published: true
 ---
 
-## Handen på hjärtat
+## Handen på hjärtat...
+*2018-09-28*
 
 Hur är det med pulsen egentligen och hur har vi det med tempot i våra kroppar? 
 Varför är det så svårt att sjunga/spela i det tempo som faktiskt står angivet vilket det ju faktiskt ganska ofta gör.

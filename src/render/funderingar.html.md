@@ -5,6 +5,23 @@ title: 'Funderingar'
 published: true
 ---
 
+## Vad är det med musik? Egentligen? Vad gör musiken med oss?
+*2018-12-13*
+
+Varje torsdag denna termin har jag bannat mig själv... Helt utslagen när veckan närmar sig sitt slut. Dessutom torsdag med lektioner som rasslar på med endast 15 minuters näringsintag i en matsal där elektroniska örat hackar på rött mest hela tiden. Eldar på från kl 9.00-16.00. Rösten, vars normaltillstånd bör vara i sopranettläge börjar likna en grövre bröströst eller trött dagenefterröst efter sen kväll.
+
+På väg hem, för att få en timme tyst och vila, undrar jag varför jag anmälde mig som vikarie denna hösttermin som toppas med ett antal julkonserter?
+
+Efter en kopp te och en lätt slummer, ut igen, i mörkret, i blåsten med regnfuktiga droppar som sticks i ansiktet.Tuben till repet och jag hinner inte mer än till uppvärmningen och den första sången så får jag svaret på min fråga! Varje torsdag, samma svar!
+
+När man står där, mitt i körklangen, och varenda ton känns i hela kroppen. VI gör MUSIK tillsammans och jag får ta del av detta, jag ÄR en del av detta och jag FÅR vara en del. DETTA är en ynnest!
+
+Och med lätta steg går jag så hemåt igen, påfylld för att orka fylla på hos andra.
+
+Det gör musiken med mig!
+
+/_Anna_
+
 ## Handen på hjärtat...
 *2018-09-28*
 

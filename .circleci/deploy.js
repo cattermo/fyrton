@@ -8,7 +8,8 @@ const config = {
   port: 21,
   localRoot: __dirname + "/../out/",
   remoteRoot: "/",
-  include: ['*']
+  include: ['*'],
+  forcePasv: true,
 };
 
 ftpDeploy.on('uploading', function (data) {

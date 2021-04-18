@@ -1,12 +1,12 @@
 ---
 layout: default
 url: /pressbilder.html
-title: 'Pressbilder'
+title: 'Fotogalleri'
 published: true
 ---
 
 <p>Alla bilder är fria att använda. Klicka på bilden för högre upplösning.</p>
-<p>Fotograf: Lars Uggla, sista bilden Jörgen Orreteg.</p>
+<p>Fotografer: Lars Uggla, Viveca Hallgrim.</p>
 <div class="fyr_image-gallery">
     <% for image in @getCollection('files').findAll({relativeOutDirPath: 'images/press'}).toJSON(): %>
     <a href="<%= image.relativePath %>" class="fyr_image-gallery__image-wrapper">

@@ -9,6 +9,34 @@ Varsågod! Ur byrålådan får Du plocka fritt alltifrån enkla barnsånger till
 
 Lite kort om några av de sånger som Du hittar här:
 
+### X-blues
+Det finns ju inte alltför många sånger om bokstaven X så därför kom denna till. För de yngre barnen.
+
+[X-blues (pdf, 57KB)](/i-byraladan/X-blues.pdf)
+
+### Grundentsång (Till 9GH från 4GH)
+Sången skrevs till våra första nior i Farsta Adolf Fredriks musikklasser som gick ut vt-20 och som uppvaktades av åk 4 sjungandes med var sin ros i handen.
+
+[Gruntendsång (pdf, 34KB)](/i-byraladan/Till-9GH-fran-4GH.pdf)
+
+### Fågel, fisk eller mittemellan
+Skrevs vt-2020 som ”signatur” för våra barnkonserter men blev aldrig uppförd då allt ställdes in.
+
+[Fågel, fisk eller mittemellan (pdf, 55KB)](/i-byraladan/Fågel-fisk-eller-mittemellan.pdf)
+
+
+### Brudmarsch till Kajsa
+Komponerades till min yngsta dotters bröllop 2018.
+
+[Brudmarsch till Kajsa (pdf, 46KB)](/i-byraladan/Brudmarsch-till-Kajsa.pdf)
+
+
+### Byssan lull
+Användbart arrangemang för SSA där den ordlösa sången t ex kan avsluta ett kvällsprogram i bara en enda andning. Ett utmärkt tillfälle för kören att öva körandning och en utmaning att inte andas där man vanligtvis brukar andas.
+
+[Byssan lull (pdf, 41KB)](/i-byraladan/Byssan-lull-e-moll.pdf)
+
+
 ### Majvisa  
 Inspirerad av Folk & Rackares version på 70-talet har jag lagt till ett mellanspel i form av en trall i två stämmor. En sång jag gärna återkommer till.
 

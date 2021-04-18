@@ -15,8 +15,14 @@ SALVIA består av damer i alla åldrar vilket också är tanken, att blanda yngr
 
 Anna & Lena har flera år bakom sig som musiklärarkollegor på samma skola. Samtidigt som båda beslutar att ta en paus i lärarjobbet växer tanken att starta en kör och få fortsätta ett gott samarbete.
 
-Anna är nu tillbaks i jobbet som musiklärare men hon är också verksam som tonsättare och vars musik kören ofta framför. Lena arbetar heltid som musikterapeut och är mitt i en forskningsstudie om musikterapi.
+Anna är nu tillbaks i jobbet som musiklärare men hon är också verksam som tonsättare och vars musik kören ofta framför. Lena arbetar som musikterapeut med barn och unga, både kliniskt och med forskning.
 
 **Kontakt:** [INFO@Salvia.nu](mailto:INFO@Salvia.nu)
 
-![salvia_ute.jpg]({{site.baseurl}}/src/render/salvia_ute.jpg)
+<video controls width="300">
+    <source src="/lyssna/10-ar-med-Salvia.m4v"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+![blommande-salvia.jpg]({{site.baseurl}}/src/render/blommande-salvia.jpg)

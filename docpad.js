@@ -72,7 +72,7 @@ var docpadConfig = {
           title: 'I backspegeln'
         }, {
           url: '/pressbilder.html',
-          title: 'Pressbilder'
+          title: 'Fotogalleri'
         }, {
           url: '/funderingar.html',
           title: 'Funderingar'

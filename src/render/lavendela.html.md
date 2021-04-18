@@ -17,4 +17,3 @@ Vi har i bagaget ett par konserter tillsammans med symfoniorkester samt ett fler
 
 Är du intresserad av att sjunga med i den här typen av projektkör? Välkommen att höra av dig. 
 
-Kontakt: [LaVendela@fyrton.se](mailto:LaVendela@fyrton.se)

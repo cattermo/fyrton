@@ -1,6 +1,6 @@
 .fyr_menu {
-    @include fyr_text-body;
-    font-family: $fyr_font-special;
+    .fyr_text-body;
+    font-family: @fyr_font-special;
     font-style: italic;
     margin-top: 1em;
 }
@@ -23,26 +23,26 @@
 .fyr_menu__link {
     display: block;
     padding: 0.2em;
-    color: $fyr_color-purple;
-    border: 1px solid $fyr_color-purple;
+    color: @fyr_color-purple;
+    border: 1px solid @fyr_color-purple;
     border-bottom-width: 4px;
-    background-color: $fyr_color-white;
+    background-color: @fyr_color-white;
     border-radius: 3px;
     text-decoration: none;
 
     &.fyr_is-active {
-        color: $fyr_color-white;
-        background-color: $fyr_color-purple;
-        border-color: darken($fyr_color-purple, 10%);
+        color: @fyr_color-white;
+        background-color: @fyr_color-purple;
+        border-color: darken(@fyr_color-purple, 10%);
     }
 
     &:hover,
     &:active {
         text-decoration: none;
-        background-color: $fyr_color-green-bg;
+        background-color: @fyr_color-green-bg;
 
         &.fyr_is-active {
-            background-color: $fyr_color-purple;
+            background-color: @fyr_color-purple;
         }
     }
 }

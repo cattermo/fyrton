@@ -1,4 +1,4 @@
-@mixin clearfix {
+.clearfix {
     &:after {
         content: '';
         clear: both;
@@ -6,18 +6,13 @@
     }
 }
 
-@mixin font-size($px) {
-    font-size: #{$px}px;
-    font-size: #{$px/16}rem;
-}
-
-@mixin fyr_link {
+.fyr_link {
     word-wrap: break-word;
     text-decoration: none;
-    color: $fyr_color-purple;
+    color: @fyr_color-purple;
 
     &:visited {
-        color: darken($fyr_color-purple, 10%)
+        color: darken(@fyr_color-purple, 10%)
     }
 
     &:hover {

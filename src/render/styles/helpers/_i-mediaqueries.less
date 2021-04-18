@@ -1,0 +1,78 @@
+
+// X-Extra Small
+.fyr_mq-extra-extra-small (@rules) {
+    @media screen and (max-width: @fyr_mq-breakpoint-max-XXS) {
+        @rules();
+    }
+}
+
+// Small or above
+.fyr_mq-gte-small (@rules) {
+    @media screen and (min-width: @fyr_mq-breakpoint-min-S) {
+        @rules();
+    }
+}
+
+// Medium or above
+.fyr_mq-gte-medium (@rules) {
+    @media screen and (min-width: @fyr_mq-breakpoint-min-M) {
+        @rules();
+    }
+}
+
+// Large or above
+.fyr_mq-gte-large (@rules) {
+    @media screen and (min-width: @fyr_mq-breakpoint-min-L) {
+        @rules();
+    }
+}
+
+// Extra large or above
+.fyr_mq-gte-xlarge (@rules) {
+    @media screen and (min-width: @fyr_mq-breakpoint-min-XL) {
+        @rules();
+    }
+}
+
+// Small, medium & large
+.fyr_mq-small-medium-large (@rules) {
+    @media screen and (min-width: @fyr_mq-breakpoint-min-S) and (@fyr_mq-breakpoint-max-L) {
+        @rules();
+    }
+}
+
+// Small & medium
+.fyr_mq-small-medium (@rules) {
+    @media screen and (min-width: @fyr_mq-breakpoint-min-S) and (max-width: @fyr_mq-breakpoint-max-M) {
+        @rules();
+    }
+}
+
+// Medium & large
+.fyr_mq-medium-large (@rules) {
+    @media screen and (min-width: @fyr_mq-breakpoint-min-M) and (max-width: @fyr_mq-breakpoint-max-L) {
+        @rules();
+    }
+}
+
+// Small
+.fyr_mq-small (@rules) {
+    @media screen and (min-width: @fyr_mq-breakpoint-min-S) and (max-width: @fyr_mq-breakpoint-max-S) {
+        @rules();
+    }
+}
+
+// Medium
+.fyr_mq-medium (@rules) {
+    @media screen and (min-width: @fyr_mq-breakpoint-min-M) and (max-width: @fyr_mq-breakpoint-max-M) {
+        @rules();
+    }
+}
+
+// Large
+.fyr_mq-large (@rules) {
+    @media screen and (min-width: @fyr_mq-breakpoint-min-L) and (max-width: @fyr_mq-breakpoint-max-L) {
+        @rules();
+    }
+}
+

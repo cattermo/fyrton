@@ -6,7 +6,7 @@ published: true
 ---
 
 ### Någon håller dig i handen, Salvia
-<video controls width="300">
+<video controls class="fyr_video">
     <source src="/lyssna/nagon-haller-dig-i-handen-salvia.m4v"
             type="video/mp4">
     Sorry, your browser doesn't support embedded videos.

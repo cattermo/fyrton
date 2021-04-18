@@ -112,8 +112,8 @@ Noter: http://www.gehrmans.se
 ## Noter
 Här kan du köpa noter till mina verk
 
-http://www.gehrmans.se/  
-http://ejeby.se/  
-http://www.notfabriken.se/  
+https://www.gehrmans.se/  
+https://ejeby.se/
+https://www.notfabriken.se/  
 https://www.notpoolen.com/  
-http://www.wessmans.com/
+https://www.wessmans.com/

@@ -19,7 +19,7 @@ Anna är nu tillbaks i jobbet som musiklärare men hon är också verksam som to
 
 **Kontakt:** [INFO@Salvia.nu](mailto:INFO@Salvia.nu)
 
-<video controls width="300">
+<video controls class="fyr_video">
     <source src="/lyssna/10-ar-med-Salvia.m4v"
             type="video/mp4">
     Sorry, your browser doesn't support embedded videos.

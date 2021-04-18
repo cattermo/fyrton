@@ -1,10 +1,3 @@
----
-layout: default
-url: /funderingar.html
-title: 'Funderingar'
-published: true
----
-
 ## Vad är det med musik? Egentligen? Vad gör musiken med oss?
 *2018-12-13*
 

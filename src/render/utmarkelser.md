@@ -1,9 +1,3 @@
----
-layout: default
-url: /utmarkelser.html
-title: 'Priser, utmärkelser och stipendier'
-published: true
----
 
 **Gustaf Auléns prisfond**   
 Pristagare 2013

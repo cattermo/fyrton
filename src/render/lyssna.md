@@ -1,9 +1,3 @@
----
-layout: default
-url: /lyssna.html
-title: 'Lyssna'
-published: true
----
 
 ### Jordnära
 <audio controls="controls">

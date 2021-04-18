@@ -1,11 +1,5 @@
----
-layout: default
-url: /lavendela.html
-title: 'LaVendela'
-published: true
----
 
-![LaVendela.jpg]({{site.baseurl}}/src/render/LaVendela.jpg)
+![LaVendela.jpg](/LaVendela.jpg)
 
 LaVendela är sprungen ur en av skolkörerna från min tid på Höglandsskolan.
 Efter avslutade utbildningar på olika håll i landet och åter samlade i storstan kom tanken att tillsammans förenas i körsången varpå de då tog kontakt med mig. 

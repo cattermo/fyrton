@@ -1,9 +1,3 @@
----
-layout: default
-url: /i-byraladan.html
-title: I byrålådan
-published: true
----
 
 Varsågod! Ur byrålådan får Du plocka fritt alltifrån enkla barnsånger till lite mer udda arrangemang för olika ensembler och diverse sammanhang. 
 

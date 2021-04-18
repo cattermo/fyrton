@@ -1,9 +1,3 @@
----
-layout: default
-url: /
-title: Välkommen
-published: true
----
 
 Mitt namn är **Anna Cederberg-Orreteg**, är född och boendes i västra **Stockholm**.
 

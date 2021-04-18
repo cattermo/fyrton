@@ -1,9 +1,3 @@
----
-layout: smaller-body
-url: /mina-verk.html
-title: 'Mina verk - ett urval'
-published: true
----
 
 **Vakna nu**  
 2011  

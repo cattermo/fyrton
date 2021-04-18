@@ -1,11 +1,5 @@
----
-layout: default
-url: /in-english.html
-title: 'Welcome'
-published: true
----
 
-![anna_staende.jpg]({{site.baseurl}}/src/render/anna_blomma.jpg)
+![anna_staende.jpg](/anna_blomma.jpg)
 
 Anna Cederberg-Orreteg, composer and music teacher, born in Stockholm/Sweden 1958. She has a degree from Royal College of Music in Stockholm. Cederberg-Orreteg divides her work between being a composer and as a music teacher in Adolf Fredrik/Farsta, Stockholm. 
 

@@ -12,15 +12,11 @@ published: true
     Sorry, your browser doesn't support embedded videos.
 </video>
 
-[comment]: <> (### Bach: Menuett/Salvia)
+### Nån av varje sort
 
-[comment]: <> (<audio controls="controls">)
-
-[comment]: <> (  <source type="audio/mp3" src="/lyssna/Sjung_Till_Herrens_Ara.mp3"/>)
-
-[comment]: <> (  <p>Din webbläsare stödjer inte uppspelning av ljudfiler</p>)
-
-[comment]: <> (</audio>)
+<a href="https://naxos.lnk.to/NanAvVarjeSort">
+![reklamblad-skiva.png](/lyssna/reklamblad-skiva.png)
+</a>
 
 ### Sjung till herrens ära
 <audio controls="controls">

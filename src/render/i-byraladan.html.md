@@ -22,7 +22,7 @@ Sången skrevs till våra första nior i Farsta Adolf Fredriks musikklasser som 
 ### Fågel, fisk eller mittemellan
 Skrevs vt-2020 som ”signatur” för våra barnkonserter men blev aldrig uppförd då allt ställdes in.
 
-[Fågel, fisk eller mittemellan (pdf, 55KB)](/i-byraladan/Fågel-fisk-eller-mittemellan.pdf)
+[Fågel, fisk eller mittemellan (pdf, 55KB)](/i-byraladan/Fagel-fisk-eller-mittemellan.pdf)
 
 
 ### Brudmarsch till Kajsa

@@ -5,7 +5,7 @@ title: 'SALVIA'
 published: true
 ---
 
-![salvia_inne.jpg]({{site.baseurl}}/src/render/salvia_inne.jpg)
+![salvia_inne.jpg](/images/salvia_inne.jpg)
 
 Kort om SALVIA vars signum har blivit att sjunga ”musik som leker och läker” vilket också antyds i körens namn som är just en ört som läker och helar.
 
@@ -25,4 +25,4 @@ Anna är nu tillbaks i jobbet som musiklärare men hon är också verksam som to
     Sorry, your browser doesn't support embedded videos.
 </video>
 
-![blommande-salvia.jpg]({{site.baseurl}}/src/render/blommande-salvia.jpg)
+![blommande-salvia.jpg](/images/blommande-salvia.jpg)

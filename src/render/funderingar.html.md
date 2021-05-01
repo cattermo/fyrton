@@ -8,9 +8,9 @@ published: true
 ## Från den stora arenan till det lilla mötet...
 2021-04-08
 
-”Efter nyligen genomförd första konsert för våren samt tillbakablick och en titt framåt i kalendern, så kan jag bara ytterligare en gång bekräfta hur viktiga alla våra möten är med publiken. Denna konsert, en mer lättsam och avslappnad konsert, i god harmoni där mina sångare i åk 4 får möjlighet att träna och visa sina nyss lärda färdigheter för en inte alltför kräsen publik. En liten grupp ur samma gäng sjöng, en regnig decemberdag, sin julrepertoar för de allra yngsta åhörare som med stor uppmärksamhet lyssnade koncentrerat i hela 15 min! Eleverna bokstavligen skuttade tillbaka till skolan från denna sjungning, uppfyllda av små barns tindrande ögon och, minst sagt, spontana bifall.
+_”Efter nyligen genomförd första konsert för våren samt tillbakablick och en titt framåt i kalendern, så kan jag bara ytterligare en gång bekräfta hur viktiga alla våra möten är med publiken. Denna konsert, en mer lättsam och avslappnad konsert, i god harmoni där mina sångare i åk 4 får möjlighet att träna och visa sina nyss lärda färdigheter för en inte alltför kräsen publik. En liten grupp ur samma gäng sjöng, en regnig decemberdag, sin julrepertoar för de allra yngsta åhörare som med stor uppmärksamhet lyssnade koncentrerat i hela 15 min! Eleverna bokstavligen skuttade tillbaka till skolan från denna sjungning, uppfyllda av små barns tindrande ögon och, minst sagt, spontana bifall.
 Tidigare samarbete med seniorer bör också nämnas då detta, i sin tur, lockat ännu fler pensionärer till körsång.
-Framför oss har vi nu ett antal konserter, varav en på en av våra stora scener, där publiken förstås förväntar sig en konsert på något högre nivå.”
+Framför oss har vi nu ett antal konserter, varav en på en av våra stora scener, där publiken förstås förväntar sig en konsert på något högre nivå.”_
 
 Texten ovan publicerades aldrig… Jag var precis i färd med att uppdatera min hemsida samla ihop lite nya bilder, ändra en del information och lägga till några affsicher osv.
 Men… så stannade allting av… Bara sådär! Som om någon knäppt med fingrarna och så STOPP!

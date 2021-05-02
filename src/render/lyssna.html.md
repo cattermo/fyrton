@@ -12,6 +12,12 @@ published: true
     Sorry, your browser doesn't support embedded videos.
 </video>
 
+### Är kärleken, Salvia
+<audio controls="controls">
+  <source type="audio/wav" src="/lyssna/Ar-karleken.wav"/>
+  <p>Din webbläsare stödjer inte uppspelning av ljudfiler</p>
+</audio>
+
 ### Nån av varje sort
 
 <a href="https://naxos.lnk.to/NanAvVarjeSort">

@@ -17,7 +17,7 @@ Det finns ju inte alltför många sånger om bokstaven X så därför kom denna 
 ### Grundentsång (Till 9GH från 4GH)
 Sången skrevs till våra första nior i Farsta Adolf Fredriks musikklasser som gick ut vt-20 och som uppvaktades av åk 4 sjungandes med var sin ros i handen.
 
-[Gruntendsång (pdf, 34KB)](/i-byraladan/Till-9GH-fran-4GH.pdf)
+[Grundentsång (pdf, 34KB)](/i-byraladan/Till-9GH-fran-4GH.pdf)
 
 ### Fågel, fisk eller mittemellan
 Skrevs vt-2020 som ”signatur” för våra barnkonserter men blev aldrig uppförd då allt ställdes in.

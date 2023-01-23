@@ -18,7 +18,7 @@
   "dependencies": {
     "bal-util": "^2.8.0",
     "compression": "^1.7.3",
-    "docpad": "^6.79.0",
+    "docpad": "^6.83.2",
     "docpad-plugin-assets": "^2.1.2",
     "docpad-plugin-autoprefix": "^2.2.0",
     "docpad-plugin-cleancss": "^2.1.0",

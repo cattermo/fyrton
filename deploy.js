@@ -3,10 +3,10 @@ const ftpDeploy = new FtpDeploy();
 
 const config = {
   user: process.env.FTPUSERNAME,
-  password: process.env.FTPPASS,
+  password: process.env.FTPPASSWORD,
   host: process.env.FTPHOST,
   port: 21,
-  localRoot: __dirname + "/../out/",
+  localRoot: __dirname + "/out/",
   remoteRoot: "/",
   include: ['*'],
   forcePasv: true,

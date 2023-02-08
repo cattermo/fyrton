@@ -42,14 +42,8 @@ var docpadConfig = {
           url: '/mina-verk.html',
           title: 'Mina verk'
         }, {
-          url: '/cantores.html',
-          title: 'Cantores Amici'
-        }, {
           url: '/lyssna.html',
           title: 'Lyssna'
-        }, {
-          url: '/lavendela.html',
-          title: 'LaVendela'
         }, {
           url: '/in-english.html',
           title: '🇬🇧 In English'

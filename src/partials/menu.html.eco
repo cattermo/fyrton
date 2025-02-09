@@ -3,6 +3,12 @@
         <% for item in @site.pages: %><li class="fyr_menu__list-item">
 <a class="fyr_menu__link <% if item.url == @document.url: %>fyr_is-active<% end %>" href="<%= item.url %>#anna"><%= item.title %></a>
 	</li><% end %>
+	<li class="fyr_menu__list-item">
+	    <a class="fyr_menu__ig-link" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/anna_cederberg_orreteg/">
+	        <span class="fyr_menu__instagram"></span>
+	    Instagram
+	    </a>
+	</li>
 </ul>
     <a class="fyr_byra" href="/i-byraladan.html#anna">
         <span class="fyr_byra__svg-container" >

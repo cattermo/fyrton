@@ -5,6 +5,12 @@ title: 'Priser, utmärkelser och stipendier'
 published: true
 ---
 
+**Invald i Musikföreningen i Stockholm 2024**
+
+**Svensk körmusik 2022**  
+En av sex utvalda tonsättare som representerar #svenskkörmusik 2022  
+Verk: Natten då stjärnorna föll  
+
 **Gustaf Auléns prisfond**   
 Pristagare 2013
 

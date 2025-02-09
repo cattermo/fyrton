@@ -1,31 +1,45 @@
 ---
 layout: smaller-body
 url: /mina-verk.html
-title: 'Mina verk - ett urval'
+title: 'Mina verk'
 published: true
 ---
+Här hittar du ett urval av den musik som dels finns utgiven men också sådant som du, i mån av intresse, kan kontakta mig och få tillgång till: annaco@fyrton.se
+
+**Lux Aeterna - The Music of Your Being**  
+2024  
+3,5’  
+För dubbelkör SATB a cappella, Gustaf Sjökvist in memoriam  
+Text: Anna Högberg  
+www.gehrmans.se  
+
+**VI ÄR HÄR**  
+2023  
+4,3’  
+SSA och pianon  
+Text: Susanna Lindmark  
+www.gehrmans.se  
+
+**Advent, advent**  
+2019  
+2,3’  
+SSA, SATB och piano/orgel (barnkör och vuxenkör)  
+Text: Christina Lövestam  
+www.gehrmans.se  
+
+**TILLSAMMANS**  
+2015  
+Sex korta satser, ca 12-15 min  
+Liten svit för barnkör, blandad kör och slagverk  
+Text i samarbete med barnkörer från El Sistema  
+www.Ejeby.se  
 
 **Vakna nu**  
 2011  
 4´  
 SSA och orkester  
 Text: Ann Lagerström  
-Noter: Tonsättaren  
-
-**Gässen flytta**  
-2012  
-2,5´  
-SSAATB  
-Text: Dan Andersson  
-Noter: https://www.notpoolen.com  
-
-**Någon håller dig i handen**  
-2010  
-1,5´  
-SSA  
-Text: Ulf Nilsson  
-Noter: https://www.notpoolen.com  
-
+Noter: Tonsättaren
 
 **Via Dolorosa (Jesu sista timmar på ”smärtans väg” – Via dolorosa)**  
 2010  
@@ -70,14 +84,7 @@ Noter: http://www.gehrmans.se
 2004  
 12  
 SSAA  
-Noter: http://www.gehrmans.se  
-
-**Och frid på jorden**  
-2003  
-2´  
-SSA och piano/harpa  
-Text: Jes 11:6-9  
-Noter: http://www.gehrmans.se  
+Noter: http://www.gehrmans.se
 
 **Skisser (Fyra a cappellakörer)**  
 2001  
@@ -88,32 +95,18 @@ Noter: http://www.gehrmans.se
 
 **Naxos I VÅR TID**
 
-**Dona nobis pacem**  
-2000  
-4´  
-För åttastämmig damkör a a cappella  
-Noter: http://www.gehrmans.se
-
 **En ängel berättar (Julspel för barn och ungdomar)**  
 30´  
 2000  
 Barn-/ungdomskör och piano  
 Text: Maria Cederberg-Rydén  
 Noter: http://www.gehrmans.se
-
-**Höstbitar (Tre sånger för blandad kör och piano)**  
-1997  
-6´  
-SATB , piano  
-Text: Tonsättaren  
-Noter: http://www.gehrmans.se
-
   
 ## Noter
 Här kan du köpa noter till mina verk
 
 https://www.gehrmans.se/  
 https://ejeby.se/
-https://www.notfabriken.se/  
+https://www.notfabriken.se/   
 https://www.notpoolen.com/  
 https://www.wessmans.com/

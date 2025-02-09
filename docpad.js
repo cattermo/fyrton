@@ -53,9 +53,6 @@ var docpadConfig = {
         }, {
           url: '/pressbilder.html',
           title: 'Fotogalleri'
-        }, {
-          url: '/funderingar.html',
-          title: 'Funderingar'
         }
       ],
     },

@@ -13,9 +13,11 @@ Damkören SALVIA är en fristående kör som bildades under hösten 2010 med Ann
 
 SALVIA består av damer i alla åldrar vilket också är tanken, att blanda yngre och äldre röster för att få en bred och töjbar klang.
 
-Anna & Lena har flera år bakom sig som musiklärarkollegor på samma skola. Samtidigt som båda beslutar att ta en paus i lärarjobbet växer tanken att starta en kör och få fortsätta ett gott samarbete.
+Anna & Lena har flera år bakom sig som musiklärarkollegor på samma skola. Samtidigt som båda beslutar att lämna lärarjobbet växer tanken att starta en kör och få fortsätta ett gott samarbete.
 
-Anna är nu tillbaks i jobbet som musiklärare men hon är också verksam som tonsättare och vars musik kören ofta framför. Lena arbetar som musikterapeut med barn och unga, både kliniskt och med forskning.
+Anna var efter några år tillbaka i skolan och jobbade fram till sin pension som musiklärare i Adolf Fredriks musikklasser i Farsta.
+Hon är också verksam som tonsättare vars musik kören ofta framför.
+Lena arbetar som musikterapeut inom hälsa och sjukvård och disputerade 2019 om musikterapins betydelse för svårt sjuka barn.
 
 **Kontakt:** [INFO@Salvia.nu](mailto:INFO@Salvia.nu)
 

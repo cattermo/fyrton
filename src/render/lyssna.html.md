@@ -5,6 +5,12 @@ title: 'Lyssna'
 published: true
 ---
 
+### Spotify
+Lyssna på delar av min musik på Spotify
+
+https://open.spotify.com/user/fyrton/playlist/0NwSk7OzKizbx00qiTe2XB
+
+
 ### Någon håller dig i handen, Salvia
 <video controls class="fyr_video">
     <source src="/lyssna/nagon-haller-dig-i-handen-salvia.m4v"
@@ -35,12 +41,5 @@ published: true
   <source type="audio/mp3" src="/lyssna/Till_gladje.mp3"/>
   <p>Din webbläsare stödjer inte uppspelning av ljudfiler</p>
 </audio>
-
-
-### Spotify
-Lyssna på delar av min musik på Spotify
-
-https://open.spotify.com/user/fyrton/playlist/0NwSk7OzKizbx00qiTe2XB
-
 
 

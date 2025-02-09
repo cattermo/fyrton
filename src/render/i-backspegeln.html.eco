@@ -8,6 +8,27 @@ published: true
 <p>Roligt att blicka bakåt och minnas härligt musicerande tillsammans med både stora och små sångare. Här affischer till några av de konserter/produktioner som genomförts under åren baköver.</p>
 
 <div class="fyr_image-gallery">
+    <h2>2024</h2>
+    <% for image in @getCollection('files').findAll({relativeOutDirPath: 'images/affischer/2024'}).toJSON(): %>
+        <a href="<%= image.relativePath %>" class="fyr_image-gallery__image-wrapper">
+            <img id="<%=image.name %>" class="fyr_image-gallery__image" src="<%= @getThumbnail(image.relativePath) %>" />
+        </a>
+    <% end %>
+
+    <h2>2023</h2>
+    <% for image in @getCollection('files').findAll({relativeOutDirPath: 'images/affischer/2023'}).toJSON(): %>
+        <a href="<%= image.relativePath %>" class="fyr_image-gallery__image-wrapper">
+            <img id="<%=image.name %>" class="fyr_image-gallery__image" src="<%= @getThumbnail(image.relativePath) %>" />
+        </a>
+    <% end %>
+
+    <h2>2022</h2>
+    <% for image in @getCollection('files').findAll({relativeOutDirPath: 'images/affischer/2022'}).toJSON(): %>
+        <a href="<%= image.relativePath %>" class="fyr_image-gallery__image-wrapper">
+            <img id="<%=image.name %>" class="fyr_image-gallery__image" src="<%= @getThumbnail(image.relativePath) %>" />
+        </a>
+    <% end %>
+
     <h2>2019</h2>
     <% for image in @getCollection('files').findAll({relativeOutDirPath: 'images/affischer/2019'}).toJSON(): %>
     <a href="<%= image.relativePath %>" class="fyr_image-gallery__image-wrapper">

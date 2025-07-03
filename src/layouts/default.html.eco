@@ -27,27 +27,33 @@
 </head>
 <body>
 <div class="fyr_main-container">
-    <div class="fyr_keys<% if @document.url == '/': %> fyr_keys--animate<% end %>">
-<span class="fyr_keys__key fyr_keys__key--1">
-</span><span class="fyr_keys__key fyr_keys__key--2">
-          </span><span class="fyr_keys__key fyr_keys__key--3">
-</span><span class="fyr_keys__key fyr_keys__key--4">
-          </span><span class="fyr_keys__key fyr_keys__key--5"></span>
-    </div>
-
+    <header>
+        <div class="fyr_header">
+            <h1 class="fyr_header__name"><a class="fyr_header__link" href="<%= @site.baseurl %>/">Anna Cederberg-Orreteg</a></h1>
+            <p class="fyr_header__desc">Tonsättare, musiklärare, </br> körledare</p>
+        </div>
+        <%= @partial('menu') %>
+    </header>
     <div id="main" role="main" class="fyr_container">
-        <header class="fyr_container__left">
-            <div class="fyr_header">
-                <figure class="fyr_profile-picture">
-                    <img class="fyr_profile-picture__img" src="/images/anna.jpg"/>
-                    <span class="fyr_profile-picture__blur"></span>
-                </figure>
-                <h1 class="fyr_header__name"><a class="fyr_header__link" href="<%= @site.baseurl %>/">Anna <br/>Cederberg-Orreteg</a></h1>
-                <p class="fyr_header__desc"><%= @site.description %></p>
+        <div class="fyr_container__left">
+            <div class="fyr_header__images">
+              <img src="/images/hander-5.jpg" />
+              <img src="/images/hander-1.jpg" />
+              <img src="/images/hander-7.jpg" />
+              <img src="/images/hander-2.jpg" />
+              <img src="/images/hander-6.jpg" />
+              <img src="/images/hander-4.jpg" />
+              <img src="/images/hander-3.jpg" />
             </div>
-            <%= @partial('menu') %>
-        </header>
-        <div class="fyr_container__right <%= 'fyr_container__right--padding-top' if @document.url == '/'%>" id="anna">
+            <a class="fyr_byra" href="/i-byraladan.html#anna">
+                    <span class="fyr_byra__svg-container" >
+                        <img src="/images/byra.svg"/>
+                        <img src="/images/byra_open.svg"/>
+                    </span>
+                    <span class="fyr_byra__text">I byrålådan...</span>
+                </a>
+        </div>
+        <div class="fyr_container__right" id="anna">
             <h1 class="fyr_container__header"><%= @document.title %></h1>
             <%- @content %>
             <footer class="fyr_footer">

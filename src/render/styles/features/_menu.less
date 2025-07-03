@@ -1,8 +1,6 @@
 .fyr_menu {
     .fyr_text-body;
     font-family: @fyr_font-special;
-    font-style: italic;
-    margin-top: 1em;
 }
 
 .fyr_menu__list {
@@ -11,12 +9,12 @@
     margin-top: -0.5em;
     display: flex;
     flex-wrap: wrap;
-    gap: 4%;
+    gap: 1%;
+    width: 100%;
 }
 
 .fyr_menu__list-item {
     display: flex;
-    width: 48%;
     justify-content: stretch;
     align-items: center;
     margin-top: 0.7em;
@@ -24,12 +22,12 @@
 
 .fyr_menu__link {
     display: block;
-    padding: 0.2em;
+    padding: 0.2em 0.5em;
     color: @fyr_color-purple;
     border: 1px solid @fyr_color-purple;
-    border-bottom-width: 4px;
+    //border-bottom-width: 4px;
     background-color: @fyr_color-white;
-    border-radius: 3px;
+    //border-radius: 3px;
     width: 100%;
     text-align: center;
     text-decoration: none;
@@ -38,6 +36,10 @@
         color: @fyr_color-white;
         background-color: @fyr_color-purple;
         border-color: darken(@fyr_color-purple, 10%);
+
+        &:active, &:visited {
+            color: @fyr_color-white !important;
+        }
     }
 
     &:hover,

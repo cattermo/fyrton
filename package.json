@@ -9,7 +9,7 @@
     "less:build": "lessc src/styles/main.less assets/styles.css",
     "eleventy:serve": "eleventy --serve",
     "dev": "npm-run-all --parallel less:watch eleventy:serve",
-    "build": "eleventy"
+    "build": "npm run less:build && eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",

@@ -1,0 +1,45 @@
+{
+  "url": "http://www.fyrton.se",
+  "title": "Anna Cederberg-Orreteg",
+  "description": "Tonsättare, musiklärare, körledare",
+  "keywords": "Tonsättare, musiklärare, körledare, Adolf Fredriks musikklasser",
+  "analytics": false,
+  "pages": [
+    {
+      "url": "/",
+      "title": "Hem"
+    },
+    {
+      "url": "/om-mig/",
+      "title": "Om mig"
+    },
+    {
+      "url": "/utmarkelser/",
+      "title": "Utmärkelser"
+    },
+    {
+      "url": "/salvia/",
+      "title": "SALVIA"
+    },
+    {
+      "url": "/mina-verk/",
+      "title": "Mina verk"
+    },
+    {
+      "url": "/lyssna/",
+      "title": "Lyssna"
+    },
+    {
+      "url": "/in-english/",
+      "title": "🇬🇧 In English"
+    },
+    {
+      "url": "/i-backspegeln/",
+      "title": "I backspegeln"
+    },
+    {
+      "url": "/pressbilder/",
+      "title": "Fotogalleri"
+    }
+  ]
+}

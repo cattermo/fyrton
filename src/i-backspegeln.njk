@@ -1,0 +1,24 @@
+---
+layout: default
+url: /i-backspegeln/
+title: 'I backspegeln'
+published: true
+---
+
+<p>Roligt att blicka bakåt och minnas härligt musicerande tillsammans med både stora och små sångare. Här affischer till några av de konserter/produktioner som genomförts under åren baköver.</p>
+
+<div class="fyr_image-gallery">
+
+  {% set posterYears = [2024, 2023, 2022, 2019, 2018, 2017, 2015, 2011] %}
+
+  {% for year in posterImagesByYear | keysDesc %}
+  <h2>{{ year }}</h2>
+    {% for image in posterImagesByYear[year] %}
+    <a href="{{ image.relativePath }}" class="fyr_image-gallery__image-wrapper">
+      {% thumbnail image.inputPath, image.name %}
+    </a>
+    {% endfor %}
+  {% endfor %}
+
+
+</div>

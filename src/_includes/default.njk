@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <title>{{ title or site.title }}</title>
+
+  <meta name="description" content="{{ site.description }}"/>
+  <meta property="og:title" content="{{ title }}"/>
+  <meta property="og:description" content="{{ site.description }}"/>
+  <meta property="og:image" content=""/>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/assets/styles.css" media="all"/>
+</head>
+<body>
+<div class="fyr_main-container">
+  <header class="fyr_header">
+    <div class="fyr_header__left">
+      <h1 class="fyr_header__name">
+        <a class="fyr_header__link" href="{{ site.baseurl or '/' }}">Anna Cederberg-Orreteg</a>
+      </h1>
+      <p class="fyr_header__desc">Tonsättare, musiklärare, <br> körledare</p>
+    </div>
+    <div class="fyr_header__right">
+      {% include "menu.njk" %}
+    </div>
+  </header>
+
+  <div id="main" role="main" class="fyr_container">
+    <div class="fyr_container__left">
+      <div class="fyr_header__images">
+        <img src="/images/hander-5.jpg" />
+        <img src="/images/hander-1.jpg" />
+        <img src="/images/hander-7.jpg" />
+        <img src="/images/hander-2.jpg" />
+        <img src="/images/hander-6.jpg" />
+        <img src="/images/hander-4.jpg" />
+        <img src="/images/hander-3.jpg" />
+      </div>
+      {% include "byra.njk" %}
+    </div>
+
+    <div class="fyr_container__right" id="anna">
+      <h1 class="fyr_container__header">{{ title }}</h1>
+      {{ content | safe }}
+
+      <footer class="fyr_footer">
+        <a class="fyr_footer__contact" href="mailto:annaco@fyrton.se">annaco@fyrton.se</a>
+        {% if page.url != "/" %}
+          <a class="fyr_footer__to-top" href="#main">Till toppen ↑</a>
+        {% endif %}
+      </footer>
+    </div>
+  </div>
+</div>
+
+<script defer src="/scripts/script.js"></script>
+</body>
+</html>

@@ -20,7 +20,8 @@
   <link rel="mask-icon" href="/files/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" href="/assets/styles.css" media="all"/>
+  <link rel="stylesheet" href="{{ 'src/styles/main.less' | viteAsset }}" media="all">
+
 </head>
 <body>
 <div class="fyr_main-container">
@@ -68,6 +69,7 @@
   </div>
 </div>
 
-<script defer src="/scripts/script.js"></script>
+<script type="module" src="{{ 'src/scripts/main.js' | viteAsset }}"></script>
+
 </body>
 </html>

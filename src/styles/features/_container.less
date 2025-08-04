@@ -58,9 +58,10 @@
 }
 
 .fyr_container__right-image {
-    float: right;
-    height: auto;
-    margin-left: 1rem;
-    margin-bottom: 0.5rem;
-    object-fit: contain;
+    .fyr_mq-gte-small({
+        float: right;
+        margin-left: 1rem;
+        margin-bottom: 0.5rem;
+    })
+
 }

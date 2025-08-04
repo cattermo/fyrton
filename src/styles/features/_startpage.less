@@ -1,15 +1,10 @@
-.fyr_startpage {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.fyr_startpage__text-content {
-  flex: 1;
-}
-
 .fyr_startpage__image {
-  width: 12rem;
+  width: 10rem;
+  float: right;
   height: auto;
   object-fit: contain;
+
+  .fyr_mq-gte-small({
+    width: 12rem;
+  });
 }

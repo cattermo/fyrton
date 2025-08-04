@@ -1,0 +1,48 @@
+<nav class="fyr_menu" role="navigation">
+  <button class="fyr_menu__toggle" aria-expanded="false" aria-controls="fyr-menu-list">
+    ☰
+  </button>
+
+  <!-- Overlay for mobile -->
+  <div class="fyr_menu__overlay" id="fyr-menu-list">
+    <button class="fyr_menu__close" aria-label="Stäng meny">✕</button>
+
+    <ul class="fyr_menu__list fyr_menu__list--overlay">
+      {% for item in site.pages %}
+      <li class="fyr_menu__list-item">
+        <a class="fyr_menu__link {% if item.url == page.url %}fyr_is-active{% endif %}" href="{{ item.url }}">
+          {{ item.title }}
+        </a>
+      </li>
+      {% endfor %}
+      <li class="fyr_menu__list-item">
+        <a class="fyr_menu__link {% if item.url == page.url %}fyr_is-active{% endif %}" href="/i-byraladan">
+          I byrålådan...
+        </a>
+      </li>
+      <li class="fyr_menu__list-item">
+        <a class="fyr_menu__link fyr_menu__ig-link" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/anna_cederberg_orreteg/">
+          <span class="fyr_menu__instagram"></span>
+          Instagram
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Always-visible desktop menu -->
+  <ul class="fyr_menu__list fyr_menu__list--desktop">
+    {% for item in site.pages %}
+    <li class="fyr_menu__list-item fyr_menu__list-item--desktop">
+      <a class="fyr_menu__link {% if item.url == page.url %}fyr_is-active{% endif %}" href="{{ item.url }}">
+        {{ item.title }}
+      </a>
+    </li>
+    {% endfor %}
+    <li class="fyr_menu__list-item fyr_menu__list-item--desktop">
+      <a class="fyr_menu__link fyr_menu__ig-link" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/anna_cederberg_orreteg/">
+        <span class="fyr_menu__instagram"></span>
+        Instagram
+      </a>
+    </li>
+  </ul>
+</nav>

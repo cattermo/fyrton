@@ -1,0 +1,17 @@
+---
+layout: default
+url: /pressbilder/
+title: 'Fotogalleri'
+published: true
+---
+
+<p>Alla bilder är fria att använda. Klicka på bilden för högre upplösning.</p>
+<p>Fotografer: Lars Uggla, Viveca Hallgrim.</p>
+
+<div class="fyr_image-gallery">
+  {% for image in pressImages %}
+  <a href="{{ image.relativePath }}" class="fyr_image-gallery__image-wrapper">
+    {% thumbnail image.inputPath, image.name %}
+  </a>
+  {% endfor %}
+</div>

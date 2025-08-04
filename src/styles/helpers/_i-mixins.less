@@ -1,0 +1,21 @@
+.clearfix {
+    &:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+}
+
+.fyr_link {
+    word-wrap: break-word;
+    text-decoration: none;
+    color: @fyr_color-link;
+
+    &:visited {
+        color: @fyr_color-link-visited;
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

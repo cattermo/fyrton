@@ -2,10 +2,9 @@
 layout: default
 url: /utmarkelser/
 title: 'Priser, utmärkelser och stipendier'
+image: '/images/anna_utmarkelser.jpg'
 published: true
 ---
-
-![anna_utmarkelser.jpg](/images/anna_utmarkelser.jpg)
 
 **Invald i Musikföreningen i Stockholm 2024**
 

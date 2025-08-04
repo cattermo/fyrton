@@ -2,10 +2,9 @@
 layout: default
 url: /om-mig/
 title: 'Om mig'
+image: '/images/anna_om-mig.jpg'
 published: true
 ---
-
-![anna_om-mig.jpg](/images/anna_om-mig.jpg)
 
 1982 tog jag musikdirektörsexamen på Kungliga Musikhögskolan. Mina instrument var piano och kontrabas.
 Redan innan musikhögskolan skrev och arrangerade jag musik. Jag har, så långt jag kan minnas, alltid gnolat på stämmor till radio eller skivor och det bar sig naturligt att skriva för den sånggrupp jag sjöng med under tonåren och vilken jag också lockade med mig till inträdesproven på musikhögskolan för att få framföra mina arrangemang.

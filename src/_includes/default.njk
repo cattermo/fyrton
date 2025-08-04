@@ -51,9 +51,13 @@
     </div>
 
     <div class="fyr_container__right" id="anna">
-      <h1 class="fyr_container__header">{{ title }}</h1>
-      {{ content | safe }}
-
+      <div class="fyr_container__right-inner">
+        <h1 class="fyr_container__header">{{ title }}</h1>
+        {% if image %}
+        <img src="{{ image }}" alt="Anna porträtt"class="fyr_container__right-image"/>
+        {% endif %}
+        {{ content | safe }}
+      </div>
       <footer class="fyr_footer">
         <a class="fyr_footer__contact" href="mailto:annaco@fyrton.se">annaco@fyrton.se</a>
         {% if page.url != "/" %}

@@ -6,7 +6,7 @@ const config = {
   password: process.env.FTPPASSWORD,
   host: process.env.FTPHOST,
   port: 21,
-  localRoot: __dirname + "/out/",
+  localRoot: __dirname + "/_site/",
   remoteRoot: "/",
   include: ['*'],
   forcePasv: true,

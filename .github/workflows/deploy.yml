@@ -13,7 +13,7 @@ jobs:
       with:
         node-version: 12
     - run: npm ci
-    - run: npm run generate
+    - run: npm run build
     - run: node ./deploy.js
       env:
         FTPUSERNAME: ${{secrets.FTPUSERNAME}}

@@ -34,9 +34,23 @@
 }
 
 .fyr_header__images {
-    width: 80%;
-    display: inline-block;
-    margin-top: 1em;
+    overflow-y: scroll;
+    display: flex;
+    gap: 0.2rem;
+
+    .fyr_mq-gte-small({
+        width: 80%;
+        display: inline-block;
+        margin-top: 1em;
+    });
+
+    > img {
+        width: 5rem;
+
+        .fyr_mq-gte-small({
+            width: auto;
+        })
+    }
 }
 
 .fyr_header__link {
@@ -46,6 +60,6 @@
 .fyr_header__desc {
     display: block;
     margin-top: 0.5em;
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
     text-align: center;
 }

@@ -1,6 +1,11 @@
 .fyr_container {
     width: 100%;
     display: flex;
+    flex-direction: column;
+
+    .fyr_mq-gte-small({
+        flex-direction: row;
+    });
 
     .fyr_mq-gte-xlarge({
         max-width: 65em;
@@ -8,7 +13,6 @@
 }
 
 .fyr_container__left {
-    display: none;
     .left-column-width();
 
     .fyr_mq-gte-small({

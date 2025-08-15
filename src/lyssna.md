@@ -6,7 +6,7 @@ published: true
 ---
 
 ### Spotify
-Lyssna på delar av min musik på [Spotify](https://open.spotify.com/user/fyrton/playlist/0NwSk7OzKizbx00qiTe2XB)
+Lyssna på delar av min musik på [Spotify](https://open.spotify.com/playlist/0NwSk7OzKizbx00qiTe2XB?si=b47817bd9c6e4f79)
 
 
 ### Någon håller dig i handen, Salvia

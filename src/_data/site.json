@@ -14,20 +14,20 @@
       "title": "Om mig"
     },
     {
-      "url": "/utmarkelser/",
-      "title": "Utmärkelser"
+      "url": "/mina-verk/",
+      "title": "Min musik"
+    },
+    {
+      "url": "/lyssna/",
+      "title": "Lyssna"
     },
     {
       "url": "/salvia/",
       "title": "SALVIA"
     },
     {
-      "url": "/mina-verk/",
-      "title": "Mina verk"
-    },
-    {
-      "url": "/lyssna/",
-      "title": "Lyssna"
+      "url": "/utmarkelser/",
+      "title": "Utmärkelser"
     },
     {
       "url": "/in-english/",

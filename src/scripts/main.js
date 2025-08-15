@@ -1,5 +1,3 @@
-import '../styles/main.less';
-
 (function(){
     var initGallery = function(){
       var EXPANDED_CLASS = 'ban_is-expanded';

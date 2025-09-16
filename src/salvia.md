@@ -6,10 +6,11 @@ published: true
 ---
 
 ![salvia.jpg](/images/salvia.jpg)
+Foto: Åke Svilling
 
 Kort om SALVIA vars signum har blivit att sjunga ”musik som leker och läker” vilket också antyds i körens namn som är just en ört som läker och helar.
 
-Damkören SALVIA är en fristående kör som bildades under hösten 2010 med Anna Cederberg-Orreteg och Lena Uggla som dirigenter och konstnärliga ledare.
+SALVIA är en fristående kör som bildades under hösten 2010 med Anna Cederberg-Orreteg och Lena Uggla som dirigenter och konstnärliga ledare.
 
 SALVIA består av damer i alla åldrar vilket också är tanken, att blanda yngre och äldre röster för att få en bred och töjbar klang.
 

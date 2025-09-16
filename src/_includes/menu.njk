@@ -16,7 +16,7 @@
       </li>
       {% endfor %}
       <li class="fyr_menu__list-item">
-        <a class="fyr_menu__link {% if item.url == page.url %}fyr_is-active{% endif %}" href="/i-byraladan">
+        <a class="fyr_menu__link {% if page.url == '/i-byraladan/' %}fyr_is-active{% endif %}" href="/i-byraladan/">
           I byrålådan...
         </a>
       </li>
@@ -29,7 +29,7 @@
     </ul>
   </div>
 
-  <!-- Always-visible desktop menu -->
+  <!-- Desktop menu -->
   <ul class="fyr_menu__list fyr_menu__list--desktop">
     {% for item in site.pages %}
     <li class="fyr_menu__list-item fyr_menu__list-item--desktop">
@@ -38,6 +38,11 @@
       </a>
     </li>
     {% endfor %}
+    <li class="fyr_menu__list-item fyr_menu__list-item--desktop">
+      <a class="fyr_menu__link {% if page.url == '/i-byraladan/' %}fyr_is-active{% endif %}" href="/i-byraladan/">
+        I byrålådan...
+      </a>
+    </li>
     <li class="fyr_menu__list-item fyr_menu__list-item--desktop">
       <a class="fyr_menu__link fyr_menu__ig-link" rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/anna_cederberg_orreteg/">
         <span class="fyr_menu__instagram"></span>

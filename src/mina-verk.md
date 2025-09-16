@@ -1,7 +1,7 @@
 ---
 layout: smaller-body
 url: /mina-verk/
-title: 'Mina verk'
+title: 'Min musik'
 published: true
 ---
 Här hittar du ett urval av den musik som dels finns utgiven men också sådant som du, i mån av intresse, kan kontakta mig och få tillgång till: annaco@fyrton.se

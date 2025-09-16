@@ -5,8 +5,10 @@ title: 'SALVIA'
 published: true
 ---
 
-![salvia.jpg](/images/salvia.jpg)
-Foto: Åke Svilling
+<figure>
+<img src="/images/salvia.jpg" alt="Salvia"/>
+<figcaption>Foto: Åke Svilling</figcaption>
+</figure>
 
 Kort om SALVIA vars signum har blivit att sjunga ”musik som leker och läker” vilket också antyds i körens namn som är just en ört som läker och helar.
 

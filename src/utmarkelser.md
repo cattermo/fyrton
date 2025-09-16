@@ -1,7 +1,7 @@
 ---
 layout: default
 url: /utmarkelser/
-title: 'Priser, utmärkelser och stipendier'
+title: 'Priser, utmärkelser, stipendier med mera'
 image: '/images/anna_utmarkelser.jpg'
 published: true
 ---

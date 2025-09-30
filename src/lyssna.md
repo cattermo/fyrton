@@ -8,6 +8,22 @@ published: true
 ### Spotify
 Lyssna på delar av min musik på [Spotify](https://open.spotify.com/playlist/0NwSk7OzKizbx00qiTe2XB?si=b47817bd9c6e4f79)
 
+### När allt blir grönt
+<video 
+    controls 
+    class="fyr_video" 
+    poster="/files/lyssna/nar-allt-blir-gront-poster.jpg" 
+    preload="none">
+    <source src="/files/lyssna/nar-allt-blir-gront.mp4"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+Musik:  Anna Cederberg-Orreteg  
+Text & sångsolist: Karin Thulemark  
+Piano: Kajsa Morueta Orreteg  
+Film o ljud: Mikel Morueta Holme  
+(Noter: Tonsättaren)  
 
 ### Någon håller dig i handen, Salvia
 <video controls class="fyr_video">

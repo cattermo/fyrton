@@ -16,6 +16,14 @@ SALVIA är en fristående kör som bildades under hösten 2010 med Anna Cederber
 
 SALVIA består av damer i alla åldrar vilket också är tanken, att blanda yngre och äldre röster för att få en bred och töjbar klang.
 
+<figure class="fyr_image-collage">
+<img src="/images/salvia_1.jpg" alt="Anna diskuterar noter med Lena"/>
+<img src="/images/salvia_2.jpg" alt="Anna diskuterar noter med Lena"/>
+<img src="/images/salvia_3.jpg" alt="Anna diskuterar noter med Lena"/>
+<img src="/images/salvia_4.jpg" alt="Anna diskuterar noter med Lena"/>
+<figcaption>Foto: Åke Svilling</figcaption>
+</figure>
+
 Anna & Lena har flera år bakom sig som musiklärarkollegor på samma skola. Samtidigt som båda beslutar att lämna lärarjobbet växer tanken att starta en kör och få fortsätta ett gott samarbete.
 
 Anna var efter några år tillbaka i skolan och jobbade fram till sin pension som musiklärare i Adolf Fredriks musikklasser i Farsta.
